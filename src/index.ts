@@ -3,10 +3,20 @@ import morgan from 'morgan'
 import * as dotenv from 'dotenv'
 import connectDB from './mongoose.config'
 import router from './routes/router'
+import cors from 'cors'
 
 dotenv.config()
 
 const app: Application = express()
+
+// cors
+app.use(cors(
+    {
+        origin: '*',
+        methods: ['GET', 'POST', 'PUT', 'DELETE'],
+        allowedHeaders: ['Content-Type', 'Authorization']
+    }
+))
 
 // Built-in Middleware
 app.use(express.json())
