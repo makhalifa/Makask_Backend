@@ -5,7 +5,7 @@ const router = express.Router()
 
 router.get('/', ProductController.getProducts)
 router.post('/', ProductController.createProduct)
-router.get('/random', ProductController.randomProduct)
+// router.get('/random', ProductController.randomProduct)
 router.get('/search', ProductController.getProductsBySearch)
 router.get('/category/:category', ProductController.getProductsByCategory)
 router.get('/sub_category/:sub_category', ProductController.getProductsBySubCategory)
