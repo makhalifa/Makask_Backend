@@ -45,6 +45,11 @@
 ## Description
 
 This is the backend of the Makask project. It is a REST API that allows you to create, read, update and delete tasks. It also allows you to create, read, update and delete users. It is built with Node.js, Express and MongoDB.
+<!-- link of deployment -->
+backend at: [repo](https://github.com/makhalifa/Makask_Backend)
+
+deployed at: [https://makask.onrender.com/](https://makask.onrender.com/)
+
 
 ## Installation
 
