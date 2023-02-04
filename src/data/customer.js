@@ -67,7 +67,7 @@ for (let i = 0; i < 50; i++) {
             addressLine: faker.address.streetAddress(),
         },
     ]
-    customer.gender = faker.datatype.boolean()
+    customer.gender = faker.datatype.number({ min: 0, max: 1 })
     customer.dateofbirth = faker.date.past()
     
     customer.emailVerified = faker.datatype.boolean()

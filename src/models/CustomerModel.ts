@@ -18,6 +18,7 @@ const customerSchema = new Schema(
         address: utilsModels.addressSchema,
         gender: { type: Number, required: true, enum: [0, 1] },
         dateofbirth: { type: Date, required: true },
+        profilePicture: { type: String, required: false },
 
         emailVerified: { type: Boolean, default: false },
 
