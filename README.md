@@ -45,11 +45,12 @@
 ## Description
 
 This is the backend of the Makask project. It is a REST API that allows you to create, read, update and delete tasks. It also allows you to create, read, update and delete users. It is built with Node.js, Express and MongoDB.
+
 <!-- link of deployment -->
+
 backend at: [repo](https://github.com/makhalifa/Makask_Backend)
 
 deployed at: [https://makask.onrender.com/](https://makask.onrender.com/)
-
 
 ## Installation
 
@@ -79,21 +80,22 @@ npm start
 ### Endpoints
 
 <!-- Checklist for endpoints -->
--  [ ] Products
-    -  [x] Get all products
-    -  [x] Get a product by id
-    -  [x] Create a product
-    -  [x] Update a product by id
-    -  [x] Delete a product by id
-    -  [x] Get all products filtered by category, subcategory, brand, price, size, color
-    -  [x] Get all products filtered by name
-    -  [ ] Get all reviews of a product by id
-    -  [ ] Create a review of a product by id
-    -  [ ] Update a review of a product by id
-    -  [ ] Delete a review of a product by id
--  [ ] Customers
--  [ ] Orders
--  [ ] Sellers
+
+-   [ ] Products
+    -   [x] Get all products
+    -   [x] Get a product by id
+    -   [x] Create a product
+    -   [x] Update a product by id
+    -   [x] Delete a product by id
+    -   [x] Get all products filtered by category, subcategory, brand, price, size, color
+    -   [x] Get all products filtered by name
+    -   [ ] Get all reviews of a product by id
+    -   [ ] Create a review of a product by id
+    -   [ ] Update a review of a product by id
+    -   [ ] Delete a review of a product by id
+-   [ ] Customers
+-   [ ] Orders
+-   [ ] Sellers
 
 #### Products
 
@@ -120,6 +122,14 @@ npm start
 | POST   | /customers     | Create a customer       |
 | PUT    | /customers/:id | Update a customer by id |
 | DELETE | /customers/:id | Delete a customer by id |
+| GET    | /customers/:id/wishlist | Get all products in wishlist of a customer by id |
+| POST   | /customers/:id/wishlist | Add a product to wishlist of a customer by id |
+| DELETE | /customers/:id/wishlist/:id | Delete a product from wishlist of a customer by id |
+| GET    | /customers/:id/orders | Get all orders of a customer by id |
+| POST   | /customers/:id/orders | Create an order of a customer by id |
+| PUT    | /customers/:id/orders/:id | Update an order of a customer by id |
+| DELETE | /customers/:id/orders/:id | Delete an order of a customer by id |
+
 
 #### Orders
 
@@ -155,65 +165,76 @@ npm start
 -   [Sizes](#sizes)
 -   [Colors](#colors)
 -   [Brands](#brands)
--
 
 #### Cutsomer
 
 ```javascript
 {
-  id: ObjectId,
-  firstname: String,
-  lastname: String,
+  _id: ObjectId,
+  purchases: [ObjectId],
+  orders: [ObjectId],
+  reviews: [ObjectId],
+  history: [ObjectId],
+
+  recommendations: [
+    {
+      productID: ObjectId,
+      score: Number
+    }
+  ],
+
   username: String,
-  email: String,
   password: String,
-  phone: String,
-  address: String,
-  gender: String,
-  purchases: [ObjectId]
-  dateofbirth: Date
+
+  fullname: String,
+  profilePicture: String,
+  phone: [String],
+  address: [
+    {
+      city: String,
+      country: String,
+      addressLine: String,
+    }
+  ]
+  gender: Boolean,
+  dateofbirth: Date,
+
+  email: String,
+  emailVerified: Boolean,
+
   sizes: {
     height: Number,
     weight: Number,
-    chest: Number,
     waist: Number,
-    hips: Number,
-    neck: Number,
-    inseam: Number,
-    sleeve: Number
-  }
-  creditcard: {
-    number: Number,
-    name: String,
-    expiration: Date,
-    cvv: Number
-  }
-}
-```
-
-#### Orders
-
-```javascript
-{
-  id: ObjectId,
-  customer: ObjectId,
-  products: [{
-    id: ObjectId,
-    name: String,
-    price: Number,
-    quantity: Number
-  }],
-  payment: {
-        method: String,
-        status: String
+    chest: Number,
+    hips: Number
   },
-  status: enum('confirmed', 'shipped', 'delivered', 'cancelled'),
-  confirmedAt: Date,
-  shippedAt: Date,
-  deliveredAt: Date,
-  cancelledAt: Date,
+
+  paymentMethod: {
+    creditcard: {
+      cardNumber: Number,
+      cardHolder: String,
+      expirationDate: Date,
+      cvv: Number
+    },
+    paypal: {
+      accountNumber: String,
+      accountHolder: String
+    }
+  },
+
+  // social: {
+  //   facebook: String,
+  //   twitter: String,
+  //   instagram: String,
+  //   youtube: String,
+  //   linkedin: String,
+  //   pinterest: String,
+  //   google: String
+  // },
+
   createdAt: Date,
-  total: Number,
+  updatedAt: Date
 }
 ```
 
@@ -221,25 +242,68 @@ npm start
 
 ```javascript
 {
-  id: ObjectId,
+  _id: ObjectId,
   seller: ObjectId,
-  name: String,
-  price: Number,
-  category: String,
-  subcategory: String,
-  description: String,
-
-  available_quantity: Number,
-  available_sizes: [String],
-  available_colors: [String],
-
-  brand: String,
   reviews: [ObjectId],
 
-  image: String,
-  prova_image: ,
+  title: String,
+  description: String,
+
+  pricing: {
+    price: Number,
+    discount: Number,
+    dicountedPrice: Number
+  },
+
+  category: String,
+  subcategory: String,
+  brand: String,
+
+  shipping: {
+    free: Boolean,
+    cost: Number,
+  }
+
+  sizes: [{
+    size: String,
+    stock: Number
+  }],
+
+  stock: Number,
+  colors: [String],
+
+  tumbnail: String,
+  images: [String],
+
   createdAt: Date,
   updatedAt: Date
+}
+```
+
+#### Orders
+
+```javascript
+{
+  _id: ObjectId,
+  customerId: ObjectId,
+  products: [{
+    id: ObjectId,
+    name: String,
+    price: Number,
+    quantity: Number
+  }],
+  shipping: {
+    delivery: ObjectId,
+    method: String,
+    status: enum('confirmed', 'shipped', 'delivered', 'cancelled'),
+  },
+  payment: ObjectId,
+
+  confirmedAt: Date,
+  shippedAt: Date,
+  deliveredAt: Date,
+  cancelledAt: Date,
+  total: Number,
 }
 ```
 
@@ -299,12 +363,19 @@ npm start
 ```javascript
 {
   id: ObjectId,
-  product: ObjectId,
-  customer: ObjectId,
-  rating: Number,
+  product_id: ObjectId,
+  customer_id: ObjectId,
+  rating: {
+    1: Number,
+    2: Number,
+    3: Number,
+    4: Number,
+    5: Number
+  }
   comment: String,
   createdAt: Date,
-  updatedAt: Date
+  updatedAt: Date,
+  deletedAt: Date
 }
 ```
 

@@ -10,13 +10,13 @@ dotenv.config()
 const app: Application = express()
 
 // cors
-app.use(cors(
-    {
+app.use(
+    cors({
         origin: '*',
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
-        allowedHeaders: ['Content-Type', 'Authorization']
-    }
-))
+        allowedHeaders: ['Content-Type', 'Authorization'],
+    })
+)
 
 // Built-in Middleware
 app.use(express.json())
@@ -27,7 +27,7 @@ app.use(express.static('public'))
 app.use(morgan('dev'))
 
 app.get('/', (req: Request, res: Response) => {
-    res.json('Hello World!')
+    res.json('Hello World🌎!')
 })
 
 app.use('/api', router)
