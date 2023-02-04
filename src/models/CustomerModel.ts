@@ -4,20 +4,19 @@ import utilsModels from './utilsModels'
 const customerSchema = new Schema(
     {
         _id: { type: String, required: true },
+    
         purchases: { type: Array<Types.ObjectId>, ref: 'purchases' },
         orders: { type: Array<Types.ObjectId>, ref: 'orders' },
         reviews: { type: Array<Types.ObjectId>, ref: 'reviews' },
         history: { type: Array<Types.ObjectId>, ref: 'history' },
 
-        // username: { type: String, required: true },
         password: { type: String, required: true },
 
         fisrtname: { type: String, required: true },
         lastname: { type: String, required: true },
-        profilePicture: String,
         phone: [{ type: String, required: true }],
         address: utilsModels.addressSchema,
-        gender: { type: Boolean, required: true },
+        gender: { type: Number, required: true, enum: [0, 1] },
         dateofbirth: { type: Date, required: true },
 
         emailVerified: { type: Boolean, default: false },

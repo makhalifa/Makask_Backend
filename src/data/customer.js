@@ -64,7 +64,7 @@ for (let i = 0; i < 50; i++) {
         {
             city: faker.address.city(),
             country: faker.address.country(),
-            addressLine1: faker.address.streetAddress(),
+            addressLine: faker.address.streetAddress(),
         },
     ]
     customer.gender = faker.datatype.boolean()
