@@ -48,9 +48,9 @@ This is the backend of the Makask project. It is a REST API that allows you to c
 
 <!-- link of deployment -->
 
-backend at: [repo](https://github.com/makhalifa/Makask_Backend)
-
 deployed at: [https://makask.onrender.com/](https://makask.onrender.com/)
+
+docs: [API's documentation](https://documenter.getpostman.com/view/12567532/2s935kMjsm)
 
 ## Installation
 
