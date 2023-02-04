@@ -94,6 +94,16 @@ npm start
     -   [ ] Update a review of a product by id
     -   [ ] Delete a review of a product by id
 -   [ ] Customers
+    -   [x] Get all customers
+    -   [x] Get a customer by id
+    -   [x] Create a customer
+    -   [ ] Update a customer by id
+    -   [ ] Delete a customer by id
+    -   [x] Verify a customer by token
+    -   [ ] Get all orders of a customer by id
+    -   [ ] Create an order of a customer by id
+    -   [ ] Update an order of a customer by id
+    -   [ ] Delete an order of a customer by id
 -   [ ] Orders
 -   [ ] Sellers
 
@@ -108,10 +118,10 @@ npm start
 | DELETE | /products/:id             | Delete a product by id                                                        |
 | GET    | /products/search          | Get all products filtered by name                                             |
 | GET    | /products/filter          | Get all products filtered by category, subcategory, brand, price, size, color |
-| GET    | /products/:id/reviews     | Get all reviews of a product by id                                            |
-| POST   | /products/:id/reviews     | Create a review of a product by id                                            |
-| PUT    | /products/:id/reviews/:id | Update a review of a product by id                                            |
-| DELETE | /products/:id/reviews/:id | Delete a review of a product by id                                            |
+<!-- | GET    | /products/:id/reviews     | Get all reviews of a product by id                                            | -->
+<!-- | POST   | /products/:id/reviews     | Create a review of a product by id                                            | -->
+<!-- | PUT    | /products/:id/reviews/:id | Update a review of a product by id                                            | -->
+<!-- | DELETE | /products/:id/reviews/:id | Delete a review of a product by id                                            | -->
 
 #### Customers
 
@@ -120,15 +130,13 @@ npm start
 | GET    | /customers     | Get all customers       |
 | GET    | /customers/:id | Get a customer by id    |
 | POST   | /customers     | Create a customer       |
-| PUT    | /customers/:id | Update a customer by id |
-| DELETE | /customers/:id | Delete a customer by id |
-| GET    | /customers/:id/wishlist | Get all products in wishlist of a customer by id |
-| POST   | /customers/:id/wishlist | Add a product to wishlist of a customer by id |
-| DELETE | /customers/:id/wishlist/:id | Delete a product from wishlist of a customer by id |
-| GET    | /customers/:id/orders | Get all orders of a customer by id |
+<!-- | PUT    | /customers/:id | Update a customer by id | -->
+<!-- | DELETE | /customers/:id | Delete a customer by id | -->
+| GET    | /customers/verify/:token | Verify a customer by token |
+<!-- | GET    | /customers/:id/orders | Get all orders of a customer by id |
 | POST   | /customers/:id/orders | Create an order of a customer by id |
 | PUT    | /customers/:id/orders/:id | Update an order of a customer by id |
-| DELETE | /customers/:id/orders/:id | Delete an order of a customer by id |
+| DELETE | /customers/:id/orders/:id | Delete an order of a customer by id | -->
 
 
 #### Orders
