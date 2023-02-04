@@ -49,11 +49,14 @@ const createCustomer = async (req: Request, res: Response) => {
             expiresIn: JWT_EXPIRES_IN,
         })
         // TODO send verification email to customer
-        const verificationToken = jwt.sign({customer: newCustomer}, JWT_VERIFICATION_CODE as string, {
-            expiresIn: JWT_VERFICATION_CODE_EXPIRES_IN,
-        })
+        const verificationToken = jwt.sign(
+            { customer: newCustomer },
+            JWT_VERIFICATION_CODE as string,
+            {
+                expiresIn: JWT_VERFICATION_CODE_EXPIRES_IN,
+            }
+        )
         await sendMail(newCustomer.email, 'Verify your email', verificationMsg(verificationToken))
-
         res.status(201).json(token)
     } catch (error) {
         res.status(500).json({ message: 'Internal server error', error })
@@ -88,22 +91,24 @@ const verifyCustomer = async (req: Request, res: Response) => {
 const autheticateCustomer = async (req: Request, res: Response) => {
     try {
         const { _id, password } = req.body
-        const customer = (await Customer.findOne({ _id })) as any
+        const customer = await Customer.findOne({ _id }) as any
         if (!customer) {
-            res.status(404).json({ message: 'Customer not found' })
+            return res.status(404).json({ message: 'Customer not found' })
         }
-
         if (!bcrypt.compareSync(password + pepper, customer.password)) {
-            res.status(401).json({ message: 'Invalid password' })
+            return res.status(401).json({ message: 'Invalid credentials' })
         }
-        // TODO return token
-        const token = jwt.sign({ customer }, JWT_SECRET as string, { expiresIn: JWT_EXPIRES_IN })
+        if (!customer.emailVerified) {
+            return res.status(401).json({ message: 'Email not verified' })
+        }
+        const token = jwt.sign({ customer }, JWT_SECRET as string, {
+            expiresIn: JWT_EXPIRES_IN,
+        })
         res.json(token)
-    } catch {
-        res.status(500).json({ message: 'Internal server error' })
+    } catch (error) {
+        res.status(500).json({ message: 'Internal server error', error })
     }
 }
-
 
 export default {
     getCustomers,
