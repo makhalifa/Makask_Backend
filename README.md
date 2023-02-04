@@ -191,10 +191,9 @@ npm start
     }
   ],
 
-  username: String,
   password: String,
-
-  fullname: String,
+  firstname: String,
+  lastname: String,
   profilePicture: String,
   phone: [String],
   address: [
@@ -207,7 +206,6 @@ npm start
   gender: Boolean,
   dateofbirth: Date,
 
-  email: String,
   emailVerified: Boolean,
 
   sizes: {

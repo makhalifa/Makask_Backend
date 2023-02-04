@@ -12,14 +12,14 @@ const customerSchema = new Schema(
         // username: { type: String, required: true },
         password: { type: String, required: true },
 
-        fullname: { type: String, required: true },
+        fisrtname: { type: String, required: true },
+        lastname: { type: String, required: true },
         profilePicture: String,
         phone: [{ type: String, required: true }],
         address: utilsModels.addressSchema,
         gender: { type: Boolean, required: true },
         dateofbirth: { type: Date, required: true },
 
-        email: { type: String, required: true },
         emailVerified: { type: Boolean, default: false },
 
         sizes: { type: utilsModels.customerSizesSchema, required: false },

@@ -13,7 +13,7 @@ console.log('faker')
 const customers = []
 for (let i = 0; i < 50; i++) {
     const customer = {}
-    customer._id = faker.internet.userName()
+    customer._id = faker.internet.email()
     // customer.NID = faker.datatype.uuid();
     customer.purchases = [faker.database.mongodbObjectId()]
     // customer.orders = [{
@@ -45,6 +45,7 @@ for (let i = 0; i < 50; i++) {
         faker.database.mongodbObjectId(),
         faker.database.mongodbObjectId(),
     ]
+
     customer.recommendations = [
         faker.database.mongodbObjectId(),
         faker.database.mongodbObjectId(),
@@ -55,7 +56,8 @@ for (let i = 0; i < 50; i++) {
         parseInt(saltRounds)
     );
 
-    customer.fullname = faker.name.fullName()
+    customer.firstname = faker.name.firstName()
+    customer.lastname = faker.name.lastName()
     customer.profilepicture = faker.image.avatar()
     customer.phone = [faker.phone.number('+201#########')]
     customer.address = [
@@ -67,8 +69,7 @@ for (let i = 0; i < 50; i++) {
     ]
     customer.gender = faker.datatype.boolean()
     customer.dateofbirth = faker.date.past()
-
-    customer.email = faker.internet.email()
+    
     customer.emailVerified = faker.datatype.boolean()
 
     customer.sizes = {

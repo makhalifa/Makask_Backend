@@ -56,7 +56,7 @@ const createCustomer = async (req: Request, res: Response) => {
                 expiresIn: JWT_VERFICATION_CODE_EXPIRES_IN,
             }
         )
-        await sendMail(newCustomer.email, 'Verify your email', verificationMsg(verificationToken))
+        await sendMail(newCustomer._id, 'Verify your email', verificationMsg(verificationToken))
         res.status(201).json(token)
     } catch (error) {
         res.status(500).json({ message: 'Internal server error', error })
