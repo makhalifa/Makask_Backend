@@ -12,7 +12,7 @@ const customerSchema = new Schema(
 
         password: { type: String, required: true },
 
-        fisrtname: { type: String, required: true },
+        firstname: { type: String, required: true },
         lastname: { type: String, required: true },
         phone: [{ type: String, required: true }],
         address: utilsModels.addressSchema,
