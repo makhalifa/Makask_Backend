@@ -13,7 +13,7 @@ console.log('faker')
 const customers = []
 for (let i = 0; i < 50; i++) {
     const customer = {}
-    customer._id = faker.database.mongodbObjectId()
+    customer._id = faker.internet.userName()
     // customer.NID = faker.datatype.uuid();
     customer.purchases = [faker.database.mongodbObjectId()]
     // customer.orders = [{
@@ -50,8 +50,6 @@ for (let i = 0; i < 50; i++) {
         faker.database.mongodbObjectId(),
         faker.database.mongodbObjectId(),
     ]
-
-    customer.username = faker.internet.userName()
     customer.password = bcrypt.hashSync(
         faker.internet.password() + pepper, 
         parseInt(saltRounds)
