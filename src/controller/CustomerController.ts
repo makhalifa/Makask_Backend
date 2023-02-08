@@ -25,10 +25,11 @@ const getCustomers = async (_req: Request, res: Response) => {
 }
 
 const getCustomerById = async (req: Request, res: Response) => {
+    let customer
     try {
-        const customer = await Customer.findOne({ _id: req.params._id })
+        customer = await Customer.findOne({_id:req.params.id}) as any
         if (!customer) {
-            return res.status(406).json({ message: 'Customer not found' })
+            return res.status(404).json({ message: 'Customer not found' })
         }
         res.json(customer)
     } catch (error) {
