@@ -26,13 +26,13 @@ const getCustomers = async (_req: Request, res: Response) => {
 
 const getCustomerById = async (req: Request, res: Response) => {
     try {
-        const customer = await Customer.find({ _id: req.params.id })
-        if (!customer[0]) {
-            res.status(404).json({ message: 'Customer not found' })
+        const customer = await Customer.findOne({ _id: req.params._id })
+        if (!customer) {
+            return res.status(404).json({ message: 'Customer not found' })
         }
         res.json(customer)
     } catch (error) {
-        res.status(500).json({ message: 'Internal server error' })
+        res.status(500).json({ message: 'Internal server error', error })
     }
 }
 
