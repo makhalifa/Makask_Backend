@@ -27,7 +27,7 @@ const getCustomers = async (_req: Request, res: Response) => {
 const getCustomerById = async (req: Request, res: Response) => {
     try {
         const customer = await Customer.find({ _id: req.params.id })
-        if (!customer) {
+        if (!customer[0]) {
             res.status(404).json({ message: 'Customer not found' })
         }
         res.json(customer)
