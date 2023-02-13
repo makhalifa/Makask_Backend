@@ -4,10 +4,12 @@ import * as dotenv from 'dotenv'
 import connectDB from './mongoose.config'
 import router from './routes/router'
 import cors from 'cors'
+// import { swaggerDocs } from './utils/swagger'
 
 dotenv.config()
 
 const app: Application = express()
+const server = require('http').createServer(app)
 
 // cors
 app.use(
@@ -36,6 +38,7 @@ app.use('/api', router)
 connectDB()
 
 // Server
-app.listen(process.env.PORT, () => {
+server.listen(process.env.PORT, () => {
     console.log(`Server on port ${process.env.PORT}`)
+    // swaggerDocs(app as any)
 })
