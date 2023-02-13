@@ -2,6 +2,7 @@ import express, { Router, Request, Response } from 'express'
 import * as dotenv from 'dotenv'
 import CustomerRouter from './CustomerRouter'
 import ProductRouter from './ProductRouter'
+import multer from 'multer'
 
 dotenv.config()
 
@@ -14,5 +15,6 @@ router.get('/', (req: Request, res: Response) => {
 // routes
 router.use('/customer', CustomerRouter)
 router.use('/product', ProductRouter)
+
 
 export default router
