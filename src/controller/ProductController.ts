@@ -23,36 +23,6 @@ const createProduct = async (req: Request, res: Response) => {
     res.status(201).json(productSaved)
 }
 
-const randomProduct = async (req: Request, res: Response) => {
-    for (let i = 0; i < 5; i++) {
-        const product = {
-            // _id: faker.name.firstName() + faker.name.lastName(),
-            // sellerid: faker.datatype.uuid(),
-            title: faker.commerce.productName(),
-            price: faker.datatype.number(),
-            category: faker.commerce.department(),
-            sub_category: faker.commerce.product(),
-            description: faker.commerce.productDescription(),
-
-            stock: faker.datatype.number(100),
-            available_colors: faker.helpers.uniqueArray(
-                faker.color.human,
-                faker.datatype.number(5)
-            ),
-            available_sizes: faker.helpers.uniqueArray(faker.datatype.number, 3),
-
-            brand: faker.company.name(),
-            // reviews: faker.helpers.uniqueArray(faker.datatype.uuid, faker.datatype.number(10)),
-
-            images: faker.helpers.uniqueArray(faker.image.imageUrl, faker.datatype.number(5)),
-            // prova_images: faker.helpers.uniqueArray(faker.image.imageUrl, faker.datatype.number(3)),
-        }
-        const newProduct = new Product(product)
-        await newProduct.save()
-    }
-    res.json({ message: 'random products created' })
-}
-
 const getProductsByCategory = async (req: Request, res: Response) => {
     const products = await Product.find({ category: req.params.category })
     res.json(products)
@@ -83,6 +53,7 @@ const getProductsBySearch = async (req: Request, res: Response) => {
 }
 
 const filterProducts = async (req: Request, res: Response) => {
+    // const { title, category, sub_category, min_price, max_price } = req.query
     // check if the query is empty
     if (Object.keys(req.query).length === 0) {
         res.status(400).json({ message: 'No query' })
@@ -98,17 +69,26 @@ const filterProducts = async (req: Request, res: Response) => {
             products = await Product.find()
         }
         if (req.query.category) {
-            // from the products, filter by category
-            products = products.filter((product) => product.category === req.query.category)
+            // from the products, filter by category and ignore case
+            products = products.filter((product) =>
+                product.category.toLowerCase().includes((req.query.category as string).toLowerCase())
+            )
         }
         if (req.query.sub_category) {
             // from the products, filter by sub_category
-            products = products.filter((product) => product.sub_category === req.query.sub_category)
+            products = products.filter((product) => 
+                product.sub_category.toLowerCase().includes((req.query.sub_category as string).toLowerCase())
+            )
         }
-        if (req.query.price) {
+        if (req.query.min_price) {
             // from the products, filter by price
             products = products.filter(
-                (product) => product.price === (req.query.price as unknown as number)
+                (product) => product.pricing.price >= parseInt(req.query.min_price as string)
+            )
+        }
+        if (req.query.max_price) {
+            products = products.filter(
+                (product) => product.pricing.price <= parseInt(req.query.max_price as string)
             )
         }
         res.json(products)
@@ -135,7 +115,6 @@ const deleteProduct = async (req: Request, res: Response) => {
 export default {
     getProducts,
     createProduct,
-    randomProduct,
     getProductsByCategory,
     getProductsBySubCategory,
     getProductsByCategoryAndSubCategory,
