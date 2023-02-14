@@ -1,7 +1,9 @@
 const { faker } = require('@faker-js/faker')
 const fs = require('fs')
 const { ObjectId } = require('mongodb')
+const p = require('./data.json')
 
+// console.log(p)
 const products = []
 for (let i = 0; i < 100; i++) {
     const product = {
@@ -13,15 +15,15 @@ for (let i = 0; i < 100; i++) {
             ObjectId(faker.database.mongodbObjectId()),
         ],
 
-        title: faker.commerce.productName(),
-        description: faker.lorem.paragraph(),
+        title: p[i].title,
+        description: p[i].Description,
         pricing: {
-            price: faker.commerce.price(),
+            price: p[i].Price,
             discount: faker.datatype.number(90),
             discountedPrice: faker.commerce.price(),
         },
-        category: faker.commerce.department(),
-        subcategory: faker.commerce.productAdjective(),
+        category: p[i].category,
+        subcategory: p[i].sub_category,
         brand: faker.company.name(),
         shipping: {
             free: faker.datatype.boolean(),

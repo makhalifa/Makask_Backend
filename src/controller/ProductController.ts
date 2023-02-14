@@ -74,10 +74,10 @@ const filterProducts = async (req: Request, res: Response) => {
                 product.category.toLowerCase().includes((req.query.category as string).toLowerCase())
             )
         }
-        if (req.query.sub_category) {
+        if (req.query.subcategory) {
             // from the products, filter by sub_category
             products = products.filter((product) => 
-                product.sub_category.toLowerCase().includes((req.query.sub_category as string).toLowerCase())
+                product.subcategory==req.query.subcategory
             )
         }
         if (req.query.min_price) {
