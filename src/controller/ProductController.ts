@@ -161,7 +161,7 @@ const getBestSeller = async (req: Request, res: Response) => {
         const limit = req.query.limit ? parseInt(req.query.limit as string) : 10
         const page = req.query.page ? parseInt(req.query.page as string) : 1
         const skip = limit * (page - 1)
-        const products = await Product.find().sort({ sold: -1 , rating:-1}).limit(limit).skip(skip)
+        const products = await Product.find().sort({ sold: -1}).limit(limit).skip(skip)
         res.json(products)
     } catch (error) {
         res.json(error).status(500)
