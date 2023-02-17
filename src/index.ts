@@ -40,5 +40,6 @@ connectDB()
 // Server
 server.listen(process.env.PORT, () => {
     console.log(`Server on port ${process.env.PORT}`)
+    // console.log(`localhost:${process.env.PORT}`)
     // swaggerDocs(app as any)
 })
