@@ -117,7 +117,7 @@ npm start
 | PUT    | /products/:id             | Update a product by id                                                        |
 | DELETE | /products/:id             | Delete a product by id                                                        |
 | GET    | /products/search          | Get all products filtered by name                                             |
-| GET    | /products/filter          | Get all products filtered by category, subcategory, brand, price, size, color |
+| GET    | /products/filter          | Get all products filtered by category, subcategory, brand, price, size, color and sort by price|
 <!-- | GET    | /products/:id/reviews     | Get all reviews of a product by id                                            | -->
 <!-- | POST   | /products/:id/reviews     | Create a review of a product by id                                            | -->
 <!-- | PUT    | /products/:id/reviews/:id | Update a review of a product by id                                            | -->
