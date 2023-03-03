@@ -294,14 +294,6 @@ freeShipping: Boolean,
 tumbnail: String,
 sold: Number,
 
-ratings: {
-  1: Number,
-  2: Number,
-  3: Number,
-  4: Number,
-  5: Number,
-},
-
 createdAt: Date,
 updatedAt: Date
 ```
@@ -366,7 +358,7 @@ updatedAt: Date
 _id: ObjectId,
 product: ObjectId,
 color: ObjectId,
-sizes: [ObjectId],
+product_sizes: [ObjectId],
 images: [String],
 pricing: {
   price: Number,
