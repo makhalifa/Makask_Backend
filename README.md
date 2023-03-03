@@ -227,6 +227,7 @@ dateofbirth: Date,
 ```
 
 #### Customer_Address
+
 ```javascript
 _id: ObjectId,
 customer: ObjectId,
@@ -240,6 +241,7 @@ address: [
 ```
 
 #### Customer_Card
+
 ```javascript
 _id: ObjectId,
 customer: ObjectId,
@@ -254,6 +256,7 @@ card: [
 ```
 
 #### customer_size
+
 ```javascript
 _id: ObjectId,
 customer: String,
@@ -315,7 +318,7 @@ updatedAt: Date,
 
 #### subcategories
 
-```javascript
+````javascript
 
 ```javascript
 _id: ObjectId,
@@ -324,9 +327,10 @@ products: [ObjectId],
 name: String,
 createdAt: Date,
 updatedAt: Date,
-```
+````
 
 #### stock
+
 <!-- get SubDocument
 
   When you need to find a subdocument within a document using its _id in Node.js, the best practice would depend on the size of the array of subdocuments and the frequency of the operation.
@@ -352,17 +356,33 @@ This code uses the findOne method to find the document with the specified _id, a
 ```javascript
 _id: ObjectId,
 product: ObjectId,
+product_colors: [ObjectId],
+createdAt: Date,
+updatedAt: Date
+```
+#### product_colors
+
+```javascript
+_id: ObjectId,
+product: ObjectId,
 color: ObjectId,
-sizes: [{
-  _id: ObjectId,
-  name: String,
-  quantity: Number,
-  images: [String],
-  pricing: {
-    price: Number,
-    discount: Number,
-  },
-}],
+sizes: [ObjectId],
+images: [String],
+pricing: {
+  price: Number,
+  discount: Number,
+},
+createdAt: Date,
+updatedAt: Date
+```
+
+#### product_sizes
+
+```javascript
+_id: ObjectId,
+product: ObjectId,
+name: String,
+quantity: Number,
 createdAt: Date,
 updatedAt: Date
 ```
@@ -488,12 +508,7 @@ updatedAt: Date
 ```javascript
   id: ObjectId,
   customer: ObjectId,
-  products: [{
-    id: ObjectId,
-    name: String,
-    price: Number,
-    quantity: Number
-  }],
+  products: [ObjectId],
   createdAt: Date,
   updatedAt: Date
 ```
@@ -504,6 +519,7 @@ updatedAt: Date
   id: ObjectId,
   customer: ObjectId,
   seller: ObjectId,
+  from: ObjectId,
   message: String,
   createdAt: Date,
   updatedAt: Date
@@ -580,7 +596,8 @@ updatedAt: Date
   createdAt: Date,
   updatedAt: Date
 ```
-<!-- 
+
+<!--
 #### Countries
 
 ```javascript
@@ -601,6 +618,7 @@ updatedAt: Date
   updatedAt: Date
 ```
  -->
+
 #### Cities
 
 ```javascript
