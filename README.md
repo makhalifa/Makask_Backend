@@ -109,35 +109,34 @@ npm start
 
 #### Products
 
-| Method | Endpoint                  | Description                                                                   |
-| ------ | ------------------------- | ----------------------------------------------------------------------------- |
-| GET    | /products                 | Get all products                                                              |
-| GET    | /products/:id             | Get a product by id                                                           |
-| POST   | /products                 | Create a product                                                              |
-| PUT    | /products/:id             | Update a product by id                                                        |
-| DELETE | /products/:id             | Delete a product by id                                                        |
-| GET    | /products/search          | Get all products filtered by name                                             |
-| GET    | /products/filter          | Get all products filtered by category, subcategory, brand, price, size, color and sort by price|
-<!-- | GET    | /products/:id/reviews     | Get all reviews of a product by id                                            | -->
-<!-- | POST   | /products/:id/reviews     | Create a review of a product by id                                            | -->
-<!-- | PUT    | /products/:id/reviews/:id | Update a review of a product by id                                            | -->
-<!-- | DELETE | /products/:id/reviews/:id | Delete a review of a product by id                                            | -->
+| Method | Endpoint         | Description                                                                                     |
+| ------ | ---------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------- | --- |
+| GET    | /products        | Get all products                                                                                |
+| GET    | /products/:id    | Get a product by id                                                                             |
+| POST   | /products        | Create a product                                                                                |
+| PUT    | /products/:id    | Update a product by id                                                                          |
+| DELETE | /products/:id    | Delete a product by id                                                                          |
+| GET    | /products/search | Get all products filtered by name                                                               |
+| GET    | /products/filter | Get all products filtered by category, subcategory, brand, price, size, color and sort by price |
+| <!--   | GET              | /products/:id/reviews                                                                           | Get all reviews of a product by id | --> |
+| <!--   | POST             | /products/:id/reviews                                                                           | Create a review of a product by id | --> |
+| <!--   | PUT              | /products/:id/reviews/:id                                                                       | Update a review of a product by id | --> |
+| <!--   | DELETE           | /products/:id/reviews/:id                                                                       | Delete a review of a product by id | --> |
 
 #### Customers
 
-| Method | Endpoint       | Description             |
-| ------ | -------------- | ----------------------- |
-| GET    | /customers     | Get all customers       |
-| GET    | /customers/:id | Get a customer by id    |
-| POST   | /customers     | Create a customer       |
-<!-- | PUT    | /customers/:id | Update a customer by id | -->
-<!-- | DELETE | /customers/:id | Delete a customer by id | -->
-| GET    | /customers/verify/:token | Verify a customer by token |
-<!-- | GET    | /customers/:id/orders | Get all orders of a customer by id |
-| POST   | /customers/:id/orders | Create an order of a customer by id |
+| Method | Endpoint                  | Description                         |
+| ------ | ------------------------- | ----------------------------------- | ---------------------------------- | --- |
+| GET    | /customers                | Get all customers                   |
+| GET    | /customers/:id            | Get a customer by id                |
+| POST   | /customers                | Create a customer                   |
+| <!--   | PUT                       | /customers/:id                      | Update a customer by id            | --> |
+| <!--   | DELETE                    | /customers/:id                      | Delete a customer by id            | --> |
+| GET    | /customers/verify/:token  | Verify a customer by token          |
+| <!--   | GET                       | /customers/:id/orders               | Get all orders of a customer by id |
+| POST   | /customers/:id/orders     | Create an order of a customer by id |
 | PUT    | /customers/:id/orders/:id | Update an order of a customer by id |
-| DELETE | /customers/:id/orders/:id | Delete an order of a customer by id | -->
-
+| DELETE | /customers/:id/orders/:id | Delete an order of a customer by id | -->                                |
 
 #### Orders
 
@@ -159,9 +158,12 @@ npm start
 | PUT    | /sellers/:id | Update a seller by id |
 | DELETE | /sellers/:id | Delete a seller by id |
 
-### Models
+### Collections
 
 -   [Customers](#cutsomer)
+-   [Customers_Profile](#customer_profile)
+-   [Customers_Address](#customer_address)
+-   [Customers_Card](#customer_card)
 -   [Orders](#order)
 -   [Products](#product)
 -   [Sellers](#sellers)
@@ -173,144 +175,234 @@ npm start
 -   [Sizes](#sizes)
 -   [Colors](#colors)
 -   [Brands](#brands)
+-   [Cart](#cart)
+-   [Wishlist](#wishlist)
+-   [Messages](#messages)
+-   [Notifications](#notifications)
+-   [Admins](#admins)
+-   [coupons](#coupons)
+-   [promotions](#promotions)
+-   [discounts](#discounts)
+-   [shipping](#shipping)
+-   [payments](#payments)
+-   [reviews](#reviews)
+-   [sizes](#sizes)
+-   [colors](#colors)
+-   [brands](#brands)
+-   [categories](#categories)
+-   [subcategories](#subcategories)
+-   [products](#products)
 
-#### Cutsomer
+#### customers
 
 ```javascript
-{
-  _id: ObjectId,
-  purchases: [ObjectId],
-  orders: [ObjectId],
-  reviews: [ObjectId],
-  history: [ObjectId],
+_id: ObjectId,
+orders: [ObjectId],
+reviews: [ObjectId],
+size: ObjectId,
+profile: ObjectId,
+address: ObjectId,
+card: ObjectId,
 
-  recommendations: [
-    {
-      productID: ObjectId,
-      score: Number
-    }
-  ],
+email: String,
+emailVerified: Boolean,
+password: String,
 
-  password: String,
-  firstname: String,
-  lastname: String,
-  profilePicture: String,
-  phone: [String],
-  address: [
-    {
-      city: String,
-      country: String,
-      addressLine: String,
-    }
-  ]
-  gender: Boolean,
-  dateofbirth: Date,
+createdAt: Date,
+updatedAt: Date
 
-  emailVerified: Boolean,
+```
 
-  sizes: {
-    height: Number,
-    weight: Number,
-    waist: Number,
-    chest: Number,
-    hips: Number
-  },
+#### Customer_Profile
 
-  paymentMethod: {
-    creditcard: {
-      cardNumber: Number,
-      cardHolder: String,
-      expirationDate: Date,
-      cvv: Number
-    },
-    paypal: {
-      accountNumber: String,
-      accountHolder: String
-    }
-  },
+```javascript
+_id: ObjectId,
+customer: ObjectId,
+firstname: String,
+lastname: String,
+profilePicture: String,
+phone: [String],
+gender: Boolean,
+dateofbirth: Date,
+```
 
-  // social: {
-  //   facebook: String,
-  //   twitter: String,
-  //   instagram: String,
-  //   youtube: String,
-  //   linkedin: String,
-  //   pinterest: String,
-  //   google: String
-  // },
+#### Customer_Address
+```javascript
+_id: ObjectId,
+customer: ObjectId,
+address: [
+  {
+    city: String,
+    country: String,
+    addressLine: String,
+  }
+]
+```
 
-  createdAt: Date,
-  updatedAt: Date
-}
+#### Customer_Card
+```javascript
+_id: ObjectId,
+customer: ObjectId,
+card: [
+  {
+    number: String,
+    name: String,
+    expiry: Date,
+    cvv: String,
+  }
+]
+```
+
+#### customer_size
+```javascript
+_id: ObjectId,
+customer: String,
+
+height: Number,
+weight: Number,
+waist: Number,
+chest: Number,
+hips: Number,
+
+createdAt: Date,
+updatedAt: Date
 ```
 
 #### Product
 
 ```javascript
-{
+_id: ObjectId,
+seller: ObjectId,
+reviews: [ObjectId],
+category: ObjectId,
+subcategory: ObjectId,
+stock: [ObjectId],
+
+title: String,
+description: String,
+
+pricing: {
+  price: Number,
+  discount: Number,
+},
+
+freeShipping: Boolean,
+
+tumbnail: String,
+sold: Number,
+
+ratings: {
+  1: Number,
+  2: Number,
+  3: Number,
+  4: Number,
+  5: Number,
+},
+
+createdAt: Date,
+updatedAt: Date
+```
+
+#### categoryies
+
+```javascript
+id: ObjectId,
+products: [ObjectId],
+name: String,
+createdAt: Date,
+updatedAt: Date,
+```
+
+#### subcategories
+
+```javascript
+
+```javascript
+_id: ObjectId,
+category: ObjectId
+products: [ObjectId],
+name: String,
+createdAt: Date,
+updatedAt: Date,
+```
+
+#### stock
+<!-- get SubDocument
+
+  When you need to find a subdocument within a document using its _id in Node.js, the best practice would depend on the size of the array of subdocuments and the frequency of the operation.
+
+For a small array, it might be acceptable to use a JavaScript loop to search through the array and find the subdocument. However, for larger arrays or for frequent operations, this approach could become inefficient.
+
+A more efficient approach would be to use the $elemMatch operator in a MongoDB query to search for the subdocument with the specified _id in the array.
+
+Here's an example in Node.js:
+
+const { ObjectId } = require('mongodb');
+
+const documentId = ObjectId('60a77c13b413a901743af71a');  // example document _id
+const subdocumentId = ObjectId('60a77c13b413a901743af71b');  // example subdocument _id
+
+const document = await db.collection('myCollection').findOne({
+  _id: documentId,
+  sizes: { $elemMatch: { _id: subdocumentId } }
+});
+This code uses the findOne method to find the document with the specified _id, and the $elemMatch operator to search for the subdocument with the specified _id within the sizes array. The await keyword is used to wait for the query to complete before continuing.
+ -->
+
+```javascript
+_id: ObjectId,
+product: ObjectId,
+color: ObjectId,
+sizes: [{
   _id: ObjectId,
-  seller: ObjectId,
-  reviews: [ObjectId],
-
-  title: String,
-  description: String,
-
+  name: String,
+  quantity: Number,
+  images: [String],
   pricing: {
     price: Number,
     discount: Number,
-    dicountedPrice: Number
   },
+}],
+createdAt: Date,
+updatedAt: Date
+```
 
-  category: String,
-  subcategory: String,
-  brand: String,
+#### Colors
 
-  shipping: {
-    free: Boolean,
-    cost: Number,
-  }
+```javascript
+_id: ObjectId,
+products: [ObjectId],
 
-  sizes: [{
-    size: String,
-    stock: Number
-  }],
+name: String,
+hex: String,
 
-  stock: Number,
-  colors: [String],
-
-  tumbnail: String,
-  images: [String],
-
-  createdAt: Date,
-  updatedAt: Date
-}
+createdAt: Date,
+updatedAt: Date
 ```
 
 #### Orders
 
 ```javascript
-{
-  _id: ObjectId,
-  customerId: ObjectId,
-  products: [{
-    id: ObjectId,
-    name: String,
-    price: Number,
-    quantity: Number
-  }],
-  shipping: {
-    delivery: ObjectId,
-    method: String,
-    status: enum('confirmed', 'shipped', 'delivered', 'cancelled'),
-  },
-  payment: ObjectId,
+_id: ObjectId,
+customerId: ObjectId,
+products: [{
+  id: ObjectId,
+  name: String,
+  price: Number,
+  quantity: Number
+}],
+shipping: {
+  delivery: ObjectId,
+  method: String,
+  status: enum('confirmed', 'shipped', 'delivered', 'cancelled'),
+},
+payment: ObjectId,
 
-  confirmedAt: Date,
-  shippedAt: Date,
-  deliveredAt: Date,
-  cancelledAt: Date,
-  total: Number,
-}
+confirmedAt: Date,
+shippedAt: Date,
+deliveredAt: Date,
+cancelledAt: Date,
+total: Number,
 ```
 
 #### Sellers
@@ -340,134 +432,53 @@ npm start
   }
 ```
 
-#### Categories
-
-```javascript
-{
-  id: ObjectId,
-  name: String,
-  subcategories: [ObjectId],
-  createdAt: Date,
-  updatedAt: Date
-}
-```
-
-#### Subcategories
-
-```javascript
-{
-  id: ObjectId,
-  name: String,
-  category: ObjectId,
-  createdAt: Date,
-  updatedAt: Date
-}
-```
-
 #### Reviews
 
 ```javascript
-{
-  id: ObjectId,
-  product_id: ObjectId,
-  customer_id: ObjectId,
-  rating: {
-    1: Number,
-    2: Number,
-    3: Number,
-    4: Number,
-    5: Number
-  }
-  comment: String,
-  createdAt: Date,
-  updatedAt: Date,
-  deletedAt: Date
-}
+id: ObjectId,
+product: ObjectId,
+customer: ObjectId,
+rating: { type: Number, min: 1, max: 5}
+comment: String,
+createdAt: Date,
+updatedAt: Date
 ```
 
 #### Payments
 
 ```javascript
-{
-  id: ObjectId,
-  order: ObjectId,
-  method: String,
-  status: String,
-  createdAt: Date,
-  updatedAt: Date
-}
+id: ObjectId,
+order: ObjectId,
+method: String,
+status: String,
+createdAt: Date,
+updatedAt: Date
 ```
 
 #### Shipping
 
 ```javascript
-{
-  id: ObjectId,
-  order: ObjectId,
-  status: String,
-  createdAt: Date,
-  updatedAt: Date
-}
+id: ObjectId,
+order: ObjectId,
+status: String,
+createdAt: Date,
+updatedAt: Date
 ```
-
-#### Sizes
-
-```javascript
-  id: ObjectId,
-  name: String,
-  createdAt: Date,
-  updatedAt: Date
-```
-
-#### Colors
-
-```javascript
-  id: ObjectId,
-  name: String,
-  createdAt: Date,
-  updatedAt: Date
-```
-
-#### Brands
-
-```javascript
-  id: ObjectId,
-  name: String,
-  createdAt: Date,
-  updatedAt: Date
-```
-
-### Collections
-
--   [Cart](#cart)
--   [Wishlist](#wishlist)
--   [Messages](#messages)
--   [Notifications](#notifications)
--   [Admins](#admins)
--   [coupons](#coupons)
--   [promotions](#promotions)
--   [discounts](#discounts)
--   [shipping](#shipping)
--   [payments](#payments)
--   [reviews](#reviews)
--   [sizes](#sizes)
--   [colors](#colors)
--   [brands](#brands)
--   [categories](#categories)
--   [subcategories](#subcategories)
--   [products](#products)
 
 #### Cart
 
 ```javascript
   id: ObjectId,
   customer: ObjectId,
-  products: [{
-    id: ObjectId,
-    name: String,
-    price: Number,
-    quantity: Number
-  }],
+  products: [
+    {
+      _id: ObjectId,
+      product: ObjectId,
+      stock: ObjectId,
+      subStock: ObjectId,
+      quantity: Number
+    }
+  ],
   createdAt: Date,
   updatedAt: Date
 ```
@@ -560,16 +571,6 @@ npm start
   updatedAt: Date
 ```
 
-#### Taxes
-
-```javascript
-  id: ObjectId,
-  name: String,
-  price: Number,
-  createdAt: Date,
-  updatedAt: Date
-```
-
 #### Currencies
 
 ```javascript
@@ -579,7 +580,7 @@ npm start
   createdAt: Date,
   updatedAt: Date
 ```
-
+<!-- 
 #### Countries
 
 ```javascript
@@ -599,18 +600,8 @@ npm start
   createdAt: Date,
   updatedAt: Date
 ```
-
+ -->
 #### Cities
-
-```javascript
-  id: ObjectId,
-  name: String,
-  price: Number,
-  createdAt: Date,
-  updatedAt: Date
-```
-
-#### Zipcodes
 
 ```javascript
   id: ObjectId,
