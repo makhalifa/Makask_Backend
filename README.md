@@ -79,64 +79,25 @@ npm start
 
 ### Endpoints
 
-<!-- Checklist for endpoints -->
-
--   [ ] Products
-    -   [x] Get all products
-    -   [x] Get a product by id
-    -   [x] Create a product
-    -   [x] Update a product by id
-    -   [x] Delete a product by id
-    -   [x] Get all products filtered by category, subcategory, brand, price, size, color
-    -   [x] Get all products filtered by name
-    -   [ ] Get all reviews of a product by id
-    -   [ ] Create a review of a product by id
-    -   [ ] Update a review of a product by id
-    -   [ ] Delete a review of a product by id
--   [ ] Customers
-    -   [x] Get all customers
-    -   [x] Get a customer by id
-    -   [x] Create a customer
-    -   [ ] Update a customer by id
-    -   [ ] Delete a customer by id
-    -   [x] Verify a customer by token
-    -   [ ] Get all orders of a customer by id
-    -   [ ] Create an order of a customer by id
-    -   [ ] Update an order of a customer by id
-    -   [ ] Delete an order of a customer by id
--   [ ] Orders
--   [ ] Sellers
-
 #### Products
 
-| Method | Endpoint         | Description                                                                                     |
-| ------ | ---------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------- | --- |
-| GET    | /products        | Get all products                                                                                |
-| GET    | /products/:id    | Get a product by id                                                                             |
-| POST   | /products        | Create a product                                                                                |
-| PUT    | /products/:id    | Update a product by id                                                                          |
-| DELETE | /products/:id    | Delete a product by id                                                                          |
-| GET    | /products/search | Get all products filtered by name                                                               |
-| GET    | /products/filter | Get all products filtered by category, subcategory, brand, price, size, color and sort by price |
-| <!--   | GET              | /products/:id/reviews                                                                           | Get all reviews of a product by id | --> |
-| <!--   | POST             | /products/:id/reviews                                                                           | Create a review of a product by id | --> |
-| <!--   | PUT              | /products/:id/reviews/:id                                                                       | Update a review of a product by id | --> |
-| <!--   | DELETE           | /products/:id/reviews/:id                                                                       | Delete a review of a product by id | --> |
+| Method | Endpoint      | Description            |
+| ------ | ------------- | ---------------------- |
+| GET    | /products     | Get all products       |
+| GET    | /products/:id | Get a product by id    |
+| POST   | /products     | Create a product       |
+| PUT    | /products/:id | Update a product by id |
+| DELETE | /products/:id | Delete a product by id |
 
 #### Customers
 
-| Method | Endpoint                  | Description                         |
-| ------ | ------------------------- | ----------------------------------- | ---------------------------------- | --- |
-| GET    | /customers                | Get all customers                   |
-| GET    | /customers/:id            | Get a customer by id                |
-| POST   | /customers                | Create a customer                   |
-| <!--   | PUT                       | /customers/:id                      | Update a customer by id            | --> |
-| <!--   | DELETE                    | /customers/:id                      | Delete a customer by id            | --> |
-| GET    | /customers/verify/:token  | Verify a customer by token          |
-| <!--   | GET                       | /customers/:id/orders               | Get all orders of a customer by id |
-| POST   | /customers/:id/orders     | Create an order of a customer by id |
-| PUT    | /customers/:id/orders/:id | Update an order of a customer by id |
-| DELETE | /customers/:id/orders/:id | Delete an order of a customer by id | -->                                |
+| Method | Endpoint       | Description             |
+| ------ | -------------- | ----------------------- |
+| GET    | /customers     | Get all customers       |
+| GET    | /customers/:id | Get a customer by id    |
+| POST   | /customers     | Create a customer       |
+| PUT    | /customers/:id | Update a customer by id |
+| DELETE | /customers/:id | Delete a customer by id |
 
 #### Orders
 
@@ -160,7 +121,7 @@ npm start
 
 ### Collections
 
--   [Customers](#cutsomer)
+-   [Customers](#customers)
 -   [Customers_Profile](#customer_profile)
 -   [Customers_Address](#customer_address)
 -   [Customers_Card](#customer_card)
@@ -213,7 +174,7 @@ updatedAt: Date
 
 ```
 
-#### Customer_Profile
+#### Customers_Profiles
 
 ```javascript
 _id: ObjectId,
@@ -240,7 +201,7 @@ address: [
 ]
 ```
 
-#### Customer_Card
+#### customer_cards
 
 ```javascript
 _id: ObjectId,
@@ -291,14 +252,14 @@ pricing: {
 
 freeShipping: Boolean,
 
-tumbnail: String,
+thumbnail: String,
 sold: Number,
 
 createdAt: Date,
 updatedAt: Date
 ```
 
-#### categoryies
+#### category
 
 ```javascript
 id: ObjectId,
@@ -308,9 +269,7 @@ createdAt: Date,
 updatedAt: Date,
 ```
 
-#### subcategories
-
-````javascript
+#### subcategory
 
 ```javascript
 _id: ObjectId,
@@ -319,7 +278,7 @@ products: [ObjectId],
 name: String,
 createdAt: Date,
 updatedAt: Date,
-````
+```
 
 #### stock
 
@@ -352,6 +311,7 @@ product_colors: [ObjectId],
 createdAt: Date,
 updatedAt: Date
 ```
+
 #### product_colors
 
 ```javascript
@@ -385,7 +345,7 @@ updatedAt: Date
 _id: ObjectId,
 products: [ObjectId],
 
-name: String,
+color: String,
 hex: String,
 
 createdAt: Date,
@@ -396,25 +356,73 @@ updatedAt: Date
 
 ```javascript
 _id: ObjectId,
-customerId: ObjectId,
-products: [{
-  id: ObjectId,
-  name: String,
-  price: Number,
-  quantity: Number
-}],
-shipping: {
-  delivery: ObjectId,
-  method: String,
-  status: enum('confirmed', 'shipped', 'delivered', 'cancelled'),
-},
+customer: ObjectId,
+items: [ObjectId],
+shipping: ObjectId,
 payment: ObjectId,
+status: ObjectId,
+history_status: [ObjectId],
+subtotal: Number,
+discount_amount: Number,
+total_price: Number,
+date: Date,
+```
+#### order_items
 
-confirmedAt: Date,
-shippedAt: Date,
-deliveredAt: Date,
-cancelledAt: Date,
-total: Number,
+```javascript
+_id: ObjectId,
+product: ObjectId,
+stock: ObjectId,
+product_color: ObjectId,
+product_size: ObjectId,
+quantity: Number,
+subtotal_price: Number,
+discount_amount: Number,
+total_price: Number,
+```
+
+#### status_history
+
+```javascript
+_id: ObjectId,
+order: ObjectId,
+status: [{
+  statusId: ObjectId,
+  date: Date,
+}],
+```
+
+#### order_status
+
+```javascript
+_id: ObjectId,
+orders: [ObjectId],
+name: String,
+```
+
+#### Cart
+
+```javascript
+_id: ObjectId,
+customer: ObjectId,
+items: [ObjectId],
+subtotal_price: Number,
+discount_amount: Number,
+total_price: Number,
+updatedAt: Date
+```
+#### cart_items
+
+```javascript
+_id: ObjectId,
+product: ObjectId,
+stock: ObjectId,
+product_color: ObjectId,
+product_size: ObjectId,
+quantity: Number,
+subtotal_price: Number,
+discount_amount: Number,
+total_price: Number,
 ```
 
 #### Sellers
@@ -461,7 +469,6 @@ updatedAt: Date
 ```javascript
 id: ObjectId,
 order: ObjectId,
-method: String,
 status: String,
 createdAt: Date,
 updatedAt: Date
@@ -475,24 +482,6 @@ order: ObjectId,
 status: String,
 createdAt: Date,
 updatedAt: Date
-```
-
-#### Cart
-
-```javascript
-  id: ObjectId,
-  customer: ObjectId,
-  products: [
-    {
-      _id: ObjectId,
-      product: ObjectId,
-      stock: ObjectId,
-      subStock: ObjectId,
-      quantity: Number
-    }
-  ],
-  createdAt: Date,
-  updatedAt: Date
 ```
 
 #### Wishlist
@@ -553,28 +542,10 @@ updatedAt: Date
 
 ```javascript
   id: ObjectId,
+  seller: ObjectId,
+  product: [ObjectId],
   name: String,
-  discount: Number,
-  createdAt: Date,
-  updatedAt: Date
-```
-
-#### Promotions
-
-```javascript
-  id: ObjectId,
-  name: String,
-  discount: Number,
-  createdAt: Date,
-  updatedAt: Date
-```
-
-#### Shipping
-
-```javascript
-  id: ObjectId,
-  name: String,
-  price: Number,
+  discount_amount: Number,
   createdAt: Date,
   updatedAt: Date
 ```
@@ -588,28 +559,6 @@ updatedAt: Date
   createdAt: Date,
   updatedAt: Date
 ```
-
-<!--
-#### Countries
-
-```javascript
-  id: ObjectId,
-  name: String,
-  price: Number,
-  createdAt: Date,
-  updatedAt: Date
-```
-
-#### States
-
-```javascript
-  id: ObjectId,
-  name: String,
-  price: Number,
-  createdAt: Date,
-  updatedAt: Date
-```
- -->
 
 #### Cities
 
