@@ -1,0 +1,26 @@
+[
+    {
+        "_id": 0,
+        "name": "pending",
+        "createdAt": "2022-10-22T22:59:07.059Z",
+        "updatedAt": "2023-01-13T16:11:41.966Z"
+    },
+    {
+        "_id": 1,
+        "name": "shipped",
+        "createdAt": "2022-11-30T06:10:33.457Z",
+        "updatedAt": "2022-04-11T01:00:04.520Z"
+    },
+    {
+        "_id": 2,
+        "name": "deliverd",
+        "createdAt": "2022-11-15T21:04:20.489Z",
+        "updatedAt": "2022-10-13T17:38:41.236Z"
+    },
+    {
+        "_id": 3,
+        "name": "canceled",
+        "createdAt": "2023-01-15T02:44:40.328Z",
+        "updatedAt": "2022-08-24T08:20:43.687Z"
+    }
+]
