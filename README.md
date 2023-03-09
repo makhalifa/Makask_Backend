@@ -166,7 +166,7 @@ address: ObjectId,
 card: ObjectId,
 
 email: String,
-emailVerified: Boolean,
+email_verfied: Boolean,
 password: String,
 
 createdAt: Date,
@@ -174,17 +174,17 @@ updatedAt: Date
 
 ```
 
-#### Customers_Profiles
+#### Customers_Profile
 
 ```javascript
 _id: ObjectId,
 customer: ObjectId,
 firstname: String,
 lastname: String,
-profilePicture: String,
+profile_picture: String,
 phone: [String],
-gender: Boolean,
-dateofbirth: Date,
+gender: String,
+birthdate: Date,
 ```
 
 #### Customer_Address
@@ -240,15 +240,14 @@ seller: ObjectId,
 reviews: [ObjectId],
 category: ObjectId,
 subcategory: ObjectId,
-stock: [ObjectId],
+stock: ObjectId,
 
 title: String,
 description: String,
 
-pricing: {
-  price: Number,
-  discount: Number,
-},
+subtotla_price: Number,
+discount_amount: Number,
+total_price: Number,
 
 freeShipping: Boolean,
 
@@ -320,10 +319,11 @@ product: ObjectId,
 color: ObjectId,
 product_sizes: [ObjectId],
 images: [String],
-pricing: {
-  price: Number,
-  discount: Number,
-},
+
+subtotal_price: Number,
+discount_amount: Number,
+total_price: Number,
+
 createdAt: Date,
 updatedAt: Date
 ```
@@ -573,9 +573,9 @@ updatedAt: Date
 #### Settings
 
 ```javascript
-  id: ObjectId,
-  name: String,
-  value: String,
-  createdAt: Date,
-  updatedAt: Date
+id: ObjectId,
+name: String,
+value: String,
+createdAt: Date,
+updatedAt: Date,
 ```
