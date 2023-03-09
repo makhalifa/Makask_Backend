@@ -165,6 +165,11 @@ profile: ObjectId,
 address: ObjectId,
 card: ObjectId,
 
+cart: ObjectId,
+wishlist: ObjectId,
+messages: ObjectId,
+notifications: ObjectId,
+
 email: String,
 email_verfied: Boolean,
 password: String,
@@ -362,10 +367,11 @@ shipping: ObjectId,
 payment: ObjectId,
 status: ObjectId,
 history_status: [ObjectId],
-subtotal: Number,
+subtotal_price: Number,
 discount_amount: Number,
 total_price: Number,
-date: Date,
+createdAt: Date,
+updatedAt: Date
 ```
 #### order_items
 
@@ -386,8 +392,8 @@ total_price: Number,
 ```javascript
 _id: ObjectId,
 order: ObjectId,
-status: [{
-  statusId: ObjectId,
+history: [{
+  status: ObjectId,
   date: Date,
 }],
 ```
@@ -396,11 +402,10 @@ status: [{
 
 ```javascript
 _id: ObjectId,
-orders: [ObjectId],
 name: String,
 ```
 
-#### Cart
+#### Carts
 
 ```javascript
 _id: ObjectId,
@@ -415,6 +420,7 @@ updatedAt: Date
 
 ```javascript
 _id: ObjectId,
+cart: ObjectId,
 product: ObjectId,
 stock: ObjectId,
 product_color: ObjectId,
