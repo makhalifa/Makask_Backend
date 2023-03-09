@@ -2003,15 +2003,15 @@
             1998,
             1999
         ],
-        "name": "Men",
-        "createdAt": "2022-05-12T21:40:53.536Z",
-        "updatedAt": "2022-04-30T08:25:50.152Z"
+        "name": "Beauty",
+        "createdAt": "2022-10-15T05:05:15.087Z",
+        "updatedAt": "2023-02-16T12:42:25.510Z"
     },
     {
         "_id": 1,
         "products": [],
-        "name": "Women",
-        "createdAt": "2023-01-13T12:03:34.646Z",
-        "updatedAt": "2022-12-25T05:18:28.474Z"
+        "name": "Movies",
+        "createdAt": "2022-04-25T02:53:04.354Z",
+        "updatedAt": "2022-10-24T09:37:49.688Z"
     }
 ]
