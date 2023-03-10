@@ -9,15 +9,15 @@
             3,
             4
         ],
-        "shipping": 1581,
-        "payment": 857,
-        "status": 1,
+        "shipping": 1227,
+        "payment": 395,
+        "status": 0,
         "history": 0,
-        "subtotal_price": 7521,
-        "promocode": 1583,
-        "total_price": 7521,
-        "createdAt": "2022-07-04T11:23:25.353Z",
-        "updatedAt": "2022-04-19T15:07:33.158Z"
+        "subtotal_price": 4281,
+        "promocode": 510,
+        "total_price": 4281,
+        "createdAt": "2022-11-11T17:08:34.482Z",
+        "updatedAt": "2023-02-05T21:48:15.798Z"
     },
     {
         "_id": 1,
@@ -29,15 +29,15 @@
             8,
             9
         ],
-        "shipping": 1078,
-        "payment": 329,
-        "status": 1,
+        "shipping": 664,
+        "payment": 714,
+        "status": 0,
         "history": 1,
-        "subtotal_price": 6575,
-        "promocode": 567,
-        "total_price": 6575,
-        "createdAt": "2022-06-30T10:02:11.291Z",
-        "updatedAt": "2022-09-23T19:39:43.133Z"
+        "subtotal_price": 4297,
+        "promocode": 468,
+        "total_price": 4297,
+        "createdAt": "2022-11-26T22:48:41.924Z",
+        "updatedAt": "2022-06-15T09:57:06.078Z"
     },
     {
         "_id": 2,
@@ -49,15 +49,15 @@
             13,
             14
         ],
-        "shipping": 342,
-        "payment": 388,
+        "shipping": 453,
+        "payment": 1583,
         "status": 1,
         "history": 2,
-        "subtotal_price": 7821,
-        "promocode": 648,
-        "total_price": 7821,
-        "createdAt": "2023-02-22T19:24:17.435Z",
-        "updatedAt": "2023-01-10T11:16:06.837Z"
+        "subtotal_price": 6793,
+        "promocode": 294,
+        "total_price": 6793,
+        "createdAt": "2022-08-09T11:58:56.330Z",
+        "updatedAt": "2022-08-02T04:54:55.914Z"
     },
     {
         "_id": 3,
@@ -69,15 +69,15 @@
             18,
             19
         ],
-        "shipping": 802,
-        "payment": 1477,
-        "status": 1,
+        "shipping": 605,
+        "payment": 617,
+        "status": 0,
         "history": 3,
-        "subtotal_price": 6316,
-        "promocode": 1664,
-        "total_price": 6316,
-        "createdAt": "2022-06-16T16:23:18.588Z",
-        "updatedAt": "2023-02-18T09:50:39.468Z"
+        "subtotal_price": 11190,
+        "promocode": 1804,
+        "total_price": 11190,
+        "createdAt": "2022-05-12T16:38:58.452Z",
+        "updatedAt": "2023-03-06T09:26:55.576Z"
     },
     {
         "_id": 4,
@@ -89,15 +89,15 @@
             23,
             24
         ],
-        "shipping": 630,
-        "payment": 178,
-        "status": 1,
+        "shipping": 1710,
+        "payment": 1978,
+        "status": 2,
         "history": 4,
-        "subtotal_price": 8456,
-        "promocode": 1194,
-        "total_price": 8456,
-        "createdAt": "2023-01-15T06:41:53.775Z",
-        "updatedAt": "2023-02-16T00:13:34.860Z"
+        "subtotal_price": 8402,
+        "promocode": 676,
+        "total_price": 8402,
+        "createdAt": "2022-05-06T00:31:01.890Z",
+        "updatedAt": "2022-09-14T07:18:36.316Z"
     },
     {
         "_id": 5,
@@ -109,15 +109,15 @@
             28,
             29
         ],
-        "shipping": 182,
-        "payment": 1669,
-        "status": 2,
+        "shipping": 864,
+        "payment": 714,
+        "status": 1,
         "history": 5,
-        "subtotal_price": 3999,
-        "promocode": 1473,
-        "total_price": 3999,
-        "createdAt": "2023-01-23T19:28:26.391Z",
-        "updatedAt": "2022-05-03T23:40:59.624Z"
+        "subtotal_price": 6844,
+        "promocode": 1318,
+        "total_price": 6844,
+        "createdAt": "2023-01-13T15:52:15.386Z",
+        "updatedAt": "2022-05-22T19:32:52.810Z"
     },
     {
         "_id": 6,
@@ -129,15 +129,15 @@
             33,
             34
         ],
-        "shipping": 1449,
-        "payment": 121,
-        "status": 2,
+        "shipping": 1507,
+        "payment": 1710,
+        "status": 0,
         "history": 6,
-        "subtotal_price": 10461,
-        "promocode": 398,
-        "total_price": 10461,
-        "createdAt": "2022-10-15T08:11:45.616Z",
-        "updatedAt": "2022-12-07T04:13:18.009Z"
+        "subtotal_price": 7119,
+        "promocode": 892,
+        "total_price": 7119,
+        "createdAt": "2022-04-23T02:06:18.664Z",
+        "updatedAt": "2022-08-09T00:00:31.425Z"
     },
     {
         "_id": 7,
@@ -149,15 +149,15 @@
             38,
             39
         ],
-        "shipping": 1899,
-        "payment": 1024,
-        "status": 1,
+        "shipping": 1827,
+        "payment": 1557,
+        "status": 0,
         "history": 7,
-        "subtotal_price": 4883,
-        "promocode": 905,
-        "total_price": 4883,
-        "createdAt": "2022-07-20T00:09:13.009Z",
-        "updatedAt": "2023-01-17T12:36:52.439Z"
+        "subtotal_price": 3849,
+        "promocode": 1987,
+        "total_price": 3849,
+        "createdAt": "2022-03-14T07:42:47.360Z",
+        "updatedAt": "2022-07-08T05:13:56.958Z"
     },
     {
         "_id": 8,
@@ -169,15 +169,15 @@
             43,
             44
         ],
-        "shipping": 1042,
-        "payment": 798,
-        "status": 2,
+        "shipping": 961,
+        "payment": 1233,
+        "status": 1,
         "history": 8,
-        "subtotal_price": 6410,
-        "promocode": 1529,
-        "total_price": 6410,
-        "createdAt": "2022-12-03T14:28:15.278Z",
-        "updatedAt": "2022-11-30T01:27:05.144Z"
+        "subtotal_price": 11193,
+        "promocode": 1063,
+        "total_price": 11193,
+        "createdAt": "2022-08-06T00:08:25.975Z",
+        "updatedAt": "2022-11-15T04:01:52.947Z"
     },
     {
         "_id": 9,
@@ -189,15 +189,15 @@
             48,
             49
         ],
-        "shipping": 1988,
-        "payment": 1061,
-        "status": 0,
+        "shipping": 1325,
+        "payment": 638,
+        "status": 1,
         "history": 9,
-        "subtotal_price": 7703,
-        "promocode": 1920,
-        "total_price": 7703,
-        "createdAt": "2022-05-08T18:51:16.428Z",
-        "updatedAt": "2022-07-01T07:14:10.217Z"
+        "subtotal_price": 2967,
+        "promocode": 1317,
+        "total_price": 2967,
+        "createdAt": "2022-08-11T06:16:44.734Z",
+        "updatedAt": "2022-05-14T02:16:30.215Z"
     },
     {
         "_id": 10,
@@ -209,15 +209,15 @@
             53,
             54
         ],
-        "shipping": 1748,
-        "payment": 361,
+        "shipping": 1775,
+        "payment": 1109,
         "status": 1,
         "history": 10,
-        "subtotal_price": 4523,
-        "promocode": 1335,
-        "total_price": 4523,
-        "createdAt": "2022-10-01T06:34:37.102Z",
-        "updatedAt": "2023-01-30T18:06:26.735Z"
+        "subtotal_price": 6863,
+        "promocode": 1738,
+        "total_price": 6863,
+        "createdAt": "2022-05-02T11:01:35.401Z",
+        "updatedAt": "2022-08-15T00:30:18.004Z"
     },
     {
         "_id": 11,
@@ -229,15 +229,15 @@
             58,
             59
         ],
-        "shipping": 1098,
-        "payment": 227,
-        "status": 2,
+        "shipping": 666,
+        "payment": 1747,
+        "status": 0,
         "history": 11,
-        "subtotal_price": 8563,
-        "promocode": 24,
-        "total_price": 8563,
-        "createdAt": "2022-10-12T05:37:32.621Z",
-        "updatedAt": "2022-07-16T05:32:48.224Z"
+        "subtotal_price": 9029,
+        "promocode": 748,
+        "total_price": 9029,
+        "createdAt": "2022-11-14T13:45:41.941Z",
+        "updatedAt": "2022-08-01T12:33:57.911Z"
     },
     {
         "_id": 12,
@@ -249,15 +249,15 @@
             63,
             64
         ],
-        "shipping": 1991,
-        "payment": 328,
+        "shipping": 195,
+        "payment": 610,
         "status": 1,
         "history": 12,
-        "subtotal_price": 6789,
-        "promocode": 144,
-        "total_price": 6789,
-        "createdAt": "2022-12-28T13:50:15.032Z",
-        "updatedAt": "2022-05-21T00:34:03.726Z"
+        "subtotal_price": 10240,
+        "promocode": 320,
+        "total_price": 10240,
+        "createdAt": "2023-02-28T10:00:11.775Z",
+        "updatedAt": "2022-04-23T08:02:24.940Z"
     },
     {
         "_id": 13,
@@ -269,15 +269,15 @@
             68,
             69
         ],
-        "shipping": 308,
-        "payment": 224,
+        "shipping": 1967,
+        "payment": 154,
         "status": 1,
         "history": 13,
-        "subtotal_price": 2840,
-        "promocode": 101,
-        "total_price": 2840,
-        "createdAt": "2022-10-12T13:51:07.785Z",
-        "updatedAt": "2023-02-25T03:15:05.939Z"
+        "subtotal_price": 9886,
+        "promocode": 1542,
+        "total_price": 9886,
+        "createdAt": "2022-06-02T10:26:00.365Z",
+        "updatedAt": "2022-11-16T00:45:52.874Z"
     },
     {
         "_id": 14,
@@ -289,15 +289,15 @@
             73,
             74
         ],
-        "shipping": 1224,
-        "payment": 1942,
-        "status": 0,
+        "shipping": 1299,
+        "payment": 59,
+        "status": 1,
         "history": 14,
-        "subtotal_price": 4005,
-        "promocode": 511,
-        "total_price": 4005,
-        "createdAt": "2022-11-28T04:24:36.523Z",
-        "updatedAt": "2022-07-21T06:47:10.905Z"
+        "subtotal_price": 7256,
+        "promocode": 916,
+        "total_price": 7256,
+        "createdAt": "2022-06-09T23:58:11.672Z",
+        "updatedAt": "2022-11-12T22:10:39.604Z"
     },
     {
         "_id": 15,
@@ -309,15 +309,15 @@
             78,
             79
         ],
-        "shipping": 713,
-        "payment": 1504,
-        "status": 1,
+        "shipping": 1416,
+        "payment": 300,
+        "status": 2,
         "history": 15,
-        "subtotal_price": 7601,
-        "promocode": 1749,
-        "total_price": 7601,
-        "createdAt": "2022-07-23T00:33:12.895Z",
-        "updatedAt": "2023-01-24T19:35:56.591Z"
+        "subtotal_price": 3568,
+        "promocode": 1352,
+        "total_price": 3568,
+        "createdAt": "2023-01-20T08:01:08.779Z",
+        "updatedAt": "2022-06-14T10:48:09.640Z"
     },
     {
         "_id": 16,
@@ -329,15 +329,15 @@
             83,
             84
         ],
-        "shipping": 857,
-        "payment": 451,
-        "status": 0,
+        "shipping": 140,
+        "payment": 1995,
+        "status": 1,
         "history": 16,
-        "subtotal_price": 5235,
-        "promocode": 1223,
-        "total_price": 5235,
-        "createdAt": "2022-09-05T19:04:01.593Z",
-        "updatedAt": "2022-05-06T11:40:25.964Z"
+        "subtotal_price": 5902,
+        "promocode": 850,
+        "total_price": 5902,
+        "createdAt": "2022-03-27T06:06:53.462Z",
+        "updatedAt": "2023-03-04T13:30:39.758Z"
     },
     {
         "_id": 17,
@@ -349,15 +349,15 @@
             88,
             89
         ],
-        "shipping": 1159,
-        "payment": 1332,
+        "shipping": 627,
+        "payment": 1756,
         "status": 2,
         "history": 17,
-        "subtotal_price": 8044,
-        "promocode": 796,
-        "total_price": 8044,
-        "createdAt": "2022-12-19T01:53:30.245Z",
-        "updatedAt": "2022-11-23T21:19:52.013Z"
+        "subtotal_price": 5892,
+        "promocode": 398,
+        "total_price": 5892,
+        "createdAt": "2022-05-20T01:42:36.246Z",
+        "updatedAt": "2022-08-17T22:29:02.192Z"
     },
     {
         "_id": 18,
@@ -369,15 +369,15 @@
             93,
             94
         ],
-        "shipping": 1079,
-        "payment": 560,
+        "shipping": 1900,
+        "payment": 300,
         "status": 0,
         "history": 18,
-        "subtotal_price": 7978,
-        "promocode": 1986,
-        "total_price": 7978,
-        "createdAt": "2022-11-18T18:23:29.767Z",
-        "updatedAt": "2022-10-01T17:17:37.244Z"
+        "subtotal_price": 5922,
+        "promocode": 724,
+        "total_price": 5922,
+        "createdAt": "2023-01-05T08:13:16.227Z",
+        "updatedAt": "2022-04-11T02:43:45.709Z"
     },
     {
         "_id": 19,
@@ -389,15 +389,15 @@
             98,
             99
         ],
-        "shipping": 1884,
-        "payment": 1310,
-        "status": 0,
+        "shipping": 307,
+        "payment": 48,
+        "status": 1,
         "history": 19,
-        "subtotal_price": 9192,
-        "promocode": 201,
-        "total_price": 9192,
-        "createdAt": "2022-10-14T15:27:49.601Z",
-        "updatedAt": "2022-12-16T20:23:33.550Z"
+        "subtotal_price": 5267,
+        "promocode": 1263,
+        "total_price": 5267,
+        "createdAt": "2022-07-01T05:14:50.488Z",
+        "updatedAt": "2022-12-29T04:47:31.169Z"
     },
     {
         "_id": 20,
@@ -409,15 +409,15 @@
             103,
             104
         ],
-        "shipping": 337,
-        "payment": 1728,
-        "status": 1,
+        "shipping": 1017,
+        "payment": 141,
+        "status": 0,
         "history": 20,
-        "subtotal_price": 16441,
-        "promocode": 28,
-        "total_price": 16441,
-        "createdAt": "2022-04-18T16:10:57.775Z",
-        "updatedAt": "2022-07-11T13:09:01.081Z"
+        "subtotal_price": 6896,
+        "promocode": 479,
+        "total_price": 6896,
+        "createdAt": "2023-01-05T16:38:08.161Z",
+        "updatedAt": "2022-05-04T09:56:17.167Z"
     },
     {
         "_id": 21,
@@ -429,15 +429,15 @@
             108,
             109
         ],
-        "shipping": 1477,
-        "payment": 442,
+        "shipping": 421,
+        "payment": 280,
         "status": 1,
         "history": 21,
-        "subtotal_price": 7073,
-        "promocode": 746,
-        "total_price": 7073,
-        "createdAt": "2022-12-29T13:39:58.831Z",
-        "updatedAt": "2022-08-05T13:52:25.582Z"
+        "subtotal_price": 5767,
+        "promocode": 1761,
+        "total_price": 5767,
+        "createdAt": "2022-12-01T06:54:45.874Z",
+        "updatedAt": "2022-10-10T05:06:15.708Z"
     },
     {
         "_id": 22,
@@ -449,15 +449,15 @@
             113,
             114
         ],
-        "shipping": 1772,
-        "payment": 1037,
-        "status": 0,
+        "shipping": 629,
+        "payment": 1906,
+        "status": 1,
         "history": 22,
-        "subtotal_price": 7779,
-        "promocode": 1286,
-        "total_price": 7779,
-        "createdAt": "2022-03-20T04:48:10.370Z",
-        "updatedAt": "2022-11-27T00:03:10.494Z"
+        "subtotal_price": 7058,
+        "promocode": 1406,
+        "total_price": 7058,
+        "createdAt": "2022-12-09T11:52:51.125Z",
+        "updatedAt": "2022-06-20T12:23:03.893Z"
     },
     {
         "_id": 23,
@@ -469,15 +469,15 @@
             118,
             119
         ],
-        "shipping": 336,
-        "payment": 285,
+        "shipping": 1184,
+        "payment": 1176,
         "status": 1,
         "history": 23,
-        "subtotal_price": 6960,
-        "promocode": 1774,
-        "total_price": 6960,
-        "createdAt": "2023-02-19T16:14:23.406Z",
-        "updatedAt": "2022-07-29T23:21:16.386Z"
+        "subtotal_price": 8570,
+        "promocode": 1296,
+        "total_price": 8570,
+        "createdAt": "2022-10-10T10:43:28.295Z",
+        "updatedAt": "2022-12-19T17:05:44.860Z"
     },
     {
         "_id": 24,
@@ -489,15 +489,15 @@
             123,
             124
         ],
-        "shipping": 1657,
-        "payment": 443,
-        "status": 1,
+        "shipping": 850,
+        "payment": 1394,
+        "status": 2,
         "history": 24,
-        "subtotal_price": 6847,
-        "promocode": 1861,
-        "total_price": 6847,
-        "createdAt": "2022-07-07T23:50:17.123Z",
-        "updatedAt": "2023-02-26T14:50:58.275Z"
+        "subtotal_price": 7517,
+        "promocode": 1220,
+        "total_price": 7517,
+        "createdAt": "2022-09-27T19:56:38.360Z",
+        "updatedAt": "2022-12-04T22:03:44.454Z"
     },
     {
         "_id": 25,
@@ -509,15 +509,15 @@
             128,
             129
         ],
-        "shipping": 1215,
-        "payment": 1358,
-        "status": 0,
+        "shipping": 1319,
+        "payment": 884,
+        "status": 1,
         "history": 25,
-        "subtotal_price": 11630,
-        "promocode": 1393,
-        "total_price": 11630,
-        "createdAt": "2022-04-02T07:06:15.738Z",
-        "updatedAt": "2022-10-27T17:02:23.645Z"
+        "subtotal_price": 5263,
+        "promocode": 1596,
+        "total_price": 5263,
+        "createdAt": "2022-07-20T05:11:38.244Z",
+        "updatedAt": "2022-06-02T00:54:03.350Z"
     },
     {
         "_id": 26,
@@ -529,15 +529,15 @@
             133,
             134
         ],
-        "shipping": 1919,
-        "payment": 98,
-        "status": 0,
+        "shipping": 431,
+        "payment": 251,
+        "status": 1,
         "history": 26,
-        "subtotal_price": 7717,
-        "promocode": 1736,
-        "total_price": 7717,
-        "createdAt": "2023-02-28T07:49:23.303Z",
-        "updatedAt": "2022-08-03T10:03:31.899Z"
+        "subtotal_price": 8104,
+        "promocode": 1760,
+        "total_price": 8104,
+        "createdAt": "2022-12-07T13:55:50.202Z",
+        "updatedAt": "2023-01-21T18:36:40.924Z"
     },
     {
         "_id": 27,
@@ -549,15 +549,15 @@
             138,
             139
         ],
-        "shipping": 1728,
-        "payment": 573,
-        "status": 1,
+        "shipping": 1956,
+        "payment": 916,
+        "status": 2,
         "history": 27,
-        "subtotal_price": 5936,
-        "promocode": 1477,
-        "total_price": 5936,
-        "createdAt": "2022-12-16T05:54:01.965Z",
-        "updatedAt": "2022-05-01T10:08:37.582Z"
+        "subtotal_price": 7133,
+        "promocode": 1815,
+        "total_price": 7133,
+        "createdAt": "2022-05-24T05:40:57.088Z",
+        "updatedAt": "2023-02-20T07:18:41.071Z"
     },
     {
         "_id": 28,
@@ -569,15 +569,15 @@
             143,
             144
         ],
-        "shipping": 570,
-        "payment": 1636,
-        "status": 0,
+        "shipping": 117,
+        "payment": 1448,
+        "status": 1,
         "history": 28,
-        "subtotal_price": 5796,
-        "promocode": 519,
-        "total_price": 5796,
-        "createdAt": "2022-11-14T02:44:43.991Z",
-        "updatedAt": "2022-12-04T20:59:25.128Z"
+        "subtotal_price": 8247,
+        "promocode": 643,
+        "total_price": 8247,
+        "createdAt": "2023-02-09T08:35:40.676Z",
+        "updatedAt": "2023-01-05T18:53:27.748Z"
     },
     {
         "_id": 29,
@@ -589,15 +589,15 @@
             148,
             149
         ],
-        "shipping": 1075,
-        "payment": 840,
+        "shipping": 1819,
+        "payment": 1300,
         "status": 1,
         "history": 29,
-        "subtotal_price": 5240,
-        "promocode": 1264,
-        "total_price": 5240,
-        "createdAt": "2022-06-29T08:26:10.985Z",
-        "updatedAt": "2022-11-03T07:39:23.975Z"
+        "subtotal_price": 6852,
+        "promocode": 1347,
+        "total_price": 6852,
+        "createdAt": "2022-07-23T11:11:05.315Z",
+        "updatedAt": "2022-10-29T22:47:41.486Z"
     },
     {
         "_id": 30,
@@ -609,15 +609,15 @@
             153,
             154
         ],
-        "shipping": 1624,
-        "payment": 1770,
+        "shipping": 585,
+        "payment": 940,
         "status": 1,
         "history": 30,
-        "subtotal_price": 6825,
-        "promocode": 1406,
-        "total_price": 6825,
-        "createdAt": "2022-07-29T18:23:19.685Z",
-        "updatedAt": "2023-01-02T10:35:34.793Z"
+        "subtotal_price": 7679,
+        "promocode": 467,
+        "total_price": 7679,
+        "createdAt": "2023-01-19T05:37:15.891Z",
+        "updatedAt": "2022-12-10T05:06:00.556Z"
     },
     {
         "_id": 31,
@@ -629,15 +629,15 @@
             158,
             159
         ],
-        "shipping": 1198,
-        "payment": 1527,
-        "status": 0,
+        "shipping": 762,
+        "payment": 1934,
+        "status": 2,
         "history": 31,
-        "subtotal_price": 8007,
-        "promocode": 1671,
-        "total_price": 8007,
-        "createdAt": "2023-01-18T06:00:54.241Z",
-        "updatedAt": "2022-04-07T05:38:41.703Z"
+        "subtotal_price": 5756,
+        "promocode": 1067,
+        "total_price": 5756,
+        "createdAt": "2022-07-12T22:48:04.187Z",
+        "updatedAt": "2022-10-15T11:21:42.413Z"
     },
     {
         "_id": 32,
@@ -649,15 +649,15 @@
             163,
             164
         ],
-        "shipping": 957,
-        "payment": 1839,
-        "status": 1,
+        "shipping": 1871,
+        "payment": 957,
+        "status": 2,
         "history": 32,
-        "subtotal_price": 4918,
-        "promocode": 1961,
-        "total_price": 4918,
-        "createdAt": "2022-04-19T18:20:48.973Z",
-        "updatedAt": "2022-06-29T17:25:00.197Z"
+        "subtotal_price": 9635,
+        "promocode": 405,
+        "total_price": 9635,
+        "createdAt": "2023-02-21T09:07:31.106Z",
+        "updatedAt": "2022-04-23T15:19:32.062Z"
     },
     {
         "_id": 33,
@@ -669,15 +669,15 @@
             168,
             169
         ],
-        "shipping": 57,
-        "payment": 537,
+        "shipping": 648,
+        "payment": 329,
         "status": 0,
         "history": 33,
-        "subtotal_price": 10578,
-        "promocode": 573,
-        "total_price": 10578,
-        "createdAt": "2022-09-06T03:44:10.143Z",
-        "updatedAt": "2023-01-07T21:58:21.144Z"
+        "subtotal_price": 2073,
+        "promocode": 1423,
+        "total_price": 2073,
+        "createdAt": "2022-04-13T11:21:16.135Z",
+        "updatedAt": "2022-06-03T01:27:34.730Z"
     },
     {
         "_id": 34,
@@ -689,15 +689,15 @@
             173,
             174
         ],
-        "shipping": 1932,
-        "payment": 432,
-        "status": 1,
+        "shipping": 1344,
+        "payment": 590,
+        "status": 0,
         "history": 34,
-        "subtotal_price": 7112,
-        "promocode": 1124,
-        "total_price": 7112,
-        "createdAt": "2022-03-20T18:05:11.872Z",
-        "updatedAt": "2022-06-21T00:02:24.021Z"
+        "subtotal_price": 6502,
+        "promocode": 379,
+        "total_price": 6502,
+        "createdAt": "2022-03-14T17:03:44.611Z",
+        "updatedAt": "2022-08-21T06:30:57.977Z"
     },
     {
         "_id": 35,
@@ -709,15 +709,15 @@
             178,
             179
         ],
-        "shipping": 1059,
-        "payment": 247,
+        "shipping": 1300,
+        "payment": 1056,
         "status": 1,
         "history": 35,
-        "subtotal_price": 7474,
-        "promocode": 329,
-        "total_price": 7474,
-        "createdAt": "2022-04-11T17:23:32.723Z",
-        "updatedAt": "2022-10-06T07:06:06.624Z"
+        "subtotal_price": 9722,
+        "promocode": 224,
+        "total_price": 9722,
+        "createdAt": "2023-01-18T22:39:48.731Z",
+        "updatedAt": "2022-11-22T00:05:21.931Z"
     },
     {
         "_id": 36,
@@ -729,15 +729,15 @@
             183,
             184
         ],
-        "shipping": 888,
-        "payment": 459,
+        "shipping": 969,
+        "payment": 532,
         "status": 1,
         "history": 36,
-        "subtotal_price": 10084,
-        "promocode": 37,
-        "total_price": 10084,
-        "createdAt": "2022-08-02T13:13:57.645Z",
-        "updatedAt": "2022-06-11T04:48:12.662Z"
+        "subtotal_price": 13975,
+        "promocode": 623,
+        "total_price": 13975,
+        "createdAt": "2022-07-01T21:28:43.285Z",
+        "updatedAt": "2022-08-06T22:28:32.012Z"
     },
     {
         "_id": 37,
@@ -749,15 +749,15 @@
             188,
             189
         ],
-        "shipping": 1270,
-        "payment": 1780,
-        "status": 1,
+        "shipping": 730,
+        "payment": 282,
+        "status": 0,
         "history": 37,
-        "subtotal_price": 4176,
-        "promocode": 1982,
-        "total_price": 4176,
-        "createdAt": "2022-08-23T07:52:20.005Z",
-        "updatedAt": "2022-09-06T07:33:24.225Z"
+        "subtotal_price": 7240,
+        "promocode": 1009,
+        "total_price": 7240,
+        "createdAt": "2023-02-16T04:07:13.644Z",
+        "updatedAt": "2023-01-05T23:14:06.867Z"
     },
     {
         "_id": 38,
@@ -769,15 +769,15 @@
             193,
             194
         ],
-        "shipping": 1755,
-        "payment": 1405,
+        "shipping": 139,
+        "payment": 1575,
         "status": 2,
         "history": 38,
-        "subtotal_price": 9722,
-        "promocode": 1196,
-        "total_price": 9722,
-        "createdAt": "2022-12-12T15:38:23.393Z",
-        "updatedAt": "2022-10-21T08:13:10.841Z"
+        "subtotal_price": 7750,
+        "promocode": 1868,
+        "total_price": 7750,
+        "createdAt": "2022-05-16T02:54:36.068Z",
+        "updatedAt": "2023-02-08T14:30:53.998Z"
     },
     {
         "_id": 39,
@@ -789,15 +789,15 @@
             198,
             199
         ],
-        "shipping": 9,
-        "payment": 228,
-        "status": 2,
+        "shipping": 1002,
+        "payment": 895,
+        "status": 0,
         "history": 39,
-        "subtotal_price": 8801,
-        "promocode": 1884,
-        "total_price": 8801,
-        "createdAt": "2023-02-13T17:40:14.853Z",
-        "updatedAt": "2023-02-05T02:32:59.210Z"
+        "subtotal_price": 7880,
+        "promocode": 1289,
+        "total_price": 7880,
+        "createdAt": "2022-10-01T21:28:08.198Z",
+        "updatedAt": "2022-09-17T05:57:25.051Z"
     },
     {
         "_id": 40,
@@ -809,15 +809,15 @@
             203,
             204
         ],
-        "shipping": 700,
-        "payment": 121,
-        "status": 0,
+        "shipping": 1085,
+        "payment": 588,
+        "status": 1,
         "history": 40,
-        "subtotal_price": 8098,
-        "promocode": 205,
-        "total_price": 8098,
-        "createdAt": "2022-12-24T09:37:46.348Z",
-        "updatedAt": "2022-10-20T02:24:33.232Z"
+        "subtotal_price": 6471,
+        "promocode": 480,
+        "total_price": 6471,
+        "createdAt": "2022-07-02T03:42:08.582Z",
+        "updatedAt": "2022-04-30T22:31:25.318Z"
     },
     {
         "_id": 41,
@@ -829,15 +829,15 @@
             208,
             209
         ],
-        "shipping": 1488,
-        "payment": 1714,
-        "status": 2,
+        "shipping": 1437,
+        "payment": 1758,
+        "status": 1,
         "history": 41,
-        "subtotal_price": 12547,
-        "promocode": 964,
-        "total_price": 12547,
-        "createdAt": "2023-03-08T11:24:34.024Z",
-        "updatedAt": "2022-04-15T10:21:52.648Z"
+        "subtotal_price": 6475,
+        "promocode": 552,
+        "total_price": 6475,
+        "createdAt": "2023-02-14T00:38:58.877Z",
+        "updatedAt": "2023-02-08T13:09:35.456Z"
     },
     {
         "_id": 42,
@@ -849,15 +849,15 @@
             213,
             214
         ],
-        "shipping": 259,
-        "payment": 144,
+        "shipping": 1400,
+        "payment": 1496,
         "status": 1,
         "history": 42,
-        "subtotal_price": 9900,
-        "promocode": 1219,
-        "total_price": 9900,
-        "createdAt": "2022-11-10T03:47:34.083Z",
-        "updatedAt": "2022-12-14T21:24:47.513Z"
+        "subtotal_price": 11786,
+        "promocode": 780,
+        "total_price": 11786,
+        "createdAt": "2022-12-25T04:20:26.354Z",
+        "updatedAt": "2022-07-28T11:29:07.517Z"
     },
     {
         "_id": 43,
@@ -869,15 +869,15 @@
             218,
             219
         ],
-        "shipping": 1808,
-        "payment": 432,
+        "shipping": 1607,
+        "payment": 556,
         "status": 0,
         "history": 43,
-        "subtotal_price": 9143,
-        "promocode": 1585,
-        "total_price": 9143,
-        "createdAt": "2022-07-21T23:39:22.397Z",
-        "updatedAt": "2022-04-22T01:27:11.398Z"
+        "subtotal_price": 3219,
+        "promocode": 220,
+        "total_price": 3219,
+        "createdAt": "2022-06-02T22:11:43.175Z",
+        "updatedAt": "2022-12-08T17:59:32.466Z"
     },
     {
         "_id": 44,
@@ -889,15 +889,15 @@
             223,
             224
         ],
-        "shipping": 1961,
-        "payment": 830,
-        "status": 1,
+        "shipping": 1275,
+        "payment": 1332,
+        "status": 0,
         "history": 44,
-        "subtotal_price": 4379,
-        "promocode": 1996,
-        "total_price": 4379,
-        "createdAt": "2022-09-07T04:54:48.276Z",
-        "updatedAt": "2022-06-05T05:50:24.463Z"
+        "subtotal_price": 8728,
+        "promocode": 1670,
+        "total_price": 8728,
+        "createdAt": "2022-11-27T10:08:16.910Z",
+        "updatedAt": "2022-04-12T09:15:29.092Z"
     },
     {
         "_id": 45,
@@ -909,15 +909,15 @@
             228,
             229
         ],
-        "shipping": 930,
-        "payment": 1889,
-        "status": 1,
+        "shipping": 1049,
+        "payment": 1581,
+        "status": 2,
         "history": 45,
-        "subtotal_price": 7212,
-        "promocode": 1242,
-        "total_price": 7212,
-        "createdAt": "2022-08-15T22:24:45.085Z",
-        "updatedAt": "2022-11-30T12:31:16.556Z"
+        "subtotal_price": 10038,
+        "promocode": 1074,
+        "total_price": 10038,
+        "createdAt": "2022-03-17T16:53:15.369Z",
+        "updatedAt": "2022-11-24T03:10:05.512Z"
     },
     {
         "_id": 46,
@@ -929,15 +929,15 @@
             233,
             234
         ],
-        "shipping": 1733,
-        "payment": 1152,
-        "status": 2,
+        "shipping": 1720,
+        "payment": 347,
+        "status": 1,
         "history": 46,
-        "subtotal_price": 9853,
-        "promocode": 1630,
-        "total_price": 9853,
-        "createdAt": "2022-06-10T01:52:51.534Z",
-        "updatedAt": "2022-06-22T07:55:08.706Z"
+        "subtotal_price": 9459,
+        "promocode": 1155,
+        "total_price": 9459,
+        "createdAt": "2022-06-23T14:10:04.722Z",
+        "updatedAt": "2022-08-25T08:35:54.438Z"
     },
     {
         "_id": 47,
@@ -949,15 +949,15 @@
             238,
             239
         ],
-        "shipping": 1737,
-        "payment": 1089,
-        "status": 1,
+        "shipping": 574,
+        "payment": 1433,
+        "status": 0,
         "history": 47,
-        "subtotal_price": 7441,
-        "promocode": 1610,
-        "total_price": 7441,
-        "createdAt": "2023-02-18T09:02:38.226Z",
-        "updatedAt": "2022-06-18T10:33:03.126Z"
+        "subtotal_price": 6616,
+        "promocode": 1785,
+        "total_price": 6616,
+        "createdAt": "2022-11-06T18:38:52.786Z",
+        "updatedAt": "2022-10-10T07:10:09.091Z"
     },
     {
         "_id": 48,
@@ -969,15 +969,15 @@
             243,
             244
         ],
-        "shipping": 1018,
-        "payment": 1696,
-        "status": 0,
+        "shipping": 1445,
+        "payment": 415,
+        "status": 1,
         "history": 48,
-        "subtotal_price": 8947,
-        "promocode": 727,
-        "total_price": 8947,
-        "createdAt": "2022-06-03T16:52:47.783Z",
-        "updatedAt": "2022-10-30T20:22:16.726Z"
+        "subtotal_price": 9932,
+        "promocode": 27,
+        "total_price": 9932,
+        "createdAt": "2022-03-18T12:58:54.685Z",
+        "updatedAt": "2022-06-23T08:42:21.536Z"
     },
     {
         "_id": 49,
@@ -989,15 +989,15 @@
             248,
             249
         ],
-        "shipping": 689,
-        "payment": 387,
-        "status": 1,
+        "shipping": 1104,
+        "payment": 1459,
+        "status": 2,
         "history": 49,
-        "subtotal_price": 10759,
-        "promocode": 1962,
-        "total_price": 10759,
-        "createdAt": "2022-11-29T18:35:44.812Z",
-        "updatedAt": "2023-02-03T04:51:30.864Z"
+        "subtotal_price": 11692,
+        "promocode": 934,
+        "total_price": 11692,
+        "createdAt": "2022-04-20T07:20:26.749Z",
+        "updatedAt": "2022-05-15T16:02:02.068Z"
     },
     {
         "_id": 50,
@@ -1009,15 +1009,15 @@
             253,
             254
         ],
-        "shipping": 1242,
-        "payment": 1224,
+        "shipping": 182,
+        "payment": 1719,
         "status": 0,
         "history": 50,
-        "subtotal_price": 4950,
-        "promocode": 333,
-        "total_price": 4950,
-        "createdAt": "2022-10-29T20:24:55.509Z",
-        "updatedAt": "2022-03-31T23:25:16.468Z"
+        "subtotal_price": 7436,
+        "promocode": 1972,
+        "total_price": 7436,
+        "createdAt": "2022-10-04T23:43:30.199Z",
+        "updatedAt": "2022-08-06T16:35:27.134Z"
     },
     {
         "_id": 51,
@@ -1029,15 +1029,15 @@
             258,
             259
         ],
-        "shipping": 797,
-        "payment": 1376,
+        "shipping": 1688,
+        "payment": 1708,
         "status": 1,
         "history": 51,
-        "subtotal_price": 10083,
-        "promocode": 1214,
-        "total_price": 10083,
-        "createdAt": "2022-08-23T08:26:17.892Z",
-        "updatedAt": "2022-11-01T12:13:27.457Z"
+        "subtotal_price": 6919,
+        "promocode": 788,
+        "total_price": 6919,
+        "createdAt": "2022-03-31T16:45:56.543Z",
+        "updatedAt": "2022-07-27T17:12:55.456Z"
     },
     {
         "_id": 52,
@@ -1049,15 +1049,15 @@
             263,
             264
         ],
-        "shipping": 1862,
-        "payment": 1446,
+        "shipping": 1513,
+        "payment": 652,
         "status": 2,
         "history": 52,
-        "subtotal_price": 11107,
-        "promocode": 516,
-        "total_price": 11107,
-        "createdAt": "2022-07-18T13:52:01.110Z",
-        "updatedAt": "2022-07-17T18:04:34.630Z"
+        "subtotal_price": 10177,
+        "promocode": 1276,
+        "total_price": 10177,
+        "createdAt": "2023-02-21T14:18:29.495Z",
+        "updatedAt": "2023-02-23T12:08:32.238Z"
     },
     {
         "_id": 53,
@@ -1069,15 +1069,15 @@
             268,
             269
         ],
-        "shipping": 1949,
-        "payment": 133,
+        "shipping": 1030,
+        "payment": 1100,
         "status": 0,
         "history": 53,
-        "subtotal_price": 10786,
-        "promocode": 645,
-        "total_price": 10786,
-        "createdAt": "2022-05-08T11:38:35.049Z",
-        "updatedAt": "2022-07-10T07:26:27.495Z"
+        "subtotal_price": 3880,
+        "promocode": 251,
+        "total_price": 3880,
+        "createdAt": "2022-06-03T08:39:46.250Z",
+        "updatedAt": "2022-08-09T14:02:53.694Z"
     },
     {
         "_id": 54,
@@ -1089,15 +1089,15 @@
             273,
             274
         ],
-        "shipping": 692,
-        "payment": 502,
+        "shipping": 1664,
+        "payment": 1202,
         "status": 2,
         "history": 54,
-        "subtotal_price": 10112,
-        "promocode": 416,
-        "total_price": 10112,
-        "createdAt": "2023-01-25T07:15:16.644Z",
-        "updatedAt": "2022-04-25T17:05:20.787Z"
+        "subtotal_price": 13816,
+        "promocode": 931,
+        "total_price": 13816,
+        "createdAt": "2022-07-13T07:20:29.752Z",
+        "updatedAt": "2022-10-09T01:45:33.845Z"
     },
     {
         "_id": 55,
@@ -1109,15 +1109,15 @@
             278,
             279
         ],
-        "shipping": 1599,
-        "payment": 89,
-        "status": 0,
+        "shipping": 1145,
+        "payment": 621,
+        "status": 1,
         "history": 55,
-        "subtotal_price": 4454,
-        "promocode": 384,
-        "total_price": 4454,
-        "createdAt": "2023-01-10T20:28:01.023Z",
-        "updatedAt": "2022-06-23T04:19:28.525Z"
+        "subtotal_price": 11624,
+        "promocode": 462,
+        "total_price": 11624,
+        "createdAt": "2022-04-09T01:27:17.449Z",
+        "updatedAt": "2022-05-23T13:19:27.917Z"
     },
     {
         "_id": 56,
@@ -1129,15 +1129,15 @@
             283,
             284
         ],
-        "shipping": 698,
-        "payment": 360,
-        "status": 1,
+        "shipping": 1521,
+        "payment": 1832,
+        "status": 2,
         "history": 56,
-        "subtotal_price": 7067,
-        "promocode": 1145,
-        "total_price": 7067,
-        "createdAt": "2022-06-01T08:57:00.249Z",
-        "updatedAt": "2022-10-10T01:13:10.425Z"
+        "subtotal_price": 8880,
+        "promocode": 1679,
+        "total_price": 8880,
+        "createdAt": "2023-03-02T21:16:18.356Z",
+        "updatedAt": "2022-09-14T12:09:29.303Z"
     },
     {
         "_id": 57,
@@ -1149,15 +1149,15 @@
             288,
             289
         ],
-        "shipping": 372,
-        "payment": 1100,
-        "status": 1,
+        "shipping": 1055,
+        "payment": 1804,
+        "status": 0,
         "history": 57,
-        "subtotal_price": 5053,
-        "promocode": 913,
-        "total_price": 5053,
-        "createdAt": "2022-03-15T01:22:55.969Z",
-        "updatedAt": "2023-02-04T02:15:48.568Z"
+        "subtotal_price": 10619,
+        "promocode": 603,
+        "total_price": 10619,
+        "createdAt": "2022-09-07T00:28:18.560Z",
+        "updatedAt": "2022-11-13T07:42:20.533Z"
     },
     {
         "_id": 58,
@@ -1169,15 +1169,15 @@
             293,
             294
         ],
-        "shipping": 1185,
-        "payment": 243,
-        "status": 1,
+        "shipping": 1542,
+        "payment": 1902,
+        "status": 0,
         "history": 58,
-        "subtotal_price": 7631,
-        "promocode": 1021,
-        "total_price": 7631,
-        "createdAt": "2022-07-12T09:05:14.604Z",
-        "updatedAt": "2022-04-03T15:48:30.309Z"
+        "subtotal_price": 11060,
+        "promocode": 1951,
+        "total_price": 11060,
+        "createdAt": "2022-05-10T06:57:24.021Z",
+        "updatedAt": "2022-07-12T17:46:28.055Z"
     },
     {
         "_id": 59,
@@ -1189,15 +1189,15 @@
             298,
             299
         ],
-        "shipping": 1891,
-        "payment": 1638,
-        "status": 0,
+        "shipping": 150,
+        "payment": 208,
+        "status": 1,
         "history": 59,
-        "subtotal_price": 8909,
-        "promocode": 1972,
-        "total_price": 8909,
-        "createdAt": "2023-01-06T05:44:12.916Z",
-        "updatedAt": "2022-04-02T03:42:03.504Z"
+        "subtotal_price": 9577,
+        "promocode": 11,
+        "total_price": 9577,
+        "createdAt": "2022-10-29T07:56:26.195Z",
+        "updatedAt": "2022-04-03T11:31:10.681Z"
     },
     {
         "_id": 60,
@@ -1209,15 +1209,15 @@
             303,
             304
         ],
-        "shipping": 17,
-        "payment": 1690,
+        "shipping": 1762,
+        "payment": 1032,
         "status": 1,
         "history": 60,
-        "subtotal_price": 3040,
-        "promocode": 1565,
-        "total_price": 3040,
-        "createdAt": "2022-11-02T03:53:30.165Z",
-        "updatedAt": "2022-03-31T16:39:49.275Z"
+        "subtotal_price": 8632,
+        "promocode": 1315,
+        "total_price": 8632,
+        "createdAt": "2022-06-07T14:41:55.590Z",
+        "updatedAt": "2022-08-25T08:38:58.016Z"
     },
     {
         "_id": 61,
@@ -1229,15 +1229,15 @@
             308,
             309
         ],
-        "shipping": 1591,
-        "payment": 392,
+        "shipping": 1100,
+        "payment": 72,
         "status": 0,
         "history": 61,
-        "subtotal_price": 5392,
-        "promocode": 74,
-        "total_price": 5392,
-        "createdAt": "2022-08-08T07:32:35.176Z",
-        "updatedAt": "2022-11-15T15:00:46.652Z"
+        "subtotal_price": 6556,
+        "promocode": 1978,
+        "total_price": 6556,
+        "createdAt": "2022-07-19T00:35:45.736Z",
+        "updatedAt": "2022-03-26T13:04:51.331Z"
     },
     {
         "_id": 62,
@@ -1249,15 +1249,15 @@
             313,
             314
         ],
-        "shipping": 1852,
-        "payment": 1533,
-        "status": 1,
+        "shipping": 1015,
+        "payment": 1531,
+        "status": 2,
         "history": 62,
-        "subtotal_price": 5109,
-        "promocode": 536,
-        "total_price": 5109,
-        "createdAt": "2023-01-27T03:50:35.580Z",
-        "updatedAt": "2023-02-23T20:24:08.230Z"
+        "subtotal_price": 6113,
+        "promocode": 793,
+        "total_price": 6113,
+        "createdAt": "2022-05-12T04:13:49.950Z",
+        "updatedAt": "2022-05-21T16:31:48.493Z"
     },
     {
         "_id": 63,
@@ -1269,15 +1269,15 @@
             318,
             319
         ],
-        "shipping": 1741,
-        "payment": 1031,
-        "status": 0,
+        "shipping": 704,
+        "payment": 877,
+        "status": 1,
         "history": 63,
-        "subtotal_price": 9101,
-        "promocode": 1485,
-        "total_price": 9101,
-        "createdAt": "2022-08-16T12:17:53.116Z",
-        "updatedAt": "2022-10-15T13:28:10.685Z"
+        "subtotal_price": 8440,
+        "promocode": 391,
+        "total_price": 8440,
+        "createdAt": "2022-09-22T23:07:23.522Z",
+        "updatedAt": "2023-01-26T18:32:30.417Z"
     },
     {
         "_id": 64,
@@ -1289,15 +1289,15 @@
             323,
             324
         ],
-        "shipping": 286,
-        "payment": 1642,
-        "status": 2,
+        "shipping": 1369,
+        "payment": 189,
+        "status": 0,
         "history": 64,
-        "subtotal_price": 5445,
-        "promocode": 505,
-        "total_price": 5445,
-        "createdAt": "2022-07-15T13:45:46.481Z",
-        "updatedAt": "2022-05-07T07:09:52.014Z"
+        "subtotal_price": 10468,
+        "promocode": 430,
+        "total_price": 10468,
+        "createdAt": "2022-08-19T01:34:52.305Z",
+        "updatedAt": "2023-01-31T16:31:58.285Z"
     },
     {
         "_id": 65,
@@ -1309,15 +1309,15 @@
             328,
             329
         ],
-        "shipping": 692,
-        "payment": 994,
+        "shipping": 690,
+        "payment": 812,
         "status": 1,
         "history": 65,
-        "subtotal_price": 10241,
-        "promocode": 1421,
-        "total_price": 10241,
-        "createdAt": "2022-10-05T14:10:00.717Z",
-        "updatedAt": "2022-12-24T21:46:40.512Z"
+        "subtotal_price": 10181,
+        "promocode": 352,
+        "total_price": 10181,
+        "createdAt": "2022-07-27T05:47:49.940Z",
+        "updatedAt": "2022-08-30T05:34:42.312Z"
     },
     {
         "_id": 66,
@@ -1329,15 +1329,15 @@
             333,
             334
         ],
-        "shipping": 1403,
-        "payment": 347,
-        "status": 2,
+        "shipping": 671,
+        "payment": 702,
+        "status": 0,
         "history": 66,
-        "subtotal_price": 6538,
-        "promocode": 363,
-        "total_price": 6538,
-        "createdAt": "2023-03-04T19:44:16.781Z",
-        "updatedAt": "2022-06-19T02:47:36.983Z"
+        "subtotal_price": 5786,
+        "promocode": 1031,
+        "total_price": 5786,
+        "createdAt": "2022-06-02T07:29:05.313Z",
+        "updatedAt": "2022-03-15T07:27:27.553Z"
     },
     {
         "_id": 67,
@@ -1349,15 +1349,15 @@
             338,
             339
         ],
-        "shipping": 1944,
-        "payment": 1801,
-        "status": 1,
+        "shipping": 1665,
+        "payment": 577,
+        "status": 0,
         "history": 67,
-        "subtotal_price": 7743,
-        "promocode": 291,
-        "total_price": 7743,
-        "createdAt": "2022-08-14T15:29:24.886Z",
-        "updatedAt": "2022-09-08T07:41:20.029Z"
+        "subtotal_price": 11338,
+        "promocode": 436,
+        "total_price": 11338,
+        "createdAt": "2023-01-31T18:33:35.874Z",
+        "updatedAt": "2022-06-07T04:45:59.774Z"
     },
     {
         "_id": 68,
@@ -1369,15 +1369,15 @@
             343,
             344
         ],
-        "shipping": 1474,
-        "payment": 1799,
-        "status": 2,
+        "shipping": 303,
+        "payment": 689,
+        "status": 1,
         "history": 68,
-        "subtotal_price": 8410,
-        "promocode": 1114,
-        "total_price": 8410,
-        "createdAt": "2022-08-12T19:38:31.617Z",
-        "updatedAt": "2023-01-21T17:23:22.782Z"
+        "subtotal_price": 12162,
+        "promocode": 482,
+        "total_price": 12162,
+        "createdAt": "2022-06-11T13:09:03.999Z",
+        "updatedAt": "2022-12-02T21:06:30.266Z"
     },
     {
         "_id": 69,
@@ -1389,15 +1389,15 @@
             348,
             349
         ],
-        "shipping": 1541,
-        "payment": 1367,
-        "status": 1,
+        "shipping": 938,
+        "payment": 1072,
+        "status": 2,
         "history": 69,
-        "subtotal_price": 4196,
-        "promocode": 332,
-        "total_price": 4196,
-        "createdAt": "2022-12-07T05:01:54.670Z",
-        "updatedAt": "2022-10-20T14:08:03.751Z"
+        "subtotal_price": 9439,
+        "promocode": 812,
+        "total_price": 9439,
+        "createdAt": "2022-07-18T01:10:55.575Z",
+        "updatedAt": "2022-09-27T03:28:47.965Z"
     },
     {
         "_id": 70,
@@ -1409,15 +1409,15 @@
             353,
             354
         ],
-        "shipping": 1054,
-        "payment": 258,
-        "status": 1,
+        "shipping": 800,
+        "payment": 685,
+        "status": 0,
         "history": 70,
-        "subtotal_price": 13847,
-        "promocode": 49,
-        "total_price": 13847,
-        "createdAt": "2022-06-13T07:46:26.516Z",
-        "updatedAt": "2022-03-31T15:46:21.617Z"
+        "subtotal_price": 6924,
+        "promocode": 5,
+        "total_price": 6924,
+        "createdAt": "2022-11-17T18:06:13.108Z",
+        "updatedAt": "2022-10-16T05:30:05.140Z"
     },
     {
         "_id": 71,
@@ -1429,15 +1429,15 @@
             358,
             359
         ],
-        "shipping": 113,
-        "payment": 1357,
+        "shipping": 6,
+        "payment": 1729,
         "status": 2,
         "history": 71,
-        "subtotal_price": 10003,
-        "promocode": 505,
-        "total_price": 10003,
-        "createdAt": "2022-07-24T22:36:40.142Z",
-        "updatedAt": "2022-11-24T06:40:05.902Z"
+        "subtotal_price": 8779,
+        "promocode": 1421,
+        "total_price": 8779,
+        "createdAt": "2022-12-26T23:29:36.946Z",
+        "updatedAt": "2022-10-11T14:17:52.042Z"
     },
     {
         "_id": 72,
@@ -1449,15 +1449,15 @@
             363,
             364
         ],
-        "shipping": 1043,
-        "payment": 353,
-        "status": 1,
+        "shipping": 1906,
+        "payment": 1386,
+        "status": 0,
         "history": 72,
-        "subtotal_price": 8989,
-        "promocode": 158,
-        "total_price": 8989,
-        "createdAt": "2022-04-29T20:27:15.958Z",
-        "updatedAt": "2022-05-13T10:37:26.528Z"
+        "subtotal_price": 4163,
+        "promocode": 991,
+        "total_price": 4163,
+        "createdAt": "2022-06-11T00:36:31.821Z",
+        "updatedAt": "2022-10-18T22:58:15.574Z"
     },
     {
         "_id": 73,
@@ -1469,15 +1469,15 @@
             368,
             369
         ],
-        "shipping": 1101,
-        "payment": 342,
+        "shipping": 514,
+        "payment": 1691,
         "status": 1,
         "history": 73,
-        "subtotal_price": 5822,
-        "promocode": 388,
-        "total_price": 5822,
-        "createdAt": "2022-06-07T09:54:23.717Z",
-        "updatedAt": "2022-10-13T15:29:31.012Z"
+        "subtotal_price": 1821,
+        "promocode": 1110,
+        "total_price": 1821,
+        "createdAt": "2022-07-31T12:57:11.023Z",
+        "updatedAt": "2022-11-29T06:53:12.604Z"
     },
     {
         "_id": 74,
@@ -1489,15 +1489,15 @@
             373,
             374
         ],
-        "shipping": 535,
-        "payment": 628,
+        "shipping": 1922,
+        "payment": 1866,
         "status": 1,
         "history": 74,
-        "subtotal_price": 4350,
-        "promocode": 1362,
-        "total_price": 4350,
-        "createdAt": "2023-02-11T23:49:33.061Z",
-        "updatedAt": "2022-11-08T13:10:12.172Z"
+        "subtotal_price": 9357,
+        "promocode": 1402,
+        "total_price": 9357,
+        "createdAt": "2022-12-17T11:41:13.963Z",
+        "updatedAt": "2022-11-21T22:18:58.777Z"
     },
     {
         "_id": 75,
@@ -1509,15 +1509,15 @@
             378,
             379
         ],
-        "shipping": 1228,
-        "payment": 1608,
-        "status": 2,
+        "shipping": 1069,
+        "payment": 198,
+        "status": 1,
         "history": 75,
-        "subtotal_price": 4671,
-        "promocode": 1534,
-        "total_price": 4671,
-        "createdAt": "2022-07-06T00:45:29.092Z",
-        "updatedAt": "2022-08-18T12:49:02.094Z"
+        "subtotal_price": 4816,
+        "promocode": 445,
+        "total_price": 4816,
+        "createdAt": "2022-11-03T16:09:34.720Z",
+        "updatedAt": "2023-01-25T17:32:29.978Z"
     },
     {
         "_id": 76,
@@ -1529,15 +1529,15 @@
             383,
             384
         ],
-        "shipping": 1226,
-        "payment": 1370,
+        "shipping": 826,
+        "payment": 901,
         "status": 1,
         "history": 76,
-        "subtotal_price": 6269,
-        "promocode": 1023,
-        "total_price": 6269,
-        "createdAt": "2023-02-24T21:17:24.015Z",
-        "updatedAt": "2022-05-14T00:53:43.085Z"
+        "subtotal_price": 7393,
+        "promocode": 590,
+        "total_price": 7393,
+        "createdAt": "2022-06-24T19:23:57.122Z",
+        "updatedAt": "2022-11-01T23:51:06.982Z"
     },
     {
         "_id": 77,
@@ -1549,15 +1549,15 @@
             388,
             389
         ],
-        "shipping": 1920,
-        "payment": 1592,
-        "status": 1,
+        "shipping": 400,
+        "payment": 856,
+        "status": 0,
         "history": 77,
-        "subtotal_price": 10893,
-        "promocode": 1764,
-        "total_price": 10893,
-        "createdAt": "2022-03-21T11:30:31.014Z",
-        "updatedAt": "2022-12-21T13:38:33.737Z"
+        "subtotal_price": 7885,
+        "promocode": 1830,
+        "total_price": 7885,
+        "createdAt": "2022-05-05T06:57:38.255Z",
+        "updatedAt": "2022-08-01T12:14:30.287Z"
     },
     {
         "_id": 78,
@@ -1569,15 +1569,15 @@
             393,
             394
         ],
-        "shipping": 630,
-        "payment": 1231,
+        "shipping": 414,
+        "payment": 255,
         "status": 1,
         "history": 78,
-        "subtotal_price": 4845,
-        "promocode": 27,
-        "total_price": 4845,
-        "createdAt": "2022-09-10T16:07:14.271Z",
-        "updatedAt": "2023-01-16T05:51:24.764Z"
+        "subtotal_price": 4557,
+        "promocode": 1745,
+        "total_price": 4557,
+        "createdAt": "2022-12-10T08:14:39.498Z",
+        "updatedAt": "2022-04-20T05:17:17.130Z"
     },
     {
         "_id": 79,
@@ -1589,15 +1589,15 @@
             398,
             399
         ],
-        "shipping": 1499,
-        "payment": 994,
-        "status": 1,
+        "shipping": 80,
+        "payment": 512,
+        "status": 0,
         "history": 79,
-        "subtotal_price": 6951,
-        "promocode": 1567,
-        "total_price": 6951,
-        "createdAt": "2022-12-17T20:20:08.446Z",
-        "updatedAt": "2022-11-14T12:14:03.908Z"
+        "subtotal_price": 7349,
+        "promocode": 1700,
+        "total_price": 7349,
+        "createdAt": "2022-12-14T18:38:20.133Z",
+        "updatedAt": "2022-04-16T11:36:19.746Z"
     },
     {
         "_id": 80,
@@ -1609,15 +1609,15 @@
             403,
             404
         ],
-        "shipping": 911,
-        "payment": 1705,
-        "status": 0,
+        "shipping": 1750,
+        "payment": 1398,
+        "status": 1,
         "history": 80,
-        "subtotal_price": 4451,
-        "promocode": 1447,
-        "total_price": 4451,
-        "createdAt": "2022-10-03T04:56:25.312Z",
-        "updatedAt": "2022-12-03T19:10:47.915Z"
+        "subtotal_price": 3970,
+        "promocode": 803,
+        "total_price": 3970,
+        "createdAt": "2022-10-08T12:24:59.161Z",
+        "updatedAt": "2022-11-29T20:58:36.923Z"
     },
     {
         "_id": 81,
@@ -1629,15 +1629,15 @@
             408,
             409
         ],
-        "shipping": 81,
-        "payment": 1950,
-        "status": 2,
+        "shipping": 403,
+        "payment": 1582,
+        "status": 0,
         "history": 81,
-        "subtotal_price": 6768,
-        "promocode": 1435,
-        "total_price": 6768,
-        "createdAt": "2022-03-18T19:47:09.545Z",
-        "updatedAt": "2022-06-13T19:51:03.565Z"
+        "subtotal_price": 7398,
+        "promocode": 1362,
+        "total_price": 7398,
+        "createdAt": "2022-07-03T17:29:22.504Z",
+        "updatedAt": "2022-07-11T18:09:05.656Z"
     },
     {
         "_id": 82,
@@ -1649,15 +1649,15 @@
             413,
             414
         ],
-        "shipping": 446,
-        "payment": 1406,
+        "shipping": 211,
+        "payment": 1602,
         "status": 1,
         "history": 82,
-        "subtotal_price": 4296,
-        "promocode": 1579,
-        "total_price": 4296,
-        "createdAt": "2023-03-01T08:42:24.786Z",
-        "updatedAt": "2023-02-02T18:30:12.776Z"
+        "subtotal_price": 5602,
+        "promocode": 1029,
+        "total_price": 5602,
+        "createdAt": "2022-11-22T21:05:44.167Z",
+        "updatedAt": "2022-12-23T20:22:43.549Z"
     },
     {
         "_id": 83,
@@ -1669,15 +1669,15 @@
             418,
             419
         ],
-        "shipping": 229,
-        "payment": 824,
+        "shipping": 137,
+        "payment": 25,
         "status": 0,
         "history": 83,
-        "subtotal_price": 3327,
-        "promocode": 987,
-        "total_price": 3327,
-        "createdAt": "2022-10-03T08:01:17.778Z",
-        "updatedAt": "2022-11-20T03:47:07.485Z"
+        "subtotal_price": 9297,
+        "promocode": 1771,
+        "total_price": 9297,
+        "createdAt": "2022-10-15T09:04:36.794Z",
+        "updatedAt": "2022-07-16T11:24:17.720Z"
     },
     {
         "_id": 84,
@@ -1689,15 +1689,15 @@
             423,
             424
         ],
-        "shipping": 1861,
-        "payment": 1134,
-        "status": 2,
+        "shipping": 614,
+        "payment": 298,
+        "status": 0,
         "history": 84,
-        "subtotal_price": 3463,
-        "promocode": 1508,
-        "total_price": 3463,
-        "createdAt": "2022-04-28T15:09:23.465Z",
-        "updatedAt": "2023-02-14T06:30:23.183Z"
+        "subtotal_price": 9402,
+        "promocode": 1539,
+        "total_price": 9402,
+        "createdAt": "2022-08-16T15:54:16.151Z",
+        "updatedAt": "2022-03-31T18:54:49.501Z"
     },
     {
         "_id": 85,
@@ -1709,15 +1709,15 @@
             428,
             429
         ],
-        "shipping": 146,
-        "payment": 1003,
-        "status": 1,
+        "shipping": 299,
+        "payment": 64,
+        "status": 2,
         "history": 85,
-        "subtotal_price": 6206,
-        "promocode": 493,
-        "total_price": 6206,
-        "createdAt": "2023-03-05T05:34:59.754Z",
-        "updatedAt": "2022-06-11T17:01:03.938Z"
+        "subtotal_price": 9948,
+        "promocode": 498,
+        "total_price": 9948,
+        "createdAt": "2022-11-27T06:25:58.169Z",
+        "updatedAt": "2023-01-21T05:20:53.943Z"
     },
     {
         "_id": 86,
@@ -1729,15 +1729,15 @@
             433,
             434
         ],
-        "shipping": 424,
-        "payment": 498,
+        "shipping": 1231,
+        "payment": 651,
         "status": 1,
         "history": 86,
-        "subtotal_price": 11483,
-        "promocode": 1395,
-        "total_price": 11483,
-        "createdAt": "2022-11-16T01:41:11.808Z",
-        "updatedAt": "2022-08-30T09:04:22.935Z"
+        "subtotal_price": 5298,
+        "promocode": 827,
+        "total_price": 5298,
+        "createdAt": "2023-01-24T12:30:32.083Z",
+        "updatedAt": "2022-08-11T19:20:03.527Z"
     },
     {
         "_id": 87,
@@ -1749,15 +1749,15 @@
             438,
             439
         ],
-        "shipping": 1655,
-        "payment": 570,
-        "status": 0,
+        "shipping": 1095,
+        "payment": 1260,
+        "status": 1,
         "history": 87,
-        "subtotal_price": 4246,
-        "promocode": 1884,
-        "total_price": 4246,
-        "createdAt": "2022-07-10T02:51:38.411Z",
-        "updatedAt": "2022-08-01T21:23:36.902Z"
+        "subtotal_price": 9769,
+        "promocode": 266,
+        "total_price": 9769,
+        "createdAt": "2022-07-18T11:24:42.552Z",
+        "updatedAt": "2022-08-11T17:22:00.686Z"
     },
     {
         "_id": 88,
@@ -1769,15 +1769,15 @@
             443,
             444
         ],
-        "shipping": 1803,
-        "payment": 743,
+        "shipping": 684,
+        "payment": 1701,
         "status": 1,
         "history": 88,
-        "subtotal_price": 8330,
-        "promocode": 632,
-        "total_price": 8330,
-        "createdAt": "2022-08-06T06:03:38.820Z",
-        "updatedAt": "2022-09-28T02:10:15.524Z"
+        "subtotal_price": 7865,
+        "promocode": 328,
+        "total_price": 7865,
+        "createdAt": "2023-02-23T11:47:55.894Z",
+        "updatedAt": "2022-06-16T11:26:05.677Z"
     },
     {
         "_id": 89,
@@ -1789,15 +1789,15 @@
             448,
             449
         ],
-        "shipping": 190,
-        "payment": 41,
+        "shipping": 65,
+        "payment": 1426,
         "status": 1,
         "history": 89,
-        "subtotal_price": 7955,
-        "promocode": 946,
-        "total_price": 7955,
-        "createdAt": "2022-04-17T09:36:42.669Z",
-        "updatedAt": "2022-09-25T11:06:12.048Z"
+        "subtotal_price": 1607,
+        "promocode": 1569,
+        "total_price": 1607,
+        "createdAt": "2022-06-12T17:56:18.733Z",
+        "updatedAt": "2022-06-11T01:38:48.458Z"
     },
     {
         "_id": 90,
@@ -1809,15 +1809,15 @@
             453,
             454
         ],
-        "shipping": 1717,
-        "payment": 928,
-        "status": 1,
+        "shipping": 1027,
+        "payment": 94,
+        "status": 0,
         "history": 90,
-        "subtotal_price": 7877,
-        "promocode": 403,
-        "total_price": 7877,
-        "createdAt": "2022-10-27T00:48:15.175Z",
-        "updatedAt": "2022-07-11T22:36:38.622Z"
+        "subtotal_price": 4531,
+        "promocode": 185,
+        "total_price": 4531,
+        "createdAt": "2022-06-06T20:35:52.514Z",
+        "updatedAt": "2022-11-25T19:09:05.235Z"
     },
     {
         "_id": 91,
@@ -1829,15 +1829,15 @@
             458,
             459
         ],
-        "shipping": 598,
-        "payment": 774,
-        "status": 0,
+        "shipping": 640,
+        "payment": 207,
+        "status": 1,
         "history": 91,
-        "subtotal_price": 8297,
-        "promocode": 563,
-        "total_price": 8297,
-        "createdAt": "2022-04-05T10:45:19.479Z",
-        "updatedAt": "2022-10-02T19:12:10.665Z"
+        "subtotal_price": 9838,
+        "promocode": 104,
+        "total_price": 9838,
+        "createdAt": "2022-11-29T03:14:16.164Z",
+        "updatedAt": "2022-12-27T22:36:32.688Z"
     },
     {
         "_id": 92,
@@ -1849,15 +1849,15 @@
             463,
             464
         ],
-        "shipping": 1984,
-        "payment": 499,
+        "shipping": 1936,
+        "payment": 1245,
         "status": 1,
         "history": 92,
-        "subtotal_price": 10071,
-        "promocode": 1024,
-        "total_price": 10071,
-        "createdAt": "2022-09-07T21:35:01.778Z",
-        "updatedAt": "2022-11-30T01:05:21.486Z"
+        "subtotal_price": 3018,
+        "promocode": 218,
+        "total_price": 3018,
+        "createdAt": "2022-03-25T19:11:10.351Z",
+        "updatedAt": "2022-05-15T01:03:03.191Z"
     },
     {
         "_id": 93,
@@ -1869,15 +1869,15 @@
             468,
             469
         ],
-        "shipping": 1345,
-        "payment": 1172,
-        "status": 0,
+        "shipping": 1164,
+        "payment": 1403,
+        "status": 1,
         "history": 93,
-        "subtotal_price": 7985,
-        "promocode": 924,
-        "total_price": 7985,
-        "createdAt": "2022-05-04T22:19:45.410Z",
-        "updatedAt": "2022-06-17T19:12:19.450Z"
+        "subtotal_price": 5997,
+        "promocode": 1183,
+        "total_price": 5997,
+        "createdAt": "2022-08-17T21:14:54.718Z",
+        "updatedAt": "2022-05-08T05:26:35.824Z"
     },
     {
         "_id": 94,
@@ -1889,15 +1889,15 @@
             473,
             474
         ],
-        "shipping": 1420,
-        "payment": 1281,
-        "status": 2,
+        "shipping": 56,
+        "payment": 1403,
+        "status": 0,
         "history": 94,
-        "subtotal_price": 6387,
-        "promocode": 877,
-        "total_price": 6387,
-        "createdAt": "2022-10-30T06:55:01.896Z",
-        "updatedAt": "2023-01-29T12:43:25.293Z"
+        "subtotal_price": 5525,
+        "promocode": 1582,
+        "total_price": 5525,
+        "createdAt": "2022-11-20T10:35:15.439Z",
+        "updatedAt": "2022-11-20T21:55:59.913Z"
     },
     {
         "_id": 95,
@@ -1909,15 +1909,15 @@
             478,
             479
         ],
-        "shipping": 474,
-        "payment": 190,
-        "status": 1,
+        "shipping": 1071,
+        "payment": 83,
+        "status": 2,
         "history": 95,
-        "subtotal_price": 5285,
-        "promocode": 657,
-        "total_price": 5285,
-        "createdAt": "2022-09-04T18:28:11.560Z",
-        "updatedAt": "2022-06-23T17:54:14.579Z"
+        "subtotal_price": 3400,
+        "promocode": 1500,
+        "total_price": 3400,
+        "createdAt": "2022-03-12T16:02:01.701Z",
+        "updatedAt": "2022-06-10T01:24:10.694Z"
     },
     {
         "_id": 96,
@@ -1929,15 +1929,15 @@
             483,
             484
         ],
-        "shipping": 900,
-        "payment": 1929,
+        "shipping": 772,
+        "payment": 476,
         "status": 1,
         "history": 96,
-        "subtotal_price": 4572,
-        "promocode": 1003,
-        "total_price": 4572,
-        "createdAt": "2023-03-01T20:42:08.075Z",
-        "updatedAt": "2023-01-14T03:04:05.007Z"
+        "subtotal_price": 8271,
+        "promocode": 996,
+        "total_price": 8271,
+        "createdAt": "2022-12-09T04:26:05.559Z",
+        "updatedAt": "2022-11-20T04:49:27.179Z"
     },
     {
         "_id": 97,
@@ -1949,15 +1949,15 @@
             488,
             489
         ],
-        "shipping": 1055,
-        "payment": 1466,
-        "status": 0,
+        "shipping": 1333,
+        "payment": 655,
+        "status": 1,
         "history": 97,
-        "subtotal_price": 11834,
-        "promocode": 125,
-        "total_price": 11834,
-        "createdAt": "2022-03-26T08:46:06.969Z",
-        "updatedAt": "2022-04-12T16:59:19.981Z"
+        "subtotal_price": 6343,
+        "promocode": 1584,
+        "total_price": 6343,
+        "createdAt": "2023-02-02T13:26:00.785Z",
+        "updatedAt": "2022-09-17T04:00:13.021Z"
     },
     {
         "_id": 98,
@@ -1969,15 +1969,15 @@
             493,
             494
         ],
-        "shipping": 1893,
-        "payment": 329,
-        "status": 0,
+        "shipping": 1188,
+        "payment": 765,
+        "status": 2,
         "history": 98,
-        "subtotal_price": 12096,
-        "promocode": 1325,
-        "total_price": 12096,
-        "createdAt": "2022-08-17T19:10:44.983Z",
-        "updatedAt": "2022-12-30T04:26:20.255Z"
+        "subtotal_price": 8271,
+        "promocode": 515,
+        "total_price": 8271,
+        "createdAt": "2022-03-21T04:56:53.391Z",
+        "updatedAt": "2022-10-28T07:07:43.848Z"
     },
     {
         "_id": 99,
@@ -1989,15 +1989,15 @@
             498,
             499
         ],
-        "shipping": 904,
-        "payment": 1487,
+        "shipping": 441,
+        "payment": 1471,
         "status": 1,
         "history": 99,
-        "subtotal_price": 7632,
-        "promocode": 1847,
-        "total_price": 7632,
-        "createdAt": "2022-04-04T19:30:28.669Z",
-        "updatedAt": "2022-04-16T19:43:49.302Z"
+        "subtotal_price": 7011,
+        "promocode": 1527,
+        "total_price": 7011,
+        "createdAt": "2022-07-27T11:09:12.123Z",
+        "updatedAt": "2022-07-16T21:41:50.679Z"
     },
     {
         "_id": 100,
@@ -2009,15 +2009,15 @@
             503,
             504
         ],
-        "shipping": 685,
-        "payment": 1649,
-        "status": 1,
+        "shipping": 97,
+        "payment": 23,
+        "status": 0,
         "history": 100,
-        "subtotal_price": 2599,
-        "promocode": 1358,
-        "total_price": 2599,
-        "createdAt": "2022-03-24T13:32:46.827Z",
-        "updatedAt": "2023-01-25T04:36:01.597Z"
+        "subtotal_price": 6051,
+        "promocode": 64,
+        "total_price": 6051,
+        "createdAt": "2022-11-14T13:14:52.723Z",
+        "updatedAt": "2022-10-26T23:28:12.343Z"
     },
     {
         "_id": 101,
@@ -2029,15 +2029,15 @@
             508,
             509
         ],
-        "shipping": 1522,
-        "payment": 855,
+        "shipping": 1551,
+        "payment": 1252,
         "status": 2,
         "history": 101,
-        "subtotal_price": 9855,
-        "promocode": 1334,
-        "total_price": 9855,
-        "createdAt": "2022-12-13T15:49:31.610Z",
-        "updatedAt": "2022-06-25T17:16:40.974Z"
+        "subtotal_price": 9056,
+        "promocode": 1494,
+        "total_price": 9056,
+        "createdAt": "2022-07-05T05:57:32.383Z",
+        "updatedAt": "2022-04-01T12:25:25.120Z"
     },
     {
         "_id": 102,
@@ -2049,15 +2049,15 @@
             513,
             514
         ],
-        "shipping": 1041,
-        "payment": 1961,
+        "shipping": 1889,
+        "payment": 492,
         "status": 0,
         "history": 102,
-        "subtotal_price": 7820,
-        "promocode": 1620,
-        "total_price": 7820,
-        "createdAt": "2022-12-06T11:52:25.252Z",
-        "updatedAt": "2023-01-13T18:34:11.228Z"
+        "subtotal_price": 6907,
+        "promocode": 1104,
+        "total_price": 6907,
+        "createdAt": "2022-04-04T11:25:41.816Z",
+        "updatedAt": "2022-06-05T06:11:46.129Z"
     },
     {
         "_id": 103,
@@ -2069,15 +2069,15 @@
             518,
             519
         ],
-        "shipping": 1888,
-        "payment": 1145,
+        "shipping": 722,
+        "payment": 716,
         "status": 0,
         "history": 103,
-        "subtotal_price": 7754,
-        "promocode": 340,
-        "total_price": 7754,
-        "createdAt": "2022-07-01T16:10:02.793Z",
-        "updatedAt": "2023-01-09T22:15:43.009Z"
+        "subtotal_price": 5544,
+        "promocode": 922,
+        "total_price": 5544,
+        "createdAt": "2022-10-10T03:50:28.177Z",
+        "updatedAt": "2022-12-01T00:59:01.833Z"
     },
     {
         "_id": 104,
@@ -2089,15 +2089,15 @@
             523,
             524
         ],
-        "shipping": 1569,
-        "payment": 1593,
-        "status": 0,
+        "shipping": 351,
+        "payment": 719,
+        "status": 1,
         "history": 104,
-        "subtotal_price": 12725,
-        "promocode": 785,
-        "total_price": 12725,
-        "createdAt": "2022-10-06T00:03:39.854Z",
-        "updatedAt": "2022-09-05T18:02:58.261Z"
+        "subtotal_price": 5506,
+        "promocode": 778,
+        "total_price": 5506,
+        "createdAt": "2023-01-25T08:48:41.425Z",
+        "updatedAt": "2022-10-25T10:18:02.612Z"
     },
     {
         "_id": 105,
@@ -2109,15 +2109,15 @@
             528,
             529
         ],
-        "shipping": 1690,
-        "payment": 658,
-        "status": 0,
+        "shipping": 408,
+        "payment": 356,
+        "status": 1,
         "history": 105,
-        "subtotal_price": 6449,
-        "promocode": 1757,
-        "total_price": 6449,
-        "createdAt": "2022-09-28T03:32:02.945Z",
-        "updatedAt": "2022-11-18T13:22:07.494Z"
+        "subtotal_price": 8378,
+        "promocode": 1124,
+        "total_price": 8378,
+        "createdAt": "2022-10-30T16:51:03.338Z",
+        "updatedAt": "2022-06-29T01:28:31.272Z"
     },
     {
         "_id": 106,
@@ -2129,15 +2129,15 @@
             533,
             534
         ],
-        "shipping": 224,
-        "payment": 1395,
+        "shipping": 1946,
+        "payment": 422,
         "status": 0,
         "history": 106,
-        "subtotal_price": 7902,
-        "promocode": 1394,
-        "total_price": 7902,
-        "createdAt": "2022-04-07T19:09:17.753Z",
-        "updatedAt": "2022-04-03T13:17:19.944Z"
+        "subtotal_price": 6363,
+        "promocode": 1341,
+        "total_price": 6363,
+        "createdAt": "2023-01-08T16:08:03.320Z",
+        "updatedAt": "2022-07-31T18:45:01.948Z"
     },
     {
         "_id": 107,
@@ -2149,15 +2149,15 @@
             538,
             539
         ],
-        "shipping": 625,
-        "payment": 930,
-        "status": 1,
+        "shipping": 88,
+        "payment": 1987,
+        "status": 0,
         "history": 107,
-        "subtotal_price": 8691,
-        "promocode": 782,
-        "total_price": 8691,
-        "createdAt": "2022-06-12T16:05:07.705Z",
-        "updatedAt": "2022-05-31T04:00:55.810Z"
+        "subtotal_price": 13693,
+        "promocode": 48,
+        "total_price": 13693,
+        "createdAt": "2022-11-07T10:21:18.307Z",
+        "updatedAt": "2022-08-31T13:26:07.800Z"
     },
     {
         "_id": 108,
@@ -2169,15 +2169,15 @@
             543,
             544
         ],
-        "shipping": 857,
-        "payment": 793,
+        "shipping": 1872,
+        "payment": 1875,
         "status": 0,
         "history": 108,
-        "subtotal_price": 8460,
-        "promocode": 105,
-        "total_price": 8460,
-        "createdAt": "2022-07-14T07:30:39.065Z",
-        "updatedAt": "2023-02-06T22:01:23.589Z"
+        "subtotal_price": 5426,
+        "promocode": 1027,
+        "total_price": 5426,
+        "createdAt": "2022-12-27T23:25:26.976Z",
+        "updatedAt": "2022-04-02T06:13:39.997Z"
     },
     {
         "_id": 109,
@@ -2189,15 +2189,15 @@
             548,
             549
         ],
-        "shipping": 34,
-        "payment": 789,
-        "status": 0,
+        "shipping": 782,
+        "payment": 880,
+        "status": 2,
         "history": 109,
-        "subtotal_price": 7638,
-        "promocode": 123,
-        "total_price": 7638,
-        "createdAt": "2022-07-04T18:54:08.274Z",
-        "updatedAt": "2022-07-21T04:20:24.640Z"
+        "subtotal_price": 6175,
+        "promocode": 1796,
+        "total_price": 6175,
+        "createdAt": "2023-02-17T00:34:56.896Z",
+        "updatedAt": "2022-09-26T06:47:00.461Z"
     },
     {
         "_id": 110,
@@ -2209,15 +2209,15 @@
             553,
             554
         ],
-        "shipping": 1477,
-        "payment": 933,
+        "shipping": 1416,
+        "payment": 1423,
         "status": 1,
         "history": 110,
-        "subtotal_price": 7753,
-        "promocode": 584,
-        "total_price": 7753,
-        "createdAt": "2022-10-22T19:54:23.651Z",
-        "updatedAt": "2023-03-02T20:59:08.351Z"
+        "subtotal_price": 3622,
+        "promocode": 327,
+        "total_price": 3622,
+        "createdAt": "2022-09-02T17:06:03.884Z",
+        "updatedAt": "2022-05-25T05:36:23.742Z"
     },
     {
         "_id": 111,
@@ -2229,15 +2229,15 @@
             558,
             559
         ],
-        "shipping": 1168,
-        "payment": 1290,
+        "shipping": 37,
+        "payment": 1463,
         "status": 1,
         "history": 111,
-        "subtotal_price": 8423,
-        "promocode": 703,
-        "total_price": 8423,
-        "createdAt": "2022-08-01T10:45:23.759Z",
-        "updatedAt": "2022-12-19T03:07:10.308Z"
+        "subtotal_price": 16113,
+        "promocode": 1890,
+        "total_price": 16113,
+        "createdAt": "2023-01-24T21:34:19.740Z",
+        "updatedAt": "2023-01-03T20:08:42.881Z"
     },
     {
         "_id": 112,
@@ -2249,15 +2249,15 @@
             563,
             564
         ],
-        "shipping": 502,
-        "payment": 805,
-        "status": 1,
+        "shipping": 183,
+        "payment": 1733,
+        "status": 0,
         "history": 112,
-        "subtotal_price": 9646,
-        "promocode": 1929,
-        "total_price": 9646,
-        "createdAt": "2022-03-30T20:31:44.306Z",
-        "updatedAt": "2022-10-28T20:29:36.275Z"
+        "subtotal_price": 6828,
+        "promocode": 1426,
+        "total_price": 6828,
+        "createdAt": "2022-07-26T15:54:20.757Z",
+        "updatedAt": "2022-07-06T02:17:49.486Z"
     },
     {
         "_id": 113,
@@ -2269,15 +2269,15 @@
             568,
             569
         ],
-        "shipping": 1130,
-        "payment": 1763,
-        "status": 1,
+        "shipping": 244,
+        "payment": 1207,
+        "status": 0,
         "history": 113,
-        "subtotal_price": 7734,
-        "promocode": 1263,
-        "total_price": 7734,
-        "createdAt": "2022-04-03T14:35:53.947Z",
-        "updatedAt": "2022-03-26T22:47:44.087Z"
+        "subtotal_price": 12067,
+        "promocode": 1208,
+        "total_price": 12067,
+        "createdAt": "2022-05-24T11:37:22.589Z",
+        "updatedAt": "2023-01-04T08:52:43.092Z"
     },
     {
         "_id": 114,
@@ -2289,15 +2289,15 @@
             573,
             574
         ],
-        "shipping": 133,
-        "payment": 1066,
-        "status": 1,
+        "shipping": 1335,
+        "payment": 1951,
+        "status": 0,
         "history": 114,
-        "subtotal_price": 7262,
-        "promocode": 1761,
-        "total_price": 7262,
-        "createdAt": "2023-01-19T14:07:46.435Z",
-        "updatedAt": "2022-10-28T04:50:42.133Z"
+        "subtotal_price": 6643,
+        "promocode": 926,
+        "total_price": 6643,
+        "createdAt": "2022-12-20T11:45:59.536Z",
+        "updatedAt": "2022-06-30T11:18:56.755Z"
     },
     {
         "_id": 115,
@@ -2309,15 +2309,15 @@
             578,
             579
         ],
-        "shipping": 485,
-        "payment": 1027,
-        "status": 0,
+        "shipping": 1710,
+        "payment": 999,
+        "status": 1,
         "history": 115,
-        "subtotal_price": 7812,
-        "promocode": 710,
-        "total_price": 7812,
-        "createdAt": "2022-11-15T01:56:37.095Z",
-        "updatedAt": "2022-06-24T09:16:24.143Z"
+        "subtotal_price": 9089,
+        "promocode": 1372,
+        "total_price": 9089,
+        "createdAt": "2023-03-07T16:20:19.289Z",
+        "updatedAt": "2022-05-06T16:57:52.301Z"
     },
     {
         "_id": 116,
@@ -2329,15 +2329,15 @@
             583,
             584
         ],
-        "shipping": 1207,
-        "payment": 414,
+        "shipping": 1974,
+        "payment": 1533,
         "status": 1,
         "history": 116,
-        "subtotal_price": 5659,
-        "promocode": 297,
-        "total_price": 5659,
-        "createdAt": "2022-11-14T08:26:23.607Z",
-        "updatedAt": "2022-05-23T02:15:44.828Z"
+        "subtotal_price": 7570,
+        "promocode": 262,
+        "total_price": 7570,
+        "createdAt": "2022-08-18T14:37:33.078Z",
+        "updatedAt": "2022-10-22T22:29:30.242Z"
     },
     {
         "_id": 117,
@@ -2349,15 +2349,15 @@
             588,
             589
         ],
-        "shipping": 1108,
-        "payment": 446,
-        "status": 0,
+        "shipping": 1920,
+        "payment": 147,
+        "status": 1,
         "history": 117,
-        "subtotal_price": 5930,
-        "promocode": 70,
-        "total_price": 5930,
-        "createdAt": "2022-03-21T15:44:02.937Z",
-        "updatedAt": "2022-04-19T17:51:55.188Z"
+        "subtotal_price": 8173,
+        "promocode": 1453,
+        "total_price": 8173,
+        "createdAt": "2022-03-11T15:53:31.718Z",
+        "updatedAt": "2023-02-08T09:19:32.614Z"
     },
     {
         "_id": 118,
@@ -2369,15 +2369,15 @@
             593,
             594
         ],
-        "shipping": 1456,
-        "payment": 1286,
+        "shipping": 373,
+        "payment": 892,
         "status": 1,
         "history": 118,
-        "subtotal_price": 10944,
-        "promocode": 547,
-        "total_price": 10944,
-        "createdAt": "2022-06-24T10:45:46.472Z",
-        "updatedAt": "2022-06-27T11:42:19.953Z"
+        "subtotal_price": 7121,
+        "promocode": 889,
+        "total_price": 7121,
+        "createdAt": "2022-12-20T10:22:17.050Z",
+        "updatedAt": "2022-08-23T17:24:10.666Z"
     },
     {
         "_id": 119,
@@ -2389,15 +2389,15 @@
             598,
             599
         ],
-        "shipping": 580,
-        "payment": 1147,
+        "shipping": 1162,
+        "payment": 1121,
         "status": 0,
         "history": 119,
-        "subtotal_price": 7318,
-        "promocode": 1264,
-        "total_price": 7318,
-        "createdAt": "2022-05-07T16:25:46.526Z",
-        "updatedAt": "2023-01-12T07:52:40.173Z"
+        "subtotal_price": 7732,
+        "promocode": 1551,
+        "total_price": 7732,
+        "createdAt": "2022-09-30T12:20:11.932Z",
+        "updatedAt": "2022-12-04T04:04:52.944Z"
     },
     {
         "_id": 120,
@@ -2409,15 +2409,15 @@
             603,
             604
         ],
-        "shipping": 186,
-        "payment": 804,
-        "status": 0,
+        "shipping": 536,
+        "payment": 1114,
+        "status": 1,
         "history": 120,
-        "subtotal_price": 14107,
-        "promocode": 1310,
-        "total_price": 14107,
-        "createdAt": "2022-08-07T07:55:34.886Z",
-        "updatedAt": "2022-04-01T14:56:17.840Z"
+        "subtotal_price": 7885,
+        "promocode": 353,
+        "total_price": 7885,
+        "createdAt": "2022-07-12T00:50:19.394Z",
+        "updatedAt": "2022-06-24T05:13:25.944Z"
     },
     {
         "_id": 121,
@@ -2429,15 +2429,15 @@
             608,
             609
         ],
-        "shipping": 513,
-        "payment": 1160,
+        "shipping": 440,
+        "payment": 1325,
         "status": 1,
         "history": 121,
-        "subtotal_price": 10035,
-        "promocode": 1966,
-        "total_price": 10035,
-        "createdAt": "2022-08-08T10:33:57.888Z",
-        "updatedAt": "2022-10-30T08:26:52.396Z"
+        "subtotal_price": 3352,
+        "promocode": 1398,
+        "total_price": 3352,
+        "createdAt": "2023-01-31T05:01:37.599Z",
+        "updatedAt": "2022-10-23T10:01:52.781Z"
     },
     {
         "_id": 122,
@@ -2449,15 +2449,15 @@
             613,
             614
         ],
-        "shipping": 1988,
-        "payment": 1969,
-        "status": 2,
+        "shipping": 879,
+        "payment": 1990,
+        "status": 0,
         "history": 122,
-        "subtotal_price": 3268,
-        "promocode": 1173,
-        "total_price": 3268,
-        "createdAt": "2022-03-29T11:23:01.838Z",
-        "updatedAt": "2022-08-30T11:10:05.957Z"
+        "subtotal_price": 7809,
+        "promocode": 652,
+        "total_price": 7809,
+        "createdAt": "2022-04-22T22:04:43.584Z",
+        "updatedAt": "2022-08-25T14:56:35.672Z"
     },
     {
         "_id": 123,
@@ -2469,15 +2469,15 @@
             618,
             619
         ],
-        "shipping": 1730,
-        "payment": 1237,
+        "shipping": 1506,
+        "payment": 1838,
         "status": 2,
         "history": 123,
-        "subtotal_price": 7661,
-        "promocode": 409,
-        "total_price": 7661,
-        "createdAt": "2022-08-16T01:30:44.693Z",
-        "updatedAt": "2023-01-29T10:57:19.298Z"
+        "subtotal_price": 10521,
+        "promocode": 1036,
+        "total_price": 10521,
+        "createdAt": "2023-02-26T07:00:47.598Z",
+        "updatedAt": "2022-09-13T06:02:30.556Z"
     },
     {
         "_id": 124,
@@ -2489,15 +2489,15 @@
             623,
             624
         ],
-        "shipping": 587,
-        "payment": 1643,
-        "status": 2,
+        "shipping": 631,
+        "payment": 1955,
+        "status": 1,
         "history": 124,
-        "subtotal_price": 7905,
-        "promocode": 532,
-        "total_price": 7905,
-        "createdAt": "2022-04-01T16:00:08.991Z",
-        "updatedAt": "2022-07-02T23:24:02.416Z"
+        "subtotal_price": 6799,
+        "promocode": 252,
+        "total_price": 6799,
+        "createdAt": "2022-10-29T07:40:56.616Z",
+        "updatedAt": "2022-11-01T03:11:49.502Z"
     },
     {
         "_id": 125,
@@ -2509,15 +2509,15 @@
             628,
             629
         ],
-        "shipping": 1093,
-        "payment": 892,
+        "shipping": 38,
+        "payment": 1073,
         "status": 0,
         "history": 125,
-        "subtotal_price": 7022,
-        "promocode": 348,
-        "total_price": 7022,
-        "createdAt": "2022-03-29T14:50:23.807Z",
-        "updatedAt": "2023-01-17T03:21:38.170Z"
+        "subtotal_price": 6790,
+        "promocode": 1533,
+        "total_price": 6790,
+        "createdAt": "2022-11-18T00:40:07.329Z",
+        "updatedAt": "2022-09-18T14:19:33.755Z"
     },
     {
         "_id": 126,
@@ -2529,15 +2529,15 @@
             633,
             634
         ],
-        "shipping": 36,
-        "payment": 375,
+        "shipping": 640,
+        "payment": 1318,
         "status": 1,
         "history": 126,
-        "subtotal_price": 10205,
-        "promocode": 1016,
-        "total_price": 10205,
-        "createdAt": "2022-04-29T21:38:26.195Z",
-        "updatedAt": "2022-08-11T17:27:00.137Z"
+        "subtotal_price": 13292,
+        "promocode": 908,
+        "total_price": 13292,
+        "createdAt": "2022-06-01T08:35:39.756Z",
+        "updatedAt": "2023-02-17T21:22:04.895Z"
     },
     {
         "_id": 127,
@@ -2549,15 +2549,15 @@
             638,
             639
         ],
-        "shipping": 1934,
-        "payment": 366,
-        "status": 1,
+        "shipping": 1344,
+        "payment": 613,
+        "status": 0,
         "history": 127,
-        "subtotal_price": 5934,
-        "promocode": 1184,
-        "total_price": 5934,
-        "createdAt": "2022-11-09T18:18:14.546Z",
-        "updatedAt": "2022-04-28T19:34:24.436Z"
+        "subtotal_price": 9540,
+        "promocode": 1058,
+        "total_price": 9540,
+        "createdAt": "2022-10-20T20:55:31.234Z",
+        "updatedAt": "2022-07-07T01:02:58.374Z"
     },
     {
         "_id": 128,
@@ -2569,15 +2569,15 @@
             643,
             644
         ],
-        "shipping": 201,
-        "payment": 1564,
-        "status": 0,
+        "shipping": 1368,
+        "payment": 137,
+        "status": 1,
         "history": 128,
-        "subtotal_price": 4893,
-        "promocode": 334,
-        "total_price": 4893,
-        "createdAt": "2022-08-30T06:55:00.984Z",
-        "updatedAt": "2022-12-12T14:36:00.694Z"
+        "subtotal_price": 9189,
+        "promocode": 1869,
+        "total_price": 9189,
+        "createdAt": "2022-08-04T17:27:41.245Z",
+        "updatedAt": "2022-12-04T12:47:26.200Z"
     },
     {
         "_id": 129,
@@ -2589,15 +2589,15 @@
             648,
             649
         ],
-        "shipping": 2000,
-        "payment": 284,
-        "status": 1,
+        "shipping": 523,
+        "payment": 203,
+        "status": 0,
         "history": 129,
-        "subtotal_price": 12824,
-        "promocode": 852,
-        "total_price": 12824,
-        "createdAt": "2022-08-11T13:52:04.348Z",
-        "updatedAt": "2022-06-08T09:08:11.334Z"
+        "subtotal_price": 6145,
+        "promocode": 201,
+        "total_price": 6145,
+        "createdAt": "2022-04-04T17:09:50.374Z",
+        "updatedAt": "2022-04-25T11:01:47.485Z"
     },
     {
         "_id": 130,
@@ -2609,15 +2609,15 @@
             653,
             654
         ],
-        "shipping": 203,
-        "payment": 1581,
-        "status": 0,
+        "shipping": 296,
+        "payment": 834,
+        "status": 2,
         "history": 130,
-        "subtotal_price": 4123,
-        "promocode": 276,
-        "total_price": 4123,
-        "createdAt": "2023-01-04T06:18:44.538Z",
-        "updatedAt": "2022-10-19T06:19:17.224Z"
+        "subtotal_price": 5218,
+        "promocode": 1069,
+        "total_price": 5218,
+        "createdAt": "2023-01-01T14:44:13.312Z",
+        "updatedAt": "2022-06-28T20:05:27.184Z"
     },
     {
         "_id": 131,
@@ -2629,15 +2629,15 @@
             658,
             659
         ],
-        "shipping": 223,
-        "payment": 921,
-        "status": 2,
+        "shipping": 66,
+        "payment": 1676,
+        "status": 1,
         "history": 131,
-        "subtotal_price": 3339,
-        "promocode": 1939,
-        "total_price": 3339,
-        "createdAt": "2022-09-02T00:41:19.700Z",
-        "updatedAt": "2022-07-12T18:35:54.995Z"
+        "subtotal_price": 6862,
+        "promocode": 1397,
+        "total_price": 6862,
+        "createdAt": "2022-09-05T17:33:27.806Z",
+        "updatedAt": "2023-02-21T21:05:00.469Z"
     },
     {
         "_id": 132,
@@ -2649,15 +2649,15 @@
             663,
             664
         ],
-        "shipping": 1802,
-        "payment": 1633,
+        "shipping": 1402,
+        "payment": 1172,
         "status": 2,
         "history": 132,
-        "subtotal_price": 4046,
-        "promocode": 66,
-        "total_price": 4046,
-        "createdAt": "2022-05-27T00:58:33.751Z",
-        "updatedAt": "2022-12-18T17:07:16.344Z"
+        "subtotal_price": 5474,
+        "promocode": 1158,
+        "total_price": 5474,
+        "createdAt": "2022-07-26T20:44:09.598Z",
+        "updatedAt": "2022-04-22T16:30:34.311Z"
     },
     {
         "_id": 133,
@@ -2669,15 +2669,15 @@
             668,
             669
         ],
-        "shipping": 1151,
-        "payment": 1010,
+        "shipping": 559,
+        "payment": 1536,
         "status": 1,
         "history": 133,
-        "subtotal_price": 4918,
-        "promocode": 1446,
-        "total_price": 4918,
-        "createdAt": "2022-10-09T02:52:34.169Z",
-        "updatedAt": "2022-06-01T06:43:19.649Z"
+        "subtotal_price": 4703,
+        "promocode": 1092,
+        "total_price": 4703,
+        "createdAt": "2022-09-26T03:31:38.673Z",
+        "updatedAt": "2023-02-08T11:59:30.242Z"
     },
     {
         "_id": 134,
@@ -2689,15 +2689,15 @@
             673,
             674
         ],
-        "shipping": 1818,
-        "payment": 1740,
+        "shipping": 95,
+        "payment": 196,
         "status": 1,
         "history": 134,
-        "subtotal_price": 7167,
-        "promocode": 1955,
-        "total_price": 7167,
-        "createdAt": "2022-07-02T00:47:17.655Z",
-        "updatedAt": "2022-11-23T11:46:24.733Z"
+        "subtotal_price": 9253,
+        "promocode": 1623,
+        "total_price": 9253,
+        "createdAt": "2022-05-25T21:59:53.127Z",
+        "updatedAt": "2022-10-26T15:57:40.552Z"
     },
     {
         "_id": 135,
@@ -2709,15 +2709,15 @@
             678,
             679
         ],
-        "shipping": 714,
-        "payment": 751,
-        "status": 2,
+        "shipping": 1521,
+        "payment": 1389,
+        "status": 0,
         "history": 135,
-        "subtotal_price": 7394,
-        "promocode": 1190,
-        "total_price": 7394,
-        "createdAt": "2022-09-03T09:06:49.867Z",
-        "updatedAt": "2022-12-12T18:47:24.672Z"
+        "subtotal_price": 9502,
+        "promocode": 436,
+        "total_price": 9502,
+        "createdAt": "2022-12-18T15:38:05.691Z",
+        "updatedAt": "2022-05-17T23:25:16.833Z"
     },
     {
         "_id": 136,
@@ -2729,15 +2729,15 @@
             683,
             684
         ],
-        "shipping": 938,
-        "payment": 1924,
-        "status": 2,
+        "shipping": 372,
+        "payment": 472,
+        "status": 1,
         "history": 136,
-        "subtotal_price": 6988,
-        "promocode": 1666,
-        "total_price": 6988,
-        "createdAt": "2022-11-15T06:45:28.334Z",
-        "updatedAt": "2022-12-14T11:25:30.433Z"
+        "subtotal_price": 5208,
+        "promocode": 1165,
+        "total_price": 5208,
+        "createdAt": "2022-03-24T17:09:24.951Z",
+        "updatedAt": "2022-09-22T01:34:23.869Z"
     },
     {
         "_id": 137,
@@ -2749,15 +2749,15 @@
             688,
             689
         ],
-        "shipping": 306,
-        "payment": 426,
-        "status": 0,
+        "shipping": 1526,
+        "payment": 1503,
+        "status": 1,
         "history": 137,
-        "subtotal_price": 5636,
-        "promocode": 238,
-        "total_price": 5636,
-        "createdAt": "2023-02-14T01:18:07.656Z",
-        "updatedAt": "2023-01-01T15:02:09.699Z"
+        "subtotal_price": 7554,
+        "promocode": 1892,
+        "total_price": 7554,
+        "createdAt": "2023-02-02T05:18:01.529Z",
+        "updatedAt": "2022-08-10T21:39:34.318Z"
     },
     {
         "_id": 138,
@@ -2769,15 +2769,15 @@
             693,
             694
         ],
-        "shipping": 139,
-        "payment": 688,
+        "shipping": 1682,
+        "payment": 1100,
         "status": 2,
         "history": 138,
-        "subtotal_price": 7147,
-        "promocode": 1763,
-        "total_price": 7147,
-        "createdAt": "2023-02-13T23:10:33.220Z",
-        "updatedAt": "2022-11-10T12:00:02.860Z"
+        "subtotal_price": 13985,
+        "promocode": 439,
+        "total_price": 13985,
+        "createdAt": "2023-02-19T20:44:51.402Z",
+        "updatedAt": "2022-07-23T10:22:41.671Z"
     },
     {
         "_id": 139,
@@ -2789,15 +2789,15 @@
             698,
             699
         ],
-        "shipping": 766,
-        "payment": 178,
+        "shipping": 1260,
+        "payment": 1756,
         "status": 1,
         "history": 139,
-        "subtotal_price": 7735,
-        "promocode": 18,
-        "total_price": 7735,
-        "createdAt": "2022-04-10T17:45:52.530Z",
-        "updatedAt": "2022-08-04T14:00:14.657Z"
+        "subtotal_price": 9762,
+        "promocode": 1083,
+        "total_price": 9762,
+        "createdAt": "2023-03-10T02:56:55.446Z",
+        "updatedAt": "2022-05-27T02:18:18.266Z"
     },
     {
         "_id": 140,
@@ -2809,15 +2809,15 @@
             703,
             704
         ],
-        "shipping": 413,
-        "payment": 1284,
-        "status": 1,
+        "shipping": 1705,
+        "payment": 1959,
+        "status": 0,
         "history": 140,
-        "subtotal_price": 8766,
-        "promocode": 96,
-        "total_price": 8766,
-        "createdAt": "2022-10-01T04:32:25.214Z",
-        "updatedAt": "2022-07-27T06:47:44.888Z"
+        "subtotal_price": 8091,
+        "promocode": 845,
+        "total_price": 8091,
+        "createdAt": "2022-06-17T05:15:33.466Z",
+        "updatedAt": "2023-03-02T13:30:14.077Z"
     },
     {
         "_id": 141,
@@ -2829,15 +2829,15 @@
             708,
             709
         ],
-        "shipping": 1896,
-        "payment": 1912,
-        "status": 0,
+        "shipping": 1055,
+        "payment": 1239,
+        "status": 2,
         "history": 141,
-        "subtotal_price": 11434,
-        "promocode": 87,
-        "total_price": 11434,
-        "createdAt": "2023-01-18T07:46:34.586Z",
-        "updatedAt": "2022-12-11T00:54:02.157Z"
+        "subtotal_price": 8810,
+        "promocode": 685,
+        "total_price": 8810,
+        "createdAt": "2022-06-04T00:38:44.689Z",
+        "updatedAt": "2022-05-15T09:21:24.716Z"
     },
     {
         "_id": 142,
@@ -2849,15 +2849,15 @@
             713,
             714
         ],
-        "shipping": 1981,
-        "payment": 413,
+        "shipping": 57,
+        "payment": 1105,
         "status": 0,
         "history": 142,
-        "subtotal_price": 7260,
-        "promocode": 98,
-        "total_price": 7260,
-        "createdAt": "2022-03-15T03:36:58.270Z",
-        "updatedAt": "2023-02-03T13:17:47.637Z"
+        "subtotal_price": 7669,
+        "promocode": 1097,
+        "total_price": 7669,
+        "createdAt": "2022-08-17T01:19:46.399Z",
+        "updatedAt": "2022-07-10T09:33:29.356Z"
     },
     {
         "_id": 143,
@@ -2869,15 +2869,15 @@
             718,
             719
         ],
-        "shipping": 206,
-        "payment": 1637,
+        "shipping": 788,
+        "payment": 1022,
         "status": 0,
         "history": 143,
-        "subtotal_price": 5493,
-        "promocode": 1095,
-        "total_price": 5493,
-        "createdAt": "2022-11-25T20:21:56.731Z",
-        "updatedAt": "2022-04-04T05:07:38.493Z"
+        "subtotal_price": 9228,
+        "promocode": 1539,
+        "total_price": 9228,
+        "createdAt": "2022-05-29T23:55:02.881Z",
+        "updatedAt": "2023-01-25T06:06:08.725Z"
     },
     {
         "_id": 144,
@@ -2889,15 +2889,15 @@
             723,
             724
         ],
-        "shipping": 1879,
-        "payment": 34,
+        "shipping": 1788,
+        "payment": 350,
         "status": 1,
         "history": 144,
-        "subtotal_price": 6522,
-        "promocode": 110,
-        "total_price": 6522,
-        "createdAt": "2022-10-09T08:02:23.185Z",
-        "updatedAt": "2022-07-23T20:52:03.258Z"
+        "subtotal_price": 9424,
+        "promocode": 252,
+        "total_price": 9424,
+        "createdAt": "2022-03-15T11:45:19.710Z",
+        "updatedAt": "2022-04-14T23:44:22.843Z"
     },
     {
         "_id": 145,
@@ -2909,15 +2909,15 @@
             728,
             729
         ],
-        "shipping": 1001,
-        "payment": 41,
-        "status": 1,
+        "shipping": 1975,
+        "payment": 1959,
+        "status": 0,
         "history": 145,
-        "subtotal_price": 11702,
-        "promocode": 1514,
-        "total_price": 11702,
-        "createdAt": "2022-09-24T19:12:03.584Z",
-        "updatedAt": "2023-03-06T08:09:32.203Z"
+        "subtotal_price": 4836,
+        "promocode": 1521,
+        "total_price": 4836,
+        "createdAt": "2022-09-09T19:20:16.210Z",
+        "updatedAt": "2023-02-26T19:04:17.007Z"
     },
     {
         "_id": 146,
@@ -2929,15 +2929,15 @@
             733,
             734
         ],
-        "shipping": 72,
-        "payment": 1497,
+        "shipping": 59,
+        "payment": 849,
         "status": 0,
         "history": 146,
-        "subtotal_price": 11688,
-        "promocode": 33,
-        "total_price": 11688,
-        "createdAt": "2022-07-24T19:32:02.590Z",
-        "updatedAt": "2022-09-21T22:22:55.381Z"
+        "subtotal_price": 12051,
+        "promocode": 1549,
+        "total_price": 12051,
+        "createdAt": "2022-07-10T00:28:39.258Z",
+        "updatedAt": "2022-11-17T00:22:57.669Z"
     },
     {
         "_id": 147,
@@ -2949,15 +2949,15 @@
             738,
             739
         ],
-        "shipping": 1324,
-        "payment": 351,
-        "status": 0,
+        "shipping": 1680,
+        "payment": 108,
+        "status": 2,
         "history": 147,
-        "subtotal_price": 6055,
-        "promocode": 1787,
-        "total_price": 6055,
-        "createdAt": "2022-12-26T10:43:36.868Z",
-        "updatedAt": "2023-01-04T18:52:10.881Z"
+        "subtotal_price": 8506,
+        "promocode": 997,
+        "total_price": 8506,
+        "createdAt": "2022-04-05T12:08:36.378Z",
+        "updatedAt": "2022-03-24T00:04:02.727Z"
     },
     {
         "_id": 148,
@@ -2969,15 +2969,15 @@
             743,
             744
         ],
-        "shipping": 1332,
-        "payment": 1128,
-        "status": 0,
+        "shipping": 302,
+        "payment": 410,
+        "status": 2,
         "history": 148,
-        "subtotal_price": 6313,
-        "promocode": 1919,
-        "total_price": 6313,
-        "createdAt": "2022-11-24T17:42:59.563Z",
-        "updatedAt": "2022-12-24T14:36:39.376Z"
+        "subtotal_price": 8423,
+        "promocode": 1483,
+        "total_price": 8423,
+        "createdAt": "2022-09-11T07:54:05.043Z",
+        "updatedAt": "2022-06-04T01:03:12.449Z"
     },
     {
         "_id": 149,
@@ -2989,14 +2989,14 @@
             748,
             749
         ],
-        "shipping": 1098,
-        "payment": 650,
+        "shipping": 167,
+        "payment": 716,
         "status": 1,
         "history": 149,
-        "subtotal_price": 6154,
-        "promocode": 1209,
-        "total_price": 6154,
-        "createdAt": "2022-04-27T15:23:26.400Z",
-        "updatedAt": "2022-08-05T14:03:10.298Z"
+        "subtotal_price": 5078,
+        "promocode": 1388,
+        "total_price": 5078,
+        "createdAt": "2022-08-05T00:56:54.420Z",
+        "updatedAt": "2022-10-31T11:17:49.569Z"
     }
 ]
