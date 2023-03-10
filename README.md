@@ -398,6 +398,17 @@ history: [{
 }],
 ```
 
+#### Returns
+  
+```javascript
+_id: ObjectId,
+order:ObjectId,
+order_item: ObjectId,
+request_status: String,
+res_date: Date,
+createdAt: Date,
+```
+
 #### order_status
 
 ```javascript
