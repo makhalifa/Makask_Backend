@@ -473,8 +473,8 @@
             467
         ],
         "name": "Sweatshirts",
-        "createdAt": "2023-02-07T19:58:45.578Z",
-        "updatedAt": "2022-04-03T04:32:09.374Z"
+        "createdAt": "2023-01-17T06:23:17.370Z",
+        "updatedAt": "2022-04-29T07:49:16.551Z"
     },
     {
         "_id": 1,
@@ -1016,20 +1016,20 @@
             1999
         ],
         "name": "T-Shirts",
-        "createdAt": "2022-10-05T04:14:28.808Z",
-        "updatedAt": "2022-11-14T15:24:55.998Z"
+        "createdAt": "2022-06-20T22:49:20.432Z",
+        "updatedAt": "2023-02-21T07:39:33.523Z"
     },
     {
         "_id": 2,
-        "category": 0,
+        "category": 1,
         "products": [],
         "name": "Shirts",
-        "createdAt": "2022-07-18T23:45:35.777Z",
-        "updatedAt": "2023-02-15T15:32:10.196Z"
+        "createdAt": "2022-05-31T07:46:25.353Z",
+        "updatedAt": "2022-04-13T07:52:07.485Z"
     },
     {
         "_id": 3,
-        "category": 0,
+        "category": 1,
         "products": [
             1008,
             1009,
@@ -1491,20 +1491,20 @@
             1465
         ],
         "name": "Pants",
-        "createdAt": "2022-07-05T01:11:43.542Z",
-        "updatedAt": "2022-06-02T18:48:29.320Z"
+        "createdAt": "2022-10-31T22:40:11.356Z",
+        "updatedAt": "2022-06-17T12:22:34.610Z"
     },
     {
         "_id": 4,
-        "category": 1,
+        "category": 0,
         "products": [],
         "name": "Shorts",
-        "createdAt": "2023-01-05T00:00:03.642Z",
-        "updatedAt": "2022-07-03T03:27:31.420Z"
+        "createdAt": "2022-11-19T18:14:49.461Z",
+        "updatedAt": "2022-07-05T01:33:53.119Z"
     },
     {
         "_id": 5,
-        "category": 0,
+        "category": 1,
         "products": [
             468,
             469,
@@ -2048,39 +2048,39 @@
             1007
         ],
         "name": "Jackets",
-        "createdAt": "2022-03-30T21:18:42.626Z",
-        "updatedAt": "2022-12-05T14:39:19.078Z"
+        "createdAt": "2023-01-17T17:47:07.889Z",
+        "updatedAt": "2022-06-05T19:21:42.751Z"
     },
     {
         "_id": 6,
         "category": 1,
         "products": [],
         "name": "Suits",
-        "createdAt": "2023-03-09T11:15:02.438Z",
-        "updatedAt": "2022-09-28T08:58:33.771Z"
+        "createdAt": "2022-03-17T12:14:13.596Z",
+        "updatedAt": "2023-03-09T06:21:01.885Z"
     },
     {
         "_id": 7,
-        "category": 1,
+        "category": 0,
         "products": [],
         "name": "Dresses",
-        "createdAt": "2022-07-24T21:08:19.956Z",
-        "updatedAt": "2022-03-20T18:01:35.652Z"
+        "createdAt": "2022-09-29T22:47:21.622Z",
+        "updatedAt": "2022-04-04T11:12:07.355Z"
     },
     {
         "_id": 8,
         "category": 1,
         "products": [],
         "name": "Skirts",
-        "createdAt": "2022-11-17T02:11:12.150Z",
-        "updatedAt": "2022-04-13T13:10:31.680Z"
+        "createdAt": "2023-03-08T19:29:11.375Z",
+        "updatedAt": "2022-10-08T13:48:34.711Z"
     },
     {
         "_id": 9,
         "category": 0,
         "products": [],
         "name": "Jeans",
-        "createdAt": "2022-09-14T13:34:02.578Z",
-        "updatedAt": "2022-07-16T01:56:28.222Z"
+        "createdAt": "2022-09-04T08:11:51.642Z",
+        "updatedAt": "2022-10-02T00:00:30.628Z"
     }
 ]
