@@ -1,1 +1,72 @@
-[{"_id":0,"name":"plum","hex":"#ef796c","createdAt":"2022-08-04T17:41:40.700Z","updatedAt":"2022-09-19T23:00:48.126Z"},{"_id":1,"name":"pink","hex":"#a84bae","createdAt":"2023-03-01T22:13:14.152Z","updatedAt":"2022-03-14T14:39:10.148Z"},{"_id":2,"name":"ivory","hex":"#268e1e","createdAt":"2022-04-08T21:48:32.329Z","updatedAt":"2022-03-31T17:17:37.857Z"},{"_id":3,"name":"maroon","hex":"#a0b4bd","createdAt":"2022-07-08T06:47:08.013Z","updatedAt":"2023-03-06T21:33:24.643Z"},{"_id":4,"name":"silver","hex":"#861c67","createdAt":"2023-01-15T18:24:19.909Z","updatedAt":"2022-08-08T11:42:37.893Z"},{"_id":5,"name":"teal","hex":"#d8d4b8","createdAt":"2022-03-12T20:41:45.704Z","updatedAt":"2022-08-20T02:37:35.292Z"},{"_id":6,"name":"azure","hex":"#c0fbbf","createdAt":"2022-12-22T16:15:11.836Z","updatedAt":"2022-11-26T20:51:12.140Z"},{"_id":7,"name":"turquoise","hex":"#cbe46a","createdAt":"2022-07-16T10:56:43.494Z","updatedAt":"2022-04-23T07:39:06.683Z"},{"_id":8,"name":"red","hex":"#fff6d4","createdAt":"2023-02-14T01:25:46.761Z","updatedAt":"2023-03-08T04:13:25.086Z"},{"_id":9,"name":"magenta","hex":"#ae6b2e","createdAt":"2022-05-28T17:12:25.193Z","updatedAt":"2022-10-13T00:39:43.757Z"}]
+[
+    {
+        "_id": 0,
+        "name": "plum",
+        "hex": "#ef796c",
+        "createdAt": "2022-08-04T17:41:40.700Z",
+        "updatedAt": "2022-09-19T23:00:48.126Z"
+    },
+    {
+        "_id": 1,
+        "name": "pink",
+        "hex": "#a84bae",
+        "createdAt": "2023-03-01T22:13:14.152Z",
+        "updatedAt": "2022-03-14T14:39:10.148Z"
+    },
+    {
+        "_id": 2,
+        "name": "ivory",
+        "hex": "#268e1e",
+        "createdAt": "2022-04-08T21:48:32.329Z",
+        "updatedAt": "2022-03-31T17:17:37.857Z"
+    },
+    {
+        "_id": 3,
+        "name": "maroon",
+        "hex": "#a0b4bd",
+        "createdAt": "2022-07-08T06:47:08.013Z",
+        "updatedAt": "2023-03-06T21:33:24.643Z"
+    },
+    {
+        "_id": 4,
+        "name": "silver",
+        "hex": "#861c67",
+        "createdAt": "2023-01-15T18:24:19.909Z",
+        "updatedAt": "2022-08-08T11:42:37.893Z"
+    },
+    {
+        "_id": 5,
+        "name": "teal",
+        "hex": "#d8d4b8",
+        "createdAt": "2022-03-12T20:41:45.704Z",
+        "updatedAt": "2022-08-20T02:37:35.292Z"
+    },
+    {
+        "_id": 6,
+        "name": "azure",
+        "hex": "#c0fbbf",
+        "createdAt": "2022-12-22T16:15:11.836Z",
+        "updatedAt": "2022-11-26T20:51:12.140Z"
+    },
+    {
+        "_id": 7,
+        "name": "turquoise",
+        "hex": "#cbe46a",
+        "createdAt": "2022-07-16T10:56:43.494Z",
+        "updatedAt": "2022-04-23T07:39:06.683Z"
+    },
+    {
+        "_id": 8,
+        "name": "red",
+        "hex": "#fff6d4",
+        "createdAt": "2023-02-14T01:25:46.761Z",
+        "updatedAt": "2023-03-08T04:13:25.086Z"
+    },
+    {
+        "_id": 9,
+        "name": "magenta",
+        "hex": "#ae6b2e",
+        "createdAt": "2022-05-28T17:12:25.193Z",
+        "updatedAt": "2022-10-13T00:39:43.757Z"
+    }
+]
