@@ -9,10 +9,8 @@
             3,
             4
         ],
-        "createdAt": "2022-06-02T03:35:08.858Z",
-        "updatedAt": "2023-01-17T08:18:07.354Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2023-01-02T09:45:44.889Z",
+        "updatedAt": "2022-07-06T15:56:06.350Z"
     },
     {
         "_id": 1,
@@ -24,10 +22,8 @@
             8,
             9
         ],
-        "createdAt": "2022-08-24T03:54:10.360Z",
-        "updatedAt": "2022-04-24T23:05:53.627Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2023-01-11T15:39:02.179Z",
+        "updatedAt": "2022-12-09T03:34:03.440Z"
     },
     {
         "_id": 2,
@@ -39,10 +35,8 @@
             13,
             14
         ],
-        "createdAt": "2022-03-25T04:43:32.954Z",
-        "updatedAt": "2022-04-16T19:31:41.016Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-07-16T10:21:12.012Z",
+        "updatedAt": "2023-02-04T11:26:41.323Z"
     },
     {
         "_id": 3,
@@ -54,10 +48,8 @@
             18,
             19
         ],
-        "createdAt": "2022-12-07T12:57:35.077Z",
-        "updatedAt": "2022-03-18T13:26:32.308Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-09-16T00:07:52.321Z",
+        "updatedAt": "2022-10-16T19:27:56.268Z"
     },
     {
         "_id": 4,
@@ -69,10 +61,8 @@
             23,
             24
         ],
-        "createdAt": "2022-10-30T01:17:15.548Z",
-        "updatedAt": "2023-02-03T12:10:29.433Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-06-28T10:05:04.177Z",
+        "updatedAt": "2022-10-13T14:09:48.797Z"
     },
     {
         "_id": 5,
@@ -84,10 +74,8 @@
             28,
             29
         ],
-        "createdAt": "2022-03-27T01:29:45.266Z",
-        "updatedAt": "2022-03-11T22:41:20.578Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-11-30T13:39:07.735Z",
+        "updatedAt": "2022-04-07T08:39:16.141Z"
     },
     {
         "_id": 6,
@@ -99,10 +87,8 @@
             33,
             34
         ],
-        "createdAt": "2022-11-20T10:25:51.596Z",
-        "updatedAt": "2023-01-25T05:39:49.597Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-12-11T08:12:19.774Z",
+        "updatedAt": "2022-05-06T15:05:01.458Z"
     },
     {
         "_id": 7,
@@ -114,10 +100,8 @@
             38,
             39
         ],
-        "createdAt": "2022-05-30T17:54:22.739Z",
-        "updatedAt": "2023-01-29T16:40:00.800Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2023-02-26T15:49:18.022Z",
+        "updatedAt": "2022-06-27T14:28:54.811Z"
     },
     {
         "_id": 8,
@@ -129,10 +113,8 @@
             43,
             44
         ],
-        "createdAt": "2022-10-26T06:04:00.422Z",
-        "updatedAt": "2023-03-09T02:40:25.441Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2023-02-24T01:05:24.436Z",
+        "updatedAt": "2023-03-04T18:14:43.043Z"
     },
     {
         "_id": 9,
@@ -144,10 +126,8 @@
             48,
             49
         ],
-        "createdAt": "2022-04-16T12:18:48.203Z",
-        "updatedAt": "2022-09-09T13:47:15.757Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-09-14T01:19:11.940Z",
+        "updatedAt": "2022-12-24T18:36:02.329Z"
     },
     {
         "_id": 10,
@@ -159,10 +139,8 @@
             53,
             54
         ],
-        "createdAt": "2022-05-03T16:44:00.809Z",
-        "updatedAt": "2023-02-12T03:02:53.778Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-12-10T12:27:39.529Z",
+        "updatedAt": "2022-07-21T21:07:53.772Z"
     },
     {
         "_id": 11,
@@ -174,10 +152,8 @@
             58,
             59
         ],
-        "createdAt": "2023-02-18T10:25:58.458Z",
-        "updatedAt": "2022-04-25T03:07:50.613Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-05-25T07:39:41.811Z",
+        "updatedAt": "2022-06-12T13:08:47.645Z"
     },
     {
         "_id": 12,
@@ -189,10 +165,8 @@
             63,
             64
         ],
-        "createdAt": "2022-05-16T07:32:13.465Z",
-        "updatedAt": "2022-04-27T01:58:42.676Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-08-06T22:14:06.289Z",
+        "updatedAt": "2022-08-25T14:37:06.053Z"
     },
     {
         "_id": 13,
@@ -204,10 +178,8 @@
             68,
             69
         ],
-        "createdAt": "2022-03-28T16:03:04.824Z",
-        "updatedAt": "2022-04-25T03:41:38.294Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-10-23T15:38:35.708Z",
+        "updatedAt": "2022-10-22T00:51:32.133Z"
     },
     {
         "_id": 14,
@@ -219,10 +191,8 @@
             73,
             74
         ],
-        "createdAt": "2022-03-28T14:43:55.723Z",
-        "updatedAt": "2022-10-27T04:56:59.584Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-10-22T03:51:03.620Z",
+        "updatedAt": "2022-06-04T23:14:31.009Z"
     },
     {
         "_id": 15,
@@ -234,10 +204,8 @@
             78,
             79
         ],
-        "createdAt": "2022-12-31T09:23:45.507Z",
-        "updatedAt": "2022-10-09T11:25:18.242Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-12-30T15:24:18.421Z",
+        "updatedAt": "2023-02-03T23:40:29.628Z"
     },
     {
         "_id": 16,
@@ -249,10 +217,8 @@
             83,
             84
         ],
-        "createdAt": "2022-12-08T13:28:03.796Z",
-        "updatedAt": "2022-10-19T05:50:21.768Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2023-02-27T01:17:34.637Z",
+        "updatedAt": "2022-10-05T22:39:44.379Z"
     },
     {
         "_id": 17,
@@ -264,10 +230,8 @@
             88,
             89
         ],
-        "createdAt": "2022-07-18T15:05:28.725Z",
-        "updatedAt": "2022-03-13T22:21:41.628Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2023-02-14T23:31:07.089Z",
+        "updatedAt": "2022-07-07T00:45:08.334Z"
     },
     {
         "_id": 18,
@@ -279,10 +243,8 @@
             93,
             94
         ],
-        "createdAt": "2022-04-05T00:20:09.226Z",
-        "updatedAt": "2022-09-24T08:26:21.162Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-10-20T09:21:18.659Z",
+        "updatedAt": "2022-09-20T04:00:51.773Z"
     },
     {
         "_id": 19,
@@ -294,10 +256,8 @@
             98,
             99
         ],
-        "createdAt": "2022-09-13T19:18:13.211Z",
-        "updatedAt": "2022-05-23T15:36:51.460Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-04-27T08:35:49.681Z",
+        "updatedAt": "2023-02-13T16:47:32.808Z"
     },
     {
         "_id": 20,
@@ -309,10 +269,8 @@
             103,
             104
         ],
-        "createdAt": "2022-05-25T12:25:19.595Z",
-        "updatedAt": "2022-05-04T06:54:57.334Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-05-21T09:23:00.935Z",
+        "updatedAt": "2023-01-05T02:55:46.856Z"
     },
     {
         "_id": 21,
@@ -324,10 +282,8 @@
             108,
             109
         ],
-        "createdAt": "2022-03-23T04:57:49.860Z",
-        "updatedAt": "2022-06-16T08:28:13.386Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2023-02-27T17:43:40.300Z",
+        "updatedAt": "2023-01-17T05:25:02.768Z"
     },
     {
         "_id": 22,
@@ -339,10 +295,8 @@
             113,
             114
         ],
-        "createdAt": "2022-11-13T19:15:59.799Z",
-        "updatedAt": "2022-06-19T16:47:40.117Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-06-21T23:03:46.414Z",
+        "updatedAt": "2023-01-09T06:40:15.002Z"
     },
     {
         "_id": 23,
@@ -354,10 +308,8 @@
             118,
             119
         ],
-        "createdAt": "2022-04-13T21:10:14.198Z",
-        "updatedAt": "2022-04-29T18:17:56.355Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-09-17T11:33:14.784Z",
+        "updatedAt": "2023-01-06T19:15:40.501Z"
     },
     {
         "_id": 24,
@@ -369,10 +321,8 @@
             123,
             124
         ],
-        "createdAt": "2022-03-24T15:07:54.284Z",
-        "updatedAt": "2022-06-29T00:55:17.248Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-03-26T03:45:50.077Z",
+        "updatedAt": "2023-01-23T04:15:41.017Z"
     },
     {
         "_id": 25,
@@ -384,10 +334,8 @@
             128,
             129
         ],
-        "createdAt": "2023-02-23T15:45:11.739Z",
-        "updatedAt": "2022-05-05T09:51:44.267Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-05-01T18:21:21.101Z",
+        "updatedAt": "2022-11-25T04:55:11.048Z"
     },
     {
         "_id": 26,
@@ -399,10 +347,8 @@
             133,
             134
         ],
-        "createdAt": "2022-12-29T09:10:48.909Z",
-        "updatedAt": "2022-06-03T15:48:08.041Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-06-12T19:54:57.683Z",
+        "updatedAt": "2022-10-08T04:34:26.552Z"
     },
     {
         "_id": 27,
@@ -414,10 +360,8 @@
             138,
             139
         ],
-        "createdAt": "2022-11-28T09:59:54.011Z",
-        "updatedAt": "2023-01-03T06:49:53.053Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2023-01-16T05:20:49.414Z",
+        "updatedAt": "2022-04-12T00:48:02.560Z"
     },
     {
         "_id": 28,
@@ -429,10 +373,8 @@
             143,
             144
         ],
-        "createdAt": "2022-10-26T17:28:49.241Z",
-        "updatedAt": "2022-08-28T13:24:30.379Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-08-18T22:55:35.767Z",
+        "updatedAt": "2022-08-30T08:32:58.449Z"
     },
     {
         "_id": 29,
@@ -444,10 +386,8 @@
             148,
             149
         ],
-        "createdAt": "2022-10-15T02:32:44.099Z",
-        "updatedAt": "2023-02-19T13:36:50.026Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-11-28T21:37:28.049Z",
+        "updatedAt": "2022-05-04T01:50:02.475Z"
     },
     {
         "_id": 30,
@@ -459,10 +399,8 @@
             153,
             154
         ],
-        "createdAt": "2022-03-12T11:04:46.484Z",
-        "updatedAt": "2022-07-15T14:00:35.671Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-09-15T18:51:48.108Z",
+        "updatedAt": "2022-10-27T13:13:37.013Z"
     },
     {
         "_id": 31,
@@ -474,10 +412,8 @@
             158,
             159
         ],
-        "createdAt": "2022-08-13T00:04:14.534Z",
-        "updatedAt": "2022-07-07T03:45:17.966Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-11-28T01:30:34.529Z",
+        "updatedAt": "2023-01-14T16:51:46.859Z"
     },
     {
         "_id": 32,
@@ -489,10 +425,8 @@
             163,
             164
         ],
-        "createdAt": "2022-11-30T09:51:39.115Z",
-        "updatedAt": "2022-12-05T01:36:27.232Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2023-02-07T19:05:17.868Z",
+        "updatedAt": "2023-02-24T02:43:30.163Z"
     },
     {
         "_id": 33,
@@ -504,10 +438,8 @@
             168,
             169
         ],
-        "createdAt": "2022-08-29T09:08:56.005Z",
-        "updatedAt": "2022-07-10T02:10:11.939Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-05-16T15:38:41.491Z",
+        "updatedAt": "2022-10-02T06:05:45.879Z"
     },
     {
         "_id": 34,
@@ -519,10 +451,8 @@
             173,
             174
         ],
-        "createdAt": "2023-01-14T01:33:39.459Z",
-        "updatedAt": "2022-08-11T12:53:31.151Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-12-14T01:08:37.812Z",
+        "updatedAt": "2022-04-22T16:05:03.601Z"
     },
     {
         "_id": 35,
@@ -534,10 +464,8 @@
             178,
             179
         ],
-        "createdAt": "2022-07-16T19:07:02.774Z",
-        "updatedAt": "2022-09-02T18:12:35.187Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-10-27T03:26:18.801Z",
+        "updatedAt": "2023-02-27T07:59:40.506Z"
     },
     {
         "_id": 36,
@@ -549,10 +477,8 @@
             183,
             184
         ],
-        "createdAt": "2023-01-11T22:38:49.655Z",
-        "updatedAt": "2022-10-21T14:29:22.925Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2023-03-03T06:27:49.680Z",
+        "updatedAt": "2022-08-27T00:16:27.314Z"
     },
     {
         "_id": 37,
@@ -564,10 +490,8 @@
             188,
             189
         ],
-        "createdAt": "2022-07-27T22:29:35.008Z",
-        "updatedAt": "2023-01-25T15:33:57.596Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-08-24T20:53:28.820Z",
+        "updatedAt": "2022-07-16T13:16:27.618Z"
     },
     {
         "_id": 38,
@@ -579,10 +503,8 @@
             193,
             194
         ],
-        "createdAt": "2022-06-29T03:24:17.518Z",
-        "updatedAt": "2023-01-15T12:25:50.241Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-10-21T12:32:37.952Z",
+        "updatedAt": "2023-02-11T07:18:08.974Z"
     },
     {
         "_id": 39,
@@ -594,10 +516,8 @@
             198,
             199
         ],
-        "createdAt": "2022-03-27T08:38:05.407Z",
-        "updatedAt": "2023-02-19T13:29:52.793Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2023-01-06T20:48:06.217Z",
+        "updatedAt": "2023-02-18T02:01:41.798Z"
     },
     {
         "_id": 40,
@@ -609,10 +529,8 @@
             203,
             204
         ],
-        "createdAt": "2023-01-17T01:08:13.133Z",
-        "updatedAt": "2023-01-01T11:02:00.419Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-08-11T06:57:53.592Z",
+        "updatedAt": "2022-11-12T05:29:28.120Z"
     },
     {
         "_id": 41,
@@ -624,10 +542,8 @@
             208,
             209
         ],
-        "createdAt": "2022-06-06T23:47:42.637Z",
-        "updatedAt": "2022-08-18T07:14:30.178Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-12-15T23:16:23.051Z",
+        "updatedAt": "2022-05-09T22:26:15.627Z"
     },
     {
         "_id": 42,
@@ -639,10 +555,8 @@
             213,
             214
         ],
-        "createdAt": "2022-04-26T04:52:57.383Z",
-        "updatedAt": "2022-08-14T04:05:15.122Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-11-21T22:24:11.722Z",
+        "updatedAt": "2022-09-25T03:04:56.608Z"
     },
     {
         "_id": 43,
@@ -654,10 +568,8 @@
             218,
             219
         ],
-        "createdAt": "2023-01-11T03:29:57.054Z",
-        "updatedAt": "2022-09-29T23:42:06.217Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-09-27T16:20:31.702Z",
+        "updatedAt": "2022-06-09T14:29:13.712Z"
     },
     {
         "_id": 44,
@@ -669,10 +581,8 @@
             223,
             224
         ],
-        "createdAt": "2022-08-31T02:18:27.376Z",
-        "updatedAt": "2022-04-18T06:38:51.612Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-03-16T22:14:22.197Z",
+        "updatedAt": "2022-04-14T18:47:23.449Z"
     },
     {
         "_id": 45,
@@ -684,10 +594,8 @@
             228,
             229
         ],
-        "createdAt": "2022-08-09T10:23:00.759Z",
-        "updatedAt": "2023-02-05T12:11:50.053Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2023-02-17T09:14:46.727Z",
+        "updatedAt": "2022-06-01T20:51:40.591Z"
     },
     {
         "_id": 46,
@@ -699,10 +607,8 @@
             233,
             234
         ],
-        "createdAt": "2022-09-15T01:20:03.954Z",
-        "updatedAt": "2022-09-03T06:34:58.844Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-12-03T14:10:42.830Z",
+        "updatedAt": "2022-10-02T05:35:40.626Z"
     },
     {
         "_id": 47,
@@ -714,10 +620,8 @@
             238,
             239
         ],
-        "createdAt": "2022-07-21T23:33:48.959Z",
-        "updatedAt": "2023-02-02T23:41:31.188Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-08-28T08:04:50.413Z",
+        "updatedAt": "2022-07-09T01:53:38.009Z"
     },
     {
         "_id": 48,
@@ -729,10 +633,8 @@
             243,
             244
         ],
-        "createdAt": "2023-03-10T04:35:58.251Z",
-        "updatedAt": "2022-11-11T03:39:20.122Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-06-15T09:57:55.341Z",
+        "updatedAt": "2022-05-26T22:54:34.156Z"
     },
     {
         "_id": 49,
@@ -744,9 +646,7 @@
             248,
             249
         ],
-        "createdAt": "2022-08-03T04:46:16.921Z",
-        "updatedAt": "2022-09-02T01:57:35.691Z",
-        "subtotal_price": null,
-        "total_price": null
+        "createdAt": "2022-03-15T01:28:08.079Z",
+        "updatedAt": "2022-09-19T03:08:06.474Z"
     }
 ]
