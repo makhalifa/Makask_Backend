@@ -1,7 +1,7 @@
 import { Schema, model, Types } from 'mongoose'
 
 const OrderSchema = new Schema({
-    _id: { type: String, required: true },
+    _id: { type: String, default: Types.ObjectId },
     customer: { type: Types.ObjectId, ref: 'customers' },
     items: { type: [Types.ObjectId], ref: 'order_items' },
     shipping: { type: Types.ObjectId, ref: 'shipping' },

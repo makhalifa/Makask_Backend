@@ -1,4 +1,4 @@
-import { Schema, Types, model } from "mongoose";
+import { Schema, Types, model } from 'mongoose'
 
 // Card Schema
 const Card = new Schema(
@@ -11,14 +11,14 @@ const Card = new Schema(
     },
     {
         versionKey: false,
-        _id: false
+        _id: false,
     }
 )
 
 // Customer Card Schema
 const CustomerCard = new Schema(
     {
-        _id: { type: String, required: true, unique: true },
+        _id: { type: String, default: Types.ObjectId },
         customer: { type: Types.ObjectId, ref: 'customers' },
         card: { type: [Card], required: true },
     },

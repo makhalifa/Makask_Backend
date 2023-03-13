@@ -2,7 +2,7 @@ import { now, Schema, Types, model } from 'mongoose'
 
 const ProductSizesSchema = new Schema(
     {
-        _id: { type: String, required: true },
+        _id: { type: String, default: Types.ObjectId },
         product: { type: Types.ObjectId, ref: 'products' },
         product_color: { type: Types.ObjectId, ref: 'product_colors' },
         name: { type: String, required: true },

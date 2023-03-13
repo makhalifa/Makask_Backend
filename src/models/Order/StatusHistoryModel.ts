@@ -1,7 +1,7 @@
 import { Schema, model, Types } from 'mongoose'
 
 const statusHistorySchema = new Schema({
-    _id: { type: String, required: true },
+    _id: { type: String, default: Types.ObjectId },
     order: { type: Types.ObjectId, ref: 'orders' },
     history: [
         {

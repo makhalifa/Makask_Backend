@@ -2,7 +2,7 @@ import { Schema, model, Types } from 'mongoose'
 
 const CustomerSchema = new Schema(
     {
-        _id: { type: String, required: true },
+        _id: { type: String, default: Types.ObjectId },
         orders: { type: Array<Types.ObjectId>, ref: 'orders' },
         reviews: { type: Array<Types.ObjectId>, ref: 'reviews' },
         size: { type: Types.ObjectId, ref: 'customer_sizes' },
@@ -16,7 +16,7 @@ const CustomerSchema = new Schema(
 
         createdAt: { type: Date, default: Date.now },
     },
-    { versionKey: false, timestamps: true }
+    { versionKey: false, timestamps: false }
 )
 
 CustomerSchema.index({ email: 1 })

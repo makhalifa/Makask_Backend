@@ -3,7 +3,7 @@ import { Schema, model, Types } from 'mongoose'
 // Product Schema
 const productSchema = new Schema(
     {
-        _id: { type: String, required: true },
+        _id: { type: String, default: Types.ObjectId },
         seller: { type: Types.ObjectId, ref: 'sellers' },
         reviews: { type: Array<Types.ObjectId>, ref: 'reviews' },
         category: { type: Types.ObjectId, ref: 'category' },

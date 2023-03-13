@@ -8,13 +8,13 @@ const address = new Schema(
     },
     {
         versionKey: false,
-        _id: false
+        _id: false,
     }
 )
 
 const customerAddressesSchema = new Schema(
     {
-        _id: { type: String, required: true, unique: true },
+        _id: { type: String, default: Types.ObjectId },
         customer: { type: Types.ObjectId, ref: 'customers' },
         address: { type: [address], required: true },
     },
