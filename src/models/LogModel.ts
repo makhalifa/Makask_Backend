@@ -1,6 +1,7 @@
 import { Schema, model } from 'mongoose'
 
 const logSchema = new Schema({
+    _id: { type: String, required: true },
     level: { type: String, required: true, enum: ['error', 'warn', 'info'] },
     timestamp: { type: Date, required: true },
     message: { type: String, required: true },

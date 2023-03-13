@@ -1,6 +1,7 @@
 import { now, Schema, Types, model } from 'mongoose'
 
 const ColorsSchema = new Schema({
+    _id: { type: String, required: true },
     product: { type: Types.ObjectId, ref: 'products' },
 
     color: { type: String, required: true },

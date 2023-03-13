@@ -1,6 +1,7 @@
 import { now, Schema, Types, model } from 'mongoose'
 
 const SubcategorySchema = new Schema({
+    _id: { type: String, required: true },
     cateogry: { type: Types.ObjectId, ref: 'category', require: true },
     products: { type: Array<Types.ObjectId>, ref: 'products' },
     name: { type: String, require: true },

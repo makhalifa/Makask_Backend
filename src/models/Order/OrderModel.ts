@@ -1,6 +1,7 @@
 import { Schema, model, Types } from 'mongoose'
 
 const OrderSchema = new Schema({
+    _id: { type: String, required: true },
     customer: { type: Types.ObjectId, ref: 'customers' },
     items: { type: [Types.ObjectId], ref: 'order_items' },
     shipping: { type: Types.ObjectId, ref: 'shipping' },
@@ -11,7 +12,7 @@ const OrderSchema = new Schema({
     discount_amount: { type: Number, default: 0 },
     total_price: { type: Number, required: true },
     createdAt: { type: Date, default: Date.now },
-    updatedAt: { type: Date, default: Date.now }
+    updatedAt: { type: Date, default: Date.now },
 })
 
 const OrderModel = model('orders', OrderSchema)

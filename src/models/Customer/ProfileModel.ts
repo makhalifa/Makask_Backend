@@ -2,6 +2,7 @@ import { Schema, Types, model } from 'mongoose'
 
 const CustomerProfile = new Schema(
     {
+        _id: { type: String, required: true, unique: true },
         customer: { type: Types.ObjectId, ref: 'customers' },
         firstName: { type: String, required: true },
         lastName: { type: String, required: true },

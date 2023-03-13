@@ -1,6 +1,7 @@
 import { Schema, Types, model } from "mongoose";
 
 const CartItemSchema = new Schema({
+    _id: { type: String, required: true },
     cart: { type: Types.ObjectId, ref: 'carts' },
     product: { type: Types.ObjectId, ref: 'products' },
     stock: { type: Types.ObjectId, ref: 'stock' },

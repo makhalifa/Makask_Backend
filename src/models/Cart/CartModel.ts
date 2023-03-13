@@ -1,6 +1,7 @@
 import { Schema, model, Types } from 'mongoose'
 
 const CartSchema = new Schema({
+    _id: { type: String, required: true },
     customer: { type: Types.ObjectId, ref: 'customers' },
     items: { type: Array<Types.ObjectId>, ref: 'cart_items' },
     subtotal_price: { type: Number, required: true },

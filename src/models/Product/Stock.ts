@@ -1,6 +1,7 @@
 import { Schema, Types, model } from "mongoose";
 
 const stockSchema = new Schema({
+    _id: { type: String, required: true },
     product: { type: Types.ObjectId, ref: "products" },
     product_colors: { type: Array<Types.ObjectId>, ref: "product_colors" },
     createdAt: { type: Date, default: Date.now },

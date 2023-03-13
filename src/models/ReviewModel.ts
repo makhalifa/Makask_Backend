@@ -1,6 +1,7 @@
 import { Schema, Types, model } from 'mongoose';
 
 const reviewSchema = new Schema({
+    _id: { type: String, required: true },
     product_id: { type: Types.ObjectId, ref: 'products' },
     customer_id: { type: Types.ObjectId, ref: 'customers' },
     rating: { type: Number, required: true , min: 1, max: 5},

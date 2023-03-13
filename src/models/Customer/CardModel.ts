@@ -18,6 +18,7 @@ const Card = new Schema(
 // Customer Card Schema
 const CustomerCard = new Schema(
     {
+        _id: { type: String, required: true, unique: true },
         customer: { type: Types.ObjectId, ref: 'customers' },
         card: { type: [Card], required: true },
     },

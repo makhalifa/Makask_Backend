@@ -3,6 +3,7 @@ import { Schema, model, Types } from 'mongoose'
 // Product Schema
 const productSchema = new Schema(
     {
+        _id: { type: String, required: true },
         seller: { type: Types.ObjectId, ref: 'sellers' },
         reviews: { type: Array<Types.ObjectId>, ref: 'reviews' },
         category: { type: Types.ObjectId, ref: 'category' },
@@ -13,7 +14,7 @@ const productSchema = new Schema(
         description: { type: String, required: true },
 
         subtotla_price: { type: Number, required: true },
-        discount_amount: { type: Number, default: 0 },    
+        discount_amount: { type: Number, default: 0 },
         total_price: { type: Number, required: true },
 
         freeShipping: { type: Boolean, required: true },

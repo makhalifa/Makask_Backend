@@ -2,6 +2,7 @@ import { Schema, Types, model } from "mongoose";
 
 const CustomerSize = new Schema(
     {
+        _id: { type: String, required: true },
         customer: { type: Types.ObjectId, ref: "customers" },
 
         height: { type: Number, required: true },
@@ -17,6 +18,7 @@ const CustomerSize = new Schema(
         versionKey: false,
     }
 );
+
 
 const CustomerSizeModel = model("customer_size", CustomerSize);
 
