@@ -6,18 +6,18 @@
     -   [Description](#description)
     -   [Installation](#installation)
     -   [Usage](#usage)
-        -   [Endpoints](#endpoints)
-            -   [Products](#products)
-            -   [Customers](#customers)
-            -   [Orders](#orders)
-            -   [Sellers](#sellers)
+        -   [Endpoints](#endpoint)
+            -   [Products](#Product)
+            -   [Customers](#Customer)
+            -   [Orders](#Order)
+            -   [Sellers](#Seller)
         -   [Models](#models)
-            -   [Cutsomer](#cutsomer)
-            -   [Orders](#order)
-            -   [Products](#product)
+            -   [Cutsomers](#customers)
+            -   [Orders](#orders)
+            -   [Products](#products)
             -   [Sellers](#sellers)
-            -   [Categories](#categories)
-            -   [Subcategories](#subcategories)
+            -   [Categories](#category)
+            -   [Subcategories](#subcategory)
             -   [Reviews](#reviews)
             -   [Payments](#payments)
             -   [Shipping](#shipping)
@@ -79,7 +79,7 @@ npm start
 
 ### Endpoints
 
-#### Products
+#### Product
 
 | Method | Endpoint      | Description            |
 | ------ | ------------- | ---------------------- |
@@ -89,7 +89,7 @@ npm start
 | PUT    | /products/:id | Update a product by id |
 | DELETE | /products/:id | Delete a product by id |
 
-#### Customers
+#### Customer
 
 | Method | Endpoint       | Description             |
 | ------ | -------------- | ----------------------- |
@@ -99,7 +99,7 @@ npm start
 | PUT    | /customers/:id | Update a customer by id |
 | DELETE | /customers/:id | Delete a customer by id |
 
-#### Orders
+#### Order
 
 | Method | Endpoint    | Description           |
 | ------ | ----------- | --------------------- |
@@ -109,7 +109,7 @@ npm start
 | PUT    | /orders/:id | Update an order by id |
 | DELETE | /orders/:id | Delete an order by id |
 
-#### Sellers
+#### Seller
 
 | Method | Endpoint     | Description           |
 | ------ | ------------ | --------------------- |
